@@ -4,8 +4,8 @@ import NavigationLeft from './Components/Navigation/NavigationLeft'
 
 function App() {
   return (
-    <div> 
-          <div className='flex'>
+    <div className='bg-black w-full h-screen'> 
+          <div className='flex align-middle'>
               <NavigationLeft />
               <Navigation />        
           </div>
