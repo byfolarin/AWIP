@@ -5,7 +5,7 @@ import Project from './Project.jpeg'
 import Contact from './Contact.jpeg'
 
 
-const Navigation = ({setIsHovered}) => {
+const Navigation = ({setIsHovered,setDisplay}) => {
 
   return (
     <div className='bg-[#e1ddc9] w-1/3 h-screen px-11 py-20'>

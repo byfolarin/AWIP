@@ -1,14 +1,12 @@
 import React, { useState } from 'react'
 import Img from './Realestate.jpeg'
-import About from './About.jpeg'
-import Project from './Project.jpeg'
-import Contact from './Contact.jpeg'
 import Navigation from './Navigation'
 
 
 const NavigationLeft = () => {
 
     const [display,setDisplay] = useState(false);
+    
     const [isHovered, setIsHovered] = useState([Img]);
    
     
@@ -18,6 +16,7 @@ const NavigationLeft = () => {
 
       <div className='w-full bg-[#3c3b34] h-4/5 object-contain'>
         <img src={isHovered} alt="Real Estate Image" className="object-cover w-full h-full" />
+         <Navigation setIsHovered = {setIsHovered} />
      </div>
 
       <div className='full bg-[#fdfbf0] h-1/5 p-4'>
@@ -33,8 +32,9 @@ const NavigationLeft = () => {
         
         </div>
 
+       { display &&  <Navigation setIsHovered = {setIsHovered}  setDisplay ={setDisplay}/>}
 
-       {display && <Navigation setIsHovered = {setIsHovered} />}
+      
 
         
 
