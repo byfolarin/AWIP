@@ -24,7 +24,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
 
         <motion.li
         whileHover={{ x: 8 }}         
-        className='text-[42px] hover:text-[#242323]'
+        className='text-[42px] flex align-middle hover:text-[#242323]'
         onMouseEnter={() => setIsHovered([Img])}
         onMouseLeave={() => setIsHovered([Default])}>
         Home
