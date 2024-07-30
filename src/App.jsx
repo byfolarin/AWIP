@@ -1,11 +1,14 @@
 import './App.css'
 import Navigation from './Components/Navigation/Navigation'
+import NavigationLeft from './Components/Navigation/NavigationLeft'
 
 function App() {
   return (
     <div> 
-     <Navigation />
-     <Navigation />
+          <div className='flex'>
+              <NavigationLeft />
+              <Navigation />        
+          </div>
     </div>
   )
 }
