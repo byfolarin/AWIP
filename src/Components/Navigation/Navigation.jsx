@@ -23,7 +23,8 @@ const Navigation = ({setIsHovered,setDisplay}) => {
       <ul className='font-sans text-[42px] pt-4 tracking-tighter cursor-pointer  '>
 
         <motion.li
-        whileHover={{ x: 8 }}         
+        whileHover={{ x: 8 }} 
+     
         className='text-[42px] flex align-middle hover:text-[#242323]'
         onMouseEnter={() => setIsHovered([Img])}
         onMouseLeave={() => setIsHovered([Default])}>
