@@ -3,6 +3,7 @@ import './App.css'
 import Navigation from './Components/Navigation/Navigation'
 import NavigationLeft from './Components/Navigation/NavigationLeft'
 import Default from './Components/Navigation/Default.jpeg'
+import LandingPage from './Components/Body/LandingPage'
 
 function App() {
 
@@ -10,11 +11,13 @@ function App() {
 
   return (
     <div className='bg-black w-full h-screen'> 
-          <div className='flex justify-end'>
+
+          {/* <div className='flex justify-end'>
               <NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />
               <Navigation setIsHovered = {setIsHovered} />        
-              
-          </div>
+          </div> */}
+
+          <LandingPage />
     </div>
   )
 }
