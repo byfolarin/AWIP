@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <div>
-      
+    <div className='bg-[#C2BEA9] w-full h-screen max-h-none '>
+      Hello
     </div>
   )
 }
