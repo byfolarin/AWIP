@@ -10,6 +10,18 @@ import Default from './Default.jpeg'
 
 const Navigation = ({setIsHovered,setDisplay}) => {
 
+
+      const imageVariants = {
+        initial: { x: 0, opacity: 0 },
+        enter: { x: 0, opacity: 1 },
+        exit: { x: -100, opacity: 0 },
+      };
+
+
+      const handleImageChange = (image) => {
+        setIsHovered(image);
+      };
+
   return (
 
 
@@ -26,7 +38,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
         whileHover={{ x: 8 }} 
      
         className='text-[42px] flex align-middle hover:text-[#242323]'
-        onMouseEnter={() => setIsHovered([Img])}
+        onMouseEnter={() => handleImageChange([Img])}
         onMouseLeave={() => setIsHovered([Default])}>
         Home
         </motion.li>
@@ -36,7 +48,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
         <motion.li 
         whileHover={{ x: 8 }}  
         className='text-[42px] hover:text-[#242323]' 
-        onMouseEnter={() => setIsHovered([About])}
+        onMouseEnter={() => handleImageChange([About])}
         onMouseLeave={() => setIsHovered([Default])}>
         Projects
         </motion.li>
@@ -45,7 +57,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
         <motion.li
         whileHover={{ x: 8 }} 
         className='text-[42px] hover:text-[#242323]'
-        onMouseEnter={() => setIsHovered([Project])}
+        onMouseEnter={() => handleImageChange([Project])}
         onMouseLeave={() => setIsHovered([Default])} >
         About
         </motion.li>
@@ -54,7 +66,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
         <motion.li 
         whileHover={{ x: 8 }} 
         className='text-[42px] hover:text-[#242323]' 
-        onMouseEnter={() => setIsHovered([Contact])}
+        onMouseEnter={() => handleImageChange([Contact])}
         onMouseLeave={() => setIsHovered([Default])} >
         Contact
         </motion.li>
