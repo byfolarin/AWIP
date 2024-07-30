@@ -5,7 +5,7 @@ import NavigationLeft from './Components/Navigation/NavigationLeft'
 function App() {
   return (
     <div className='bg-black w-full h-screen'> 
-          <div className='flex align-middle'>
+          <div className='flex justify-end'>
               <NavigationLeft />
               <Navigation />        
           </div>

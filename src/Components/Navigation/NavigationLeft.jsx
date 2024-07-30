@@ -1,6 +1,10 @@
 import React from 'react'
 import img from './Realestate.jpeg'
 
+
+
+
+
 const NavigationLeft = () => {
   return (
     <div className='bg-[#a09d8d] w-2/5 h-screen max-h-none'>

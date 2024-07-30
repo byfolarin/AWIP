@@ -8,18 +8,18 @@ const Navigation = () => {
         </p>
 
       <ul className='font-sans text-[42px] pt-4 tracking-tighter cursor-pointer  '>
-        <li >Home</li>
-        <li >Projects</li>
-        <li >About</li>
-        <li >Culture</li>
+        <li className='text-[42px] hover:text-[#242323]' >Home</li>
+        <li className='text-[42px] hover:text-[#242323]' >Projects</li>
+        <li className='text-[42px] hover:text-[#242323]' >About</li>
+        <li className='text-[42px] hover:text-[#242323]' >Culture</li>
       </ul>
 
 
       
-      <ul className='font-sans text-[20px] pt-8 tracking-tighter cursor-pointer text-[#4a4a4a]'>
-        <li>Brand Mission</li>
-        <li>Projects Scope</li>
-        <li>Services</li>
+      <ul className='font-sans text-[16px] pt-8 gap-2 cursor-pointer text-[#4a4a4a]'>
+        <li>CONTACT</li>
+        <li>SERVICES</li>
+        <li>CLIENTS</li>
       </ul>
     </div>
   )
