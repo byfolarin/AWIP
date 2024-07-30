@@ -3,6 +3,7 @@ import Img from './Realestate.jpeg'
 import About from './About.jpeg'
 import Project from './Project.jpeg'
 import Contact from './Contact.jpeg'
+import Default from './Default.jpeg'
 
 
 const Navigation = ({setIsHovered,setDisplay}) => {
@@ -17,7 +18,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
 
         <li className='text-[42px] hover:text-[#242323]'
            onMouseEnter={() => setIsHovered([Img])}
-           onMouseLeave={() => setIsHovered(false)}>
+           onMouseLeave={() => setIsHovered([Default])}>
             Home
         </li>
 
@@ -25,18 +26,18 @@ const Navigation = ({setIsHovered,setDisplay}) => {
 
         <li className='text-[42px] hover:text-[#242323]' 
         onMouseEnter={() => setIsHovered([About])}
-        onMouseLeave={() => setIsHovered(false)}>Projects</li>
+        onMouseLeave={() => setIsHovered([Default])}>Projects</li>
 
 
         <li className='text-[42px] hover:text-[#242323]'
         onMouseEnter={() => setIsHovered([Project])}
-        onMouseLeave={() => setIsHovered(false)} >
+        onMouseLeave={() => setIsHovered([Default])} >
             About</li>
 
 
         <li className='text-[42px] hover:text-[#242323]' 
         onMouseEnter={() => setIsHovered([Contact])}
-        onMouseLeave={() => setIsHovered(false)} >
+        onMouseLeave={() => setIsHovered([Default])} >
             Contact</li>
       </ul>
       
