@@ -5,28 +5,26 @@ import About from './About.jpeg'
 import Project from './Project.jpeg'
 import Contact from './Contact.jpeg'
 import Default from './Default.jpeg'
-
+import CloseIcon from './CloseIcon'
 
 
 const Navigation = ({setIsHovered,setDisplay}) => {
-
-
-      const imageVariants = {
-        initial: { x: 0, opacity: 0 },
-        enter: { x: 0, opacity: 1 },
-        exit: { x: -100, opacity: 0 },
-      };
-
 
       const handleImageChange = (image) => {
         setIsHovered(image);
       };
 
+
   return (
 
 
-    <div className='bg-[#e1ddc9] w-1/3 h-screen px-11 py-20'>
-      
+    <div className='bg-[#e1ddc9] w-1/3 h-screen px-11 py-8'>
+
+      <div className='flex justify-end py-8 cursor-pointer'>
+      <CloseIcon />
+      </div>
+
+
       <div>
         <p className='text-[12px]'>
             MENU
@@ -89,3 +87,8 @@ const Navigation = ({setIsHovered,setDisplay}) => {
 }
 
 export default Navigation
+
+
+
+
+
