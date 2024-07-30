@@ -3,13 +3,12 @@ import Img from './Realestate.jpeg'
 import About from './About.jpeg'
 import Project from './Project.jpeg'
 import Contact from './Contact.jpeg'
+import Navigation from './Navigation'
 
 
 const NavigationLeft = () => {
 
-    const [display,setDisplay] = useState(true)
-
-    
+    const [display,setDisplay] = useState(false);
     const [isHovered, setIsHovered] = useState([Img]);
    
     
@@ -33,6 +32,9 @@ const NavigationLeft = () => {
       </p>
         
         </div>
+
+
+       {display && <Navigation setIsHovered = {setIsHovered} />}
 
         
 
