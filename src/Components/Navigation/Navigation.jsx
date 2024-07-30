@@ -11,15 +11,15 @@ const Navigation = () => {
         <li className='text-[42px] hover:text-[#242323]' >Home</li>
         <li className='text-[42px] hover:text-[#242323]' >Projects</li>
         <li className='text-[42px] hover:text-[#242323]' >About</li>
-        <li className='text-[42px] hover:text-[#242323]' >Culture</li>
+        <li className='text-[42px] hover:text-[#242323]' >Contact</li>
       </ul>
 
 
       
       <ul className='font-sans text-[16px] pt-8 gap-2 cursor-pointer text-[#4a4a4a]'>
-        <li>CONTACT</li>
-        <li>SERVICES</li>
-        <li>CLIENTS</li>
+        <li>Service</li>
+        <li>Culture</li>
+        <li>Clients</li>
       </ul>
     </div>
   )
