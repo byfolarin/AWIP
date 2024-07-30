@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion } from "framer-motion"
 import Img from './Realestate.jpeg'
 import About from './About.jpeg'
 import Project from './Project.jpeg'
@@ -6,47 +7,72 @@ import Contact from './Contact.jpeg'
 import Default from './Default.jpeg'
 
 
+
 const Navigation = ({setIsHovered,setDisplay}) => {
 
   return (
+
+
     <div className='bg-[#e1ddc9] w-1/3 h-screen px-11 py-20'>
+      
+      <div>
         <p className='text-[12px]'>
             MENU
         </p>
 
       <ul className='font-sans text-[42px] pt-4 tracking-tighter cursor-pointer  '>
 
-        <li className='text-[42px] hover:text-[#242323]'
-           onMouseEnter={() => setIsHovered([Img])}
-           onMouseLeave={() => setIsHovered([Default])}>
-            Home
-        </li>
+        <motion.li
+        whileHover={{ x: 8 }}         
+        className='text-[42px] hover:text-[#242323]'
+        onMouseEnter={() => setIsHovered([Img])}
+        onMouseLeave={() => setIsHovered([Default])}>
+        Home
+        </motion.li>
 
 
 
-        <li className='text-[42px] hover:text-[#242323]' 
+        <motion.li 
+        whileHover={{ x: 8 }}  
+        className='text-[42px] hover:text-[#242323]' 
         onMouseEnter={() => setIsHovered([About])}
-        onMouseLeave={() => setIsHovered([Default])}>Projects</li>
+        onMouseLeave={() => setIsHovered([Default])}>
+        Projects
+        </motion.li>
 
 
-        <li className='text-[42px] hover:text-[#242323]'
+        <motion.li
+        whileHover={{ x: 8 }} 
+        className='text-[42px] hover:text-[#242323]'
         onMouseEnter={() => setIsHovered([Project])}
         onMouseLeave={() => setIsHovered([Default])} >
-            About</li>
+        About
+        </motion.li>
 
 
-        <li className='text-[42px] hover:text-[#242323]' 
+        <motion.li 
+        whileHover={{ x: 8 }} 
+        className='text-[42px] hover:text-[#242323]' 
         onMouseEnter={() => setIsHovered([Contact])}
         onMouseLeave={() => setIsHovered([Default])} >
-            Contact</li>
+        Contact
+        </motion.li>
       </ul>
+
       
-      <ul className='font-sans text-[16px] pt-8 gap-2 tracking-normal cursor-pointer text-[#4a4a4a]'>
+
+      </div>
+
+      <hr className='w-full border-[#6c6c6c] h-1 my-4' />
+      
+      <ul className='font-sans text-[16px] pt-4 gap-2 tracking-normal cursor-pointer text-[#4a4a4a]'>
         <li>Service</li>
         <li>Culture</li>
         <li>Clients</li>
       </ul>
-    </div>
+
+      </div>
+    
   )
 }
 

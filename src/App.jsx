@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import Navigation from './Components/Navigation/Navigation'
 import NavigationLeft from './Components/Navigation/NavigationLeft'
-import Img from './Components/Navigation/Realestate.jpeg'
 import Default from './Components/Navigation/Default.jpeg'
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
           <div className='flex justify-end'>
               <NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />
               <Navigation setIsHovered = {setIsHovered} />        
+              
           </div>
     </div>
   )
