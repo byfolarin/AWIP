@@ -33,39 +33,39 @@ const Navigation = ({setIsHovered,setDisplay}) => {
       <ul className='font-sans text-[42px] pt-4 tracking-tighter cursor-pointer  '>
 
         <motion.li
-        whileHover={{ x: 10 }}
-        className='text-[42px] flex align-middle hover:text-[#242323]'
-        onMouseEnter={() => handleImageChange([Img])}
-        onMouseLeave={() => setIsHovered([Default])}>
-        Home
+          whileHover={{ x: 10 }}
+          className='text-[42px] flex align-middle hover:text-[#242323]'
+          onMouseEnter={() => handleImageChange([Img])}
+          onMouseLeave={() => setIsHovered([Default])}>
+          Home
         </motion.li>
 
 
 
         <motion.li 
-        whileHover={{ x: 10 }}  
-        className='text-[42px] hover:text-[#242323]' 
-        onMouseEnter={() => handleImageChange([About])}
-        onMouseLeave={() => setIsHovered([Default])}>
-        Projects
+          whileHover={{ x: 10 }}  
+          className='text-[42px] hover:text-[#242323]' 
+          onMouseEnter={() => handleImageChange([About])}
+          onMouseLeave={() => setIsHovered([Default])}>
+          Projects
         </motion.li>
 
 
         <motion.li
-        whileHover={{ x: 10 }} 
-        className='text-[42px] hover:text-[#242323]'
-        onMouseEnter={() => handleImageChange([Project])}
-        onMouseLeave={() => setIsHovered([Default])} >
-        About
+          whileHover={{ x: 10 }} 
+          className='text-[42px] hover:text-[#242323]'
+          onMouseEnter={() => handleImageChange([Project])}
+          onMouseLeave={() => setIsHovered([Default])} >
+          About
         </motion.li>
 
 
         <motion.li 
-        whileHover={{ x: 10 }} 
-        className='text-[42px] hover:text-[#242323]' 
-        onMouseEnter={() => handleImageChange([Contact])}
-        onMouseLeave={() => setIsHovered([Default])} >
-        Contact
+          whileHover={{ x: 10 }} 
+          className='text-[42px] hover:text-[#242323]' 
+          onMouseEnter={() => handleImageChange([Contact])}
+          onMouseLeave={() => setIsHovered([Default])} >
+          Contact
         </motion.li>
       </ul>
 
