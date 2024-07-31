@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Navigation from './Components/Navigation/Navigation'
-import NavigationLeft from './Components/Navigation/NavigationLeft'
 import Default from './Components/Navigation/Default.jpeg'
 import LandingPage from './Components/Body/LandingPage'
 import CloseIcon from './Components/Navigation/CloseIcon'
@@ -18,13 +16,11 @@ function App() {
 
     
 
-          <div className='flex justify-end absolute right-0'>
-          <Nav />
-          {open &&<NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />}
-          {open && <Navigation setIsHovered = {setIsHovered} />  }                 
+          <div >
+           {open && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered}  />   }          
           </div>
 
-          <CloseIcon setOpen = {setOpen} />
+          <CloseIcon setOpen = {setOpen} setClose={setClose}/>
 
 
           <div className='w-full h-screen overflow-x-clip'>

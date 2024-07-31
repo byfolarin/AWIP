@@ -1,6 +1,10 @@
 import React from 'react'
 
-const CloseIcon = ({setOpen}) => {
+const CloseIcon = ({setOpen, setClose}) => {
+
+function handleClick (){
+    
+}
 
 
 
