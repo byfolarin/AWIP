@@ -5,11 +5,13 @@ import NavigationLeft from './Components/Navigation/NavigationLeft'
 import Default from './Components/Navigation/Default.jpeg'
 import LandingPage from './Components/Body/LandingPage'
 import CloseIcon from './Components/Navigation/CloseIcon'
+import Nav from './Components/Navigation/Nav'
 
 function App() {
 
   const [isHovered, setIsHovered] = useState([Default]);
-  const [display,setDisplay]= useState(false)
+  const [open,setOpen]= useState(false)
+  const [close,setClose]= useState(false)
 
   return (
     <div className='bg-[#e1ddc9] '> 
@@ -17,12 +19,12 @@ function App() {
     
 
           <div className='flex justify-end absolute right-0'>
-          {display &&<NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />}
-          {display && <Navigation setIsHovered = {setIsHovered} />  }
-                    
+          <Nav />
+          {open &&<NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />}
+          {open && <Navigation setIsHovered = {setIsHovered} />  }                 
           </div>
-          
-          <CloseIcon setDisplay = {setDisplay} />
+
+          <CloseIcon setOpen = {setOpen} />
 
 
           <div className='w-full h-screen overflow-x-clip'>
