@@ -33,7 +33,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
       <ul className='font-sans text-[42px] pt-4 tracking-tighter cursor-pointer  '>
 
         <motion.li
-        whileHover={{ x: 8 }}
+        whileHover={{ x: 10 }}
         className='text-[42px] flex align-middle hover:text-[#242323]'
         onMouseEnter={() => handleImageChange([Img])}
         onMouseLeave={() => setIsHovered([Default])}>
@@ -43,7 +43,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
 
 
         <motion.li 
-        whileHover={{ x: 8 }}  
+        whileHover={{ x: 10 }}  
         className='text-[42px] hover:text-[#242323]' 
         onMouseEnter={() => handleImageChange([About])}
         onMouseLeave={() => setIsHovered([Default])}>
@@ -52,7 +52,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
 
 
         <motion.li
-        whileHover={{ x: 8 }} 
+        whileHover={{ x: 10 }} 
         className='text-[42px] hover:text-[#242323]'
         onMouseEnter={() => handleImageChange([Project])}
         onMouseLeave={() => setIsHovered([Default])} >
@@ -61,7 +61,7 @@ const Navigation = ({setIsHovered,setDisplay}) => {
 
 
         <motion.li 
-        whileHover={{ x: 8 }} 
+        whileHover={{ x: 10 }} 
         className='text-[42px] hover:text-[#242323]' 
         onMouseEnter={() => handleImageChange([Contact])}
         onMouseLeave={() => setIsHovered([Default])} >
