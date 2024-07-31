@@ -3,15 +3,14 @@ import NavigationLeft from './NavigationLeft'
 import Navigation from './Navigation'
 import OpenIcon from './OpenIcon'
 
-const Nav = ({isHovered,setIsHovered,setClose}) => {
+const Nav = ({isHovered,setIsHovered,close,setClose}) => {
 
 
   return (
-    <div className='flex fixed justify-end w-full bg-[#000000b3]  right-0 overflow-hidden'>
+    <div className='flex fixed justify-end w-full bg-[#000000b3]  right-0 overflow-hidden overflow-y-hidden'>
 
-
-        <NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />
-        <Navigation setIsHovered = {setIsHovered} />  
+      { close && <NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered} />}
+      { close && <Navigation setIsHovered = {setIsHovered} setClose={setClose}  />  }
     </div>
   )
 }

@@ -9,7 +9,7 @@ function App() {
 
   const [isHovered, setIsHovered] = useState([Default]);
   const [open,setOpen]= useState(false)
-  const [close,setClose]= useState(false)
+  const [close,setClose]= useState(true)
 
   return (
     <div className='bg-[#e1ddc9] '> 
@@ -17,7 +17,7 @@ function App() {
     
 
           <div >
-           {open  && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} setClose={setClose} />   }          
+           {open  && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} close ={close} setClose={setClose} />   }          
           </div>
 
           <CloseIcon setOpen = {setOpen} />

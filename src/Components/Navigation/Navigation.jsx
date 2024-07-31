@@ -8,7 +8,7 @@ import Default from './Default.jpeg'
 import OpenIcon from './CloseIcon'
 
 
-const Navigation = ({setIsHovered,setDisplay}) => {
+const Navigation = ({setIsHovered,setDisplay,setClose}) => {
 
       const handleImageChange = (image) => {
         setIsHovered(image);
@@ -21,9 +21,9 @@ const Navigation = ({setIsHovered,setDisplay}) => {
     <div className=' bg-[#e1ddc9] w-1/3 h-screen px-11 py-8'>
 
      
-        <div className='flex justify-end py-8 cursor-pointer'>
-                            <OpenIcon/>
-                        </div>
+        <div className='flex justify-end py-8 cursor-pointer' onClick={()=>{setClose(false)}} >
+          <OpenIcon/>
+         </div>
 
       <div>
         <p className='text-[12px]'>
