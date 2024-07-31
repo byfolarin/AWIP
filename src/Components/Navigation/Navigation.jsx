@@ -5,10 +5,10 @@ import About from './About.jpeg'
 import Project from './Project.jpeg'
 import Contact from './Contact.jpeg'
 import Default from './Default.jpeg'
-import OpenIcon from './CloseIcon'
+import CloseIcon from './CloseIcon'
 
 
-const Navigation = ({setIsHovered,setDisplay,setClose}) => {
+const Navigation = ({setIsHovered,setDisplay,setClose,close}) => {
 
       const handleImageChange = (image) => {
         setIsHovered(image);
@@ -22,7 +22,7 @@ const Navigation = ({setIsHovered,setDisplay,setClose}) => {
 
      
         <div className='flex justify-end py-8 cursor-pointer' onClick={()=>{setClose(false)}} >
-          <OpenIcon/>
+          <CloseIcon setClose={setClose} close={close}/>
          </div>
 
       <div>

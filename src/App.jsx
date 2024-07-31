@@ -10,8 +10,9 @@ function App() {
 
   const [isHovered, setIsHovered] = useState([Default]);
 
-  const [open,setOpen]= useState(false)
-  const [close,setClose]= useState(false)
+  const [open,setOpen]= useState(false);
+  const [close,setClose]= useState(true);
+
 
   return (
     <div className='bg-[#e1ddc9] h-full '> 
@@ -19,11 +20,13 @@ function App() {
     
 
           <div >
-            {open  && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} close ={close} setClose={setClose} />   }          
+            {open  && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} close ={close} setClose={setClose}/>}          
           </div>
 
 
-            <OpenIcon setOpen={setOpen} open ={open} />
+            <div className='pt-5 pl-8'>
+               <OpenIcon setOpen={setOpen} open ={open} />
+            </div>
 
 
           <div className='w-full h-screen overflow-x-clip'>
