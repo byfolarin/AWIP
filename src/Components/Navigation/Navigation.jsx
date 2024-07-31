@@ -41,7 +41,6 @@ const Navigation = ({setIsHovered,setDisplay}) => {
         </motion.li>
 
 
-
         <motion.li 
           whileHover={{ x: 10 }}  
           className='text-[42px] hover:text-[#242323]' 

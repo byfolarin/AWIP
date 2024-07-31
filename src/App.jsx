@@ -10,12 +10,12 @@ function App() {
   const [isHovered, setIsHovered] = useState([Default]);
 
   return (
-    <div className='bg-black w-full h-screen'> 
-
+    <div className='bg-[#e1ddc9] w-full h-screen'> 
+{/* 
           <div className='flex justify-end absolute right-0'>
               <NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />
               <Navigation setIsHovered = {setIsHovered} />        
-          </div>
+          </div> */}
 
           <LandingPage />
     </div>
