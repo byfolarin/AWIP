@@ -1,12 +1,11 @@
 import React from 'react'
 
 
-const OpenIcon = ({setOpen}) => {
+const OpenIcon = ({setOpen,open}) => {
 
     const handleClick = () => {
-        setOpen(!isOpen); // Toggle the state on click
+        setOpen(!open); // Toggle the state on click
       };
-
 
 
   return (

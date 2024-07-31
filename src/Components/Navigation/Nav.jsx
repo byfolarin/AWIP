@@ -1,7 +1,6 @@
 import React from 'react'
 import NavigationLeft from './NavigationLeft'
 import Navigation from './Navigation'
-import OpenIcon from './OpenIcon'
 
 const Nav = ({isHovered,setIsHovered,close,setClose}) => {
 
