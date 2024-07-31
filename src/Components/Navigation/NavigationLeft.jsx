@@ -5,7 +5,7 @@ const NavigationLeft = ({isHovered}) => {
 
  
   return (
-    <div className='bg-[#a09d8d] w-1/3 h-screen max-h-none'>
+    <div className=' bg-[#a09d8d] w-1/3 h-screen max-h-none'>
 
       <div className='w-full bg-[#3c3b34] h-4/5 object-contain'>
         <img src={isHovered} alt="Real Estate Image" className="object-cover w-full h-full" />

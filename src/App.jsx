@@ -12,10 +12,10 @@ function App() {
   return (
     <div className='bg-black w-full h-screen'> 
 
-          {/* <div className='flex justify-end'>
+          <div className='flex justify-end absolute right-0'>
               <NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered}  />
               <Navigation setIsHovered = {setIsHovered} />        
-          </div> */}
+          </div>
 
           <LandingPage />
     </div>
