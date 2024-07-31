@@ -17,10 +17,10 @@ function App() {
     
 
           <div >
-           {open && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered}  />   }          
+           {open  && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} setClose={setClose} />   }          
           </div>
 
-          <CloseIcon setOpen = {setOpen} setClose={setClose}/>
+          <CloseIcon setOpen = {setOpen} />
 
 
           <div className='w-full h-screen overflow-x-clip'>
