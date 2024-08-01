@@ -11,7 +11,6 @@ const LandingPage = () => {
         <h1 className='text-[#322018] text-[300px] font-thin tracking-[-0.08em] leading-tight'>AWIP</h1>
         </div>
 
-
         </div>
 
         <div className='w-full bg-[#3c3b34] h-[448px]'>

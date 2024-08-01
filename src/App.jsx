@@ -9,9 +9,7 @@ import Nav from './Components/Navigation/Nav'
 function App() {
 
   const [isHovered, setIsHovered] = useState([Default]);
-
   const [isNavOpen, setIsNavOpen] = useState(false);
-
   const [isNavClose,setIsNavClose]= useState(true);
 
   const toggleNav = () => {
