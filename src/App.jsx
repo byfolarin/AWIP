@@ -14,6 +14,10 @@ function App() {
 
   const [isNavClose,setIsNavClose]= useState(true);
 
+  const toggleNav = () => {
+    setIsNavOpen(prevState => !prevState);
+};
+
 
   return (
     <div className='bg-[#e1ddc9] h-full '> 
