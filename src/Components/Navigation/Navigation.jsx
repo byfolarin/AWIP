@@ -8,7 +8,7 @@ import Default from './Default.jpeg'
 import CloseIcon from './CloseIcon'
 
 
-const Navigation = ({setIsHovered,setDisplay,setClose,close}) => {
+const Navigation = ({setIsHovered,setDisplay,setIsNavClose,isNavClose}) => {
 
       const handleImageChange = (image) => {
         setIsHovered(image);
@@ -21,8 +21,8 @@ const Navigation = ({setIsHovered,setDisplay,setClose,close}) => {
     <div className=' bg-[#e1ddc9] w-1/3 h-screen px-11 py-8'>
 
      
-        <div className='flex justify-end py-8 cursor-pointer' onClick={()=>{setClose(false)}} >
-          <CloseIcon setClose={setClose} close={close}/>
+        <div className='flex justify-end py-8 cursor-pointer' onClick={()=>{setIsNavClose(false)}} >
+          <CloseIcon setIsNavClose={setIsNavClose} isNavClose={isNavClose}/>
          </div>
 
       <div>

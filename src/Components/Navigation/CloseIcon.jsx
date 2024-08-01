@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CloseIcon = ({close,setClose}) => {
+const CloseIcon = ({isNavClose,setIsNavClose}) => {
 
     const handleClick = () => {
-        setClose(!close); // Toggle the state on click
+        setIsNavClose(!isNavClose); // Toggle the state on click
     };
 
 
