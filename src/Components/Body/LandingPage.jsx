@@ -7,11 +7,10 @@ const LandingPage = () => {
 
       <div className='flex items-center gap-24'>
 
-        <div className='w-fit'>
+        <div className='w-fit py-4'>
         <h1 className='text-[#322018] text-[300px] font-thin tracking-[-0.08em] leading-tight'>AWIP</h1>
         </div>
 
-    
 
         </div>
 
