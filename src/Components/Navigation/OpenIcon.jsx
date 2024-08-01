@@ -1,6 +1,7 @@
 import React from 'react'
 
 const OpenIcon = ({ setIsNavOpen, isNavOpen }) => {
+    
   const handleClick = () => {
     setIsNavOpen(!isNavOpen);
   };

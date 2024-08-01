@@ -11,6 +11,7 @@ function App() {
   const [isHovered, setIsHovered] = useState([Default]);
 
   const [isNavOpen, setIsNavOpen] = useState(false);
+  
   const [isNavClose,setIsNavClose]= useState(true);
 
 

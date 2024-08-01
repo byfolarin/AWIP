@@ -14,6 +14,10 @@ const Navigation = ({setIsHovered,setDisplay,setIsNavClose,isNavClose}) => {
         setIsHovered(image);
       };
 
+      const handleClick = () => {
+        setIsNavClose(!isNavClose);
+      };
+
 
   return (
 
@@ -21,8 +25,8 @@ const Navigation = ({setIsHovered,setDisplay,setIsNavClose,isNavClose}) => {
     <div className=' bg-[#e1ddc9] w-1/3 h-screen px-11 py-8'>
 
      
-        <div className='flex justify-end py-8 cursor-pointer' onClick={()=>{setIsNavClose(false)}} >
-          <CloseIcon setIsNavClose={setIsNavClose} isNavClose={isNavClose}/>
+        <div className='flex justify-end py-8 cursor-pointer' onClick={()=>{handleClick}} >
+           <CloseIcon/>
          </div>
 
       <div>

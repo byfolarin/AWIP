@@ -9,7 +9,7 @@ const Nav = ({isHovered,setIsHovered, isNavClose, setIsNavClose}) => {
     <div className='flex fixed justify-end w-full bg-[#000000b3]  right-0 overflow-hidden overflow-y-hidden'>
 
     {isNavClose &&  <NavigationLeft isHovered = {isHovered} setIsHovered = {setIsHovered} />}
-    { isNavClose && <Navigation setIsHovered = {setIsHovered} isNavClose={isNavClose} setIsNavClosee={setIsNavClose} /> } 
+    {isNavClose && <Navigation setIsHovered = {setIsHovered} isNavClose={isNavClose} setIsNavClosee={setIsNavClose} /> } 
 
     </div>
   )
