@@ -17,8 +17,10 @@ function App() {
   return (
     <div className='bg-[#e1ddc9] h-full '> 
           <div >
-            {isNavOpen && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} isNavClose ={isNavClose}             setIsNavClose={setIsNavClose}/>}                  
+            {isNavOpen && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered}
+             isNavClose ={isNavClose} setIsNavClose={setIsNavClose}/>}                  
            </div>
+
 
             <div className='pt-5 pl-8'>
                <OpenIcon setIsNavOpen={setIsNavOpen} isNavOpen={isNavOpen} />
