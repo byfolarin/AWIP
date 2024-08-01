@@ -10,18 +10,18 @@ function App() {
 
   const [isHovered, setIsHovered] = useState([Default]);
 
-  const [isNavOpen,setIsNavOpen]= useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
   const [isNavClose,setIsNavClose]= useState(true);
 
 
   return (
     <div className='bg-[#e1ddc9] h-full '> 
           <div >
-            {open  && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} isNavClose ={isNavClose} setIsNavClose={setIsNavClose}/>}          
-          </div>
+            {isNavOpen && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered} isNavClose ={isNavClose}             setIsNavClose={setIsNavClose}/>}                  
+           </div>
 
             <div className='pt-5 pl-8'>
-               <OpenIcon setIsNavOpen={setIsNavOpen} isNavOpen ={isNavOpen} />
+               <OpenIcon setIsNavOpen={setIsNavOpen} isNavOpen={isNavOpen} />
             </div>
 
 
