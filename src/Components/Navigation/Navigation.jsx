@@ -21,13 +21,15 @@ const Navigation = ({setIsHovered,setDisplay,setIsNavClose,isNavClose}) => {
 
   return (
 
-
     <div className=' bg-[#e1ddc9] w-1/3 h-screen px-11 py-8'>
 
-     
-        <div className='flex justify-end py-8 cursor-pointer' onClick={()=>{handleClick}} >
-           <CloseIcon/>
-         </div>
+      <div className='flex justify-end py-8 cursor-pointer'>
+        <CloseIcon setIsNavClose={() => {
+          setIsNavClose(false);
+          setIsNavOpen(false);
+        }} />
+        
+      </div>
 
       <div>
         <p className='text-[12px]'>

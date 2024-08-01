@@ -11,15 +11,22 @@ function App() {
   const [isHovered, setIsHovered] = useState([Default]);
 
   const [isNavOpen, setIsNavOpen] = useState(false);
-  
+
   const [isNavClose,setIsNavClose]= useState(true);
 
 
   return (
     <div className='bg-[#e1ddc9] h-full '> 
           <div >
-            {isNavOpen && <Nav isHovered = {isHovered} setIsHovered = {setIsHovered}
-             isNavClose ={isNavClose} setIsNavClose={setIsNavClose}/>}                  
+              {isNavOpen && (
+              <Nav 
+                isHovered={isHovered} 
+                setIsHovered={setIsHovered}
+                isNavClose={isNavClose} 
+                setIsNavClose={setIsNavClose}
+                setIsNavOpen={setIsNavOpen}  // Add this line
+          />
+        )}                  
            </div>
 
 
