@@ -4,7 +4,7 @@ const CloseIcon = ({close,setClose}) => {
 
     const handleClick = () => {
         setClose(!close); // Toggle the state on click
-      };
+    };
 
 
   return (

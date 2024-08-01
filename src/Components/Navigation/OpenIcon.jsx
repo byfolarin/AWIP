@@ -2,6 +2,7 @@ import React from 'react'
 
 
 const OpenIcon = ({setOpen,open}) => {
+    
 
     const handleClick = () => {
         setOpen(!open); // Toggle the state on click
