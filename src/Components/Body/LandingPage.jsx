@@ -52,7 +52,7 @@ const LandingPage = () => {
       </div>
 
       <div ref={containerRef} className="h-[300vh]">
-        <div className="sticky top-20 h-screen overflow-hidden">
+        <div className="sticky top-10 h-screen overflow-hidden">
           <motion.div 
             className="flex gap-2 pl-[300px]"
             style={{ x }}
