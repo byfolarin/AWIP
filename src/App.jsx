@@ -32,8 +32,8 @@ function App() {
         />
        }
 
-      <div className='border border-red-50 py-4'>
-        <div className='pt-5 pl-8'>
+      <div className='border border-[#d7d7d7] border-x-0 py-8 flex justify-end'>
+        <div>
           <OpenIcon openNav={openNav} />
         </div>
       </div>
