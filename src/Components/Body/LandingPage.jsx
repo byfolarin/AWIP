@@ -43,15 +43,15 @@ const LandingPage = () => {
       animate={{ scale: 1, opacity:1}}
       transition={{
         duration: 0.5,
-        delay: 0.1,
+        delay: 0.7,
         ease: "easeOut"
       }}
       className='w-full max-w-screen'>
         <div className=' bg-[#343434] h-[500px]'></div>
       </motion.div>
 
-      <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8'>
-        <h2 className='text-500px] 3/5 text-[#00000048] font-interTight tracking-tighter leading-tight'>
+      <div className='w-full max-w-screen flex justify-between gap-11 my-16 px-8'>
+        <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight font-light tracking-tighter leading-tight'>
           INTERIOR
         </h2>
         <p className='w-3/5 text-[24px] tracking-tight font-interTight font-light'>
@@ -82,14 +82,17 @@ const LandingPage = () => {
       </div>
 
 
-         <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8'>
-        <h2 className='text-500px] 3/5 text-[#00000048] font-interTight tracking-tighter leading-tight'>
-          INTERIOR
+         <div className='w-full max-w-screen flex justify-between items-start gap-11 py-6 px-8'>
+        <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight font-light tracking-tighter leading-tight'>
+          OUR MISSION
         </h2>
         <p className='w-3/5 text-[24px] tracking-tight font-interTight font-light'>
           The AWIP is a modern interpretation of typography found in classic architecture, traditionally etched into stone. This narrative reflected Little Project Co's established history, while maintaining a progressive focus on the future.
         </p>
       </div>
+
+
+      <h1 className='text-black text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>Projects</h1>
     </div>
   )
 }
