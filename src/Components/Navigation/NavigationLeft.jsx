@@ -14,7 +14,7 @@ const NavigationLeft = ({isHovered}) => {
       <div className='full bg-[#fdfbf0] h-1/5 p-2'>
 
       <p className='text-[12px] font-mono'>
-            One more glance at the clinic website, elegant and balanced,
+            One more glance at the clinic website, nice elegant and balanced,
              with neat content arrangement, eye-pleasing color palette, and smooth motion.
       </p>
 
