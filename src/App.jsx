@@ -4,6 +4,7 @@ import Default from './Components/Navigation/Default.jpeg'
 import LandingPage from './Components/Body/LandingPage'
 import OpenIcon from './Components/Navigation/OpenIcon'
 import Nav from './Components/Navigation/Nav'
+import SectionTwo from './Components/Body/SectionTwo'
 
 function App() {
   const [isHovered, setIsHovered] = useState([Default]);
@@ -34,6 +35,9 @@ function App() {
       <div className='w-full h-screen overflow-x-clip'>
         <LandingPage />
       </div>
+
+
+      <SectionTwo />
     </div>
   )
 }
