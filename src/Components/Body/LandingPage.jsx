@@ -9,7 +9,7 @@ const LandingPage = () => {
     offset: ["start start", "end end"]
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-75%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-88%"]);
 
   return (
     <div className='w-screen'>
@@ -23,7 +23,7 @@ const LandingPage = () => {
         <div className=' bg-[#343434] h-[448px]'></div>
       </div>
 
-      <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8 border border-red-400'>
+      <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8'>
         <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight tracking-tighter leading-tight'>
           INTERIOR
         </h2>
@@ -33,26 +33,50 @@ const LandingPage = () => {
       </div>
 
       <div ref={containerRef} className="h-[300vh]">
-        <div className="sticky top-0 h-screen overflow-hidden">
+        <div className="sticky top-8 h-screen overflow-hidden">
           <motion.div 
-            className="flex gap-6 pl-[300px]"
+            className="flex gap-4 pl-[300px]"
             style={{ x }}
           >
             <div className="w-[548px] flex-shrink-0">
-              <div className="bg-[#343434] h-[448px]"></div>
+              <div className="bg-[#343434] h-[500px]"></div>
             </div>
             <div className="w-[548px] flex-shrink-0">
-              <div className="bg-[#343434] h-[448px]"></div>
+              <div className="bg-[#343434] h-[500px]"></div>
             </div>
             <div className="w-[548px] flex-shrink-0">
-              <div className="bg-[#343434] h-[448px]"></div>
+              <div className="bg-[#343434] h-[500px]"></div>
             </div>
             <div className="w-[548px] flex-shrink-0 ">
-              <div className="bg-[#343434] h-[448px]"></div>
+              <div className="bg-[#343434] h-[500px]"></div>
             </div>
           </motion.div>
         </div>
       </div>
+
+
+      <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8'>
+        <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight tracking-tighter leading-tight'>
+          INTERIOR
+        </h2>
+        <p className='w-3/5 text-[24px] tracking-tight font-interTight'>
+          The AWIP is a modern interpretation of typography found in classic architecture, traditionally etched into stone. This narrative reflected Little Project Co's established history, while maintaining a progressive focus on the future.
+        </p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   )
 }

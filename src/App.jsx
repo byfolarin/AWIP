@@ -26,6 +26,7 @@ function App() {
    
      <hr className='mt-3' />
 
+
       {isNavOpen ? (
         <Nav 
           isHovered={isHovered} 
