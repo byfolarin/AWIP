@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <div className='bg-[#e1ddc9] h-full '> 
+    <div className='bg-white h-full '> 
       {isNavOpen ? (
         <Nav 
           isHovered={isHovered} 
