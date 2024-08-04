@@ -3,7 +3,7 @@ import Img from './image.png'
 
 const LandingPage = () => {
   return (
-    <div className='w-screen h-screen'>
+    <div className='w-screen h-screen '>
 
       <div className='flex items-center gap-24'>
 
@@ -14,9 +14,12 @@ const LandingPage = () => {
         </div>
 
         <div className='w-full bg-[#3c3b34] h-[448px]'></div>
-        <h2 className='text-[48px] text-[#322018]  text-center  items-center tracking-tighter'>
-        Beautiful, acoustics for spaces where people live, work and learn
+
+        <div className='w-full bg-[#e1ddc9] flex items-center justify-center py-6'>
+        <h2 className='text-[48px] text-[#322018]  text-center  w-3/5 tracking-tighter leading-tight'>
+        We transform mundane spaces into extraordinary experiences that captivates on first entry and seek to retain that experience
       </h2>
+      </div>
 
     </div>
   )

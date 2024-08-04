@@ -36,8 +36,6 @@ function App() {
         <LandingPage />
       </div>
 
-      <SectionTwo />
-
       
     </div>
   )
