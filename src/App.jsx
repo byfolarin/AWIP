@@ -32,7 +32,7 @@ function App() {
         />
        }
 
-      <div className='border border-[#d7d7d7] border-x-0 py-8 flex justify-end'>
+      <div className='border border-[#d7d7d7] border-x-0 p-8  flex justify-end'>
         <div>
           <OpenIcon openNav={openNav} />
         </div>

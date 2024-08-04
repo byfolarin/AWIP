@@ -38,9 +38,17 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className='w-full max-w-screen'>
+      <motion.div 
+      initial={{ scale: 0.8, opacity:0}}
+      animate={{ scale: 1, opacity:1}}
+      transition={{
+        duration: 0.5,
+        delay: 0.1,
+        ease: "easeOut"
+      }}
+      className='w-full max-w-screen'>
         <div className=' bg-[#343434] h-[500px]'></div>
-      </div>
+      </motion.div>
 
       <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8'>
         <h2 className='text-500px] 3/5 text-[#00000048] font-interTight tracking-tighter leading-tight'>

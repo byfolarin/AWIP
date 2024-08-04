@@ -15,9 +15,8 @@ const Nav = ({ isHovered, setIsHovered, closeNav }) => {
       <motion.div
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.2 }}
-      >
-      <NavigationLeft isHovered={isHovered} setIsHovered={setIsHovered} />
+        transition={{ delay: 0.2 }}>
+        <NavigationLeft isHovered={isHovered} setIsHovered={setIsHovered} />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: -20 }}
