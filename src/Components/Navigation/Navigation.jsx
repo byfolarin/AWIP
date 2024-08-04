@@ -21,7 +21,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
   return (
 
-    <div className=' bg-[#ffffff] w-1/3 h-screen px-11 py-8'>
+    <div className=' bg-[#ffffff] w-1/3 h-screen px-11 py-8 '>
 
         <div className='flex justify-end py-8 cursor-pointer'>
           <CloseIcon closeNav={closeNav} />       
@@ -36,7 +36,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
         <motion.li
           whileHover={{ x: 10 }}
-          className='text-[42px] flex align-middle hover:text-[#242323]'
+          className='text-[42px]  flex align-middle  font-interTight hover:text-[#242323]'
           onMouseEnter={() => handleImageChange([Img])}
           onMouseLeave={() => setIsHovered([Default])}>
           Home
@@ -45,7 +45,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
         <motion.li 
           whileHover={{ x: 10 }}  
-          className='text-[42px] hover:text-[#242323]' 
+          className='text-[42px]  font-interTight hover:text-[#242323]' 
           onMouseEnter={() => handleImageChange([About])}
           onMouseLeave={() => setIsHovered([Default])}>
           Projects
@@ -54,7 +54,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
         <motion.li
           whileHover={{ x: 10 }} 
-          className='text-[42px] hover:text-[#242323]'
+          className='text-[42px]  font-interTight hover:text-[#242323]'
           onMouseEnter={() => handleImageChange([Project])}
           onMouseLeave={() => setIsHovered([Default])} >
           About
@@ -63,7 +63,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
         <motion.li 
           whileHover={{ x: 10 }} 
-          className='text-[42px] hover:text-[#242323]' 
+          className='text-[42px]  font-interTight hover:text-[#242323]' 
           onMouseEnter={() => handleImageChange([Contact])}
           onMouseLeave={() => setIsHovered([Default])} >
           Contact
@@ -76,7 +76,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
       <hr className='w-full border-[#6c6c6c] h-1 my-4' />
       
-      <ul className='font-sans text-[16px] pt-4 gap-2 tracking-normal cursor-pointer text-[#4a4a4a]'>
+      <ul className=' font-interTight text-[16px] pt-4 gap-2 tracking-normal cursor-pointer text-[#4a4a4a]'>
         <li>Service</li>
         <li>Culture</li>
         <li>Clients</li>

@@ -5,6 +5,8 @@ import LandingPage from './Components/Body/LandingPage'
 import OpenIcon from './Components/Navigation/OpenIcon'
 import Nav from './Components/Navigation/Nav'
 import SectionTwo from './Components/Body/SectionTwo'
+import Topbar from './Components/Body/Topbar'
+
 
 function App() {
   const [isHovered, setIsHovered] = useState([Default]);
@@ -20,6 +22,10 @@ function App() {
 
   return (
     <div className='bg-white h-full '> 
+
+    <Topbar />
+
+
       {isNavOpen ? (
         <Nav 
           isHovered={isHovered} 
