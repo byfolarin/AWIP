@@ -13,10 +13,10 @@ const LandingPage = () => {
 
         </div>
 
-        <div className='w-full bg-[#3c3b34] h-[448px]'>
-        
-      
-        </div>
+        <div className='w-full bg-[#3c3b34] h-[448px]'></div>
+        <h2 className='text-[48px] text-[#322018]  text-center  items-center tracking-tighter'>
+        Beautiful, acoustics for spaces where people live, work and learn
+      </h2>
 
     </div>
   )
