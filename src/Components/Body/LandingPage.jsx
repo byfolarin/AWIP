@@ -29,9 +29,25 @@ const LandingPage = () => {
       </div>
 
 
-      <div className='w-full max-w-screen border border-red-400'>
-            <div className=' bg-[#343434] h-[448px]'></div>
-        </div>
+      <div className="w-full flex gap-6 overflow-x-auto">
+        
+          <div className="w-[548px] border border-red-400">
+            <div className="bg-[#343434] h-[448px]"></div>
+          </div>
+
+          <div className="w-[548px] border border-red-400">
+            <div className="bg-[#343434] h-[448px]"></div>
+          </div>
+
+          <div className="w-[548px] border border-red-400">
+            <div className="bg-[#343434] h-[448px]"></div>
+          </div>
+
+          <div className="w-[548px] border border-red-400">
+            <div className="bg-[#343434] h-[448px]"></div>
+          </div>
+
+      </div>
 
     </div>
   )

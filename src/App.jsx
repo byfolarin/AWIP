@@ -23,8 +23,8 @@ function App() {
   return (
     <div className='bg-white h-full '> 
 
-    <Topbar />
-
+   
+     <hr className='mt-3' />
 
       {isNavOpen ? (
         <Nav 
@@ -37,6 +37,10 @@ function App() {
           <OpenIcon openNav={openNav} />
         </div>
       )}
+
+      <hr className='mt-3' />
+
+     
 
       <div className='w-full h-screen overflow-x-clip'>
         <LandingPage />
