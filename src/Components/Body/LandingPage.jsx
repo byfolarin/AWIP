@@ -26,7 +26,7 @@ const LandingPage = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
                   duration: 0.5,
-                  delay: index * 0.1,
+                  delay: index * 0.3,
                   ease: "easeOut"
                 }}
                 className="inline-block mr-[0.1em]"
@@ -38,11 +38,11 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className='w-full max-w-screen border border-red-400'>
+      <div className='w-full max-w-screen'>
         <div className=' bg-[#343434] h-[500px]'></div>
       </div>
 
-      <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8 border border-red-400'>
+      <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8'>
         <h2 className='text-500px] 3/5 text-[#00000048] font-interTight tracking-tighter leading-tight'>
           INTERIOR
         </h2>
@@ -54,19 +54,19 @@ const LandingPage = () => {
       <div ref={containerRef} className="h-[300vh]">
         <div className="sticky top-20 h-screen overflow-hidden">
           <motion.div 
-            className="flex gap-6 pl-[300px]"
+            className="flex gap-2 pl-[300px]"
             style={{ x }}
           >
-            <div className="w-[600px] flex-shrink-0 border border-red-400">
+            <div className="w-[600px] flex-shrink-0 ">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
-            <div className="w-[600px] flex-shrink-0 border border-red-400">
+            <div className="w-[600px] flex-shrink-0">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
-            <div className="w-[600px] flex-shrink-0 border border-red-400">
+            <div className="w-[600px] flex-shrink-0">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
-            <div className="w-[600px] flex-shrink-0 border border-red-400">
+            <div className="w-[600px] flex-shrink-0">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
           </motion.div>
@@ -74,7 +74,7 @@ const LandingPage = () => {
       </div>
 
 
-         <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8 border border-red-400'>
+         <div className='w-full max-w-screen flex justify-between gap-11 py-6 px-8'>
         <h2 className='text-500px] 3/5 text-[#00000048] font-interTight tracking-tighter leading-tight'>
           INTERIOR
         </h2>
