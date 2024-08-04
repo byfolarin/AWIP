@@ -38,16 +38,16 @@ const LandingPage = () => {
             className="flex gap-4 pl-[300px]"
             style={{ x }}
           >
-            <div className="w-[548px] flex-shrink-0">
+            <div className="w-[600px] flex-shrink-0">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
-            <div className="w-[548px] flex-shrink-0">
+            <div className="w-[600px] flex-shrink-0">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
-            <div className="w-[548px] flex-shrink-0">
+            <div className="w-[600px] flex-shrink-0">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
-            <div className="w-[548px] flex-shrink-0 ">
+            <div className="w-[600px] flex-shrink-0 ">
               <div className="bg-[#343434] h-[500px]"></div>
             </div>
           </motion.div>

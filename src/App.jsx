@@ -23,23 +23,21 @@ function App() {
   return (
     <div className='bg-white h-full '> 
 
-   
-     <hr className='mt-3' />
-
-
-      {isNavOpen ? (
+  
+      {isNavOpen &&
         <Nav 
           isHovered={isHovered} 
           setIsHovered={setIsHovered}
           closeNav={closeNav}
         />
-      ) : (
+       }
+
+      <div className='border border-red-50 py-4'>
         <div className='pt-5 pl-8'>
           <OpenIcon openNav={openNav} />
         </div>
-      )}
+      </div>
 
-      <hr className='mt-3' />
 
      
 
