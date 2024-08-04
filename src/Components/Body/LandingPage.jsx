@@ -15,7 +15,7 @@ const LandingPage = () => {
 
         <div className='w-full bg-[#3c3b34] h-[448px]'>
         
-        <img src={Img} alt="" className='object-cover w-full h-full' />
+      
         </div>
 
     </div>
