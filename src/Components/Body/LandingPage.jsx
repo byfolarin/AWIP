@@ -92,6 +92,12 @@ const LandingPage = () => {
       </div>
 
 
+      <div 
+      className='w-full max-w-screen'>
+        <div className=' bg-[#343434] h-[500px]'></div>
+      </div>
+
+
       <h1 className='text-black text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>Projects</h1>
       <hr  className='mt-8'/>
 
