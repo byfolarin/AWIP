@@ -15,10 +15,10 @@ const LandingPage = () => {
   const words = "ARCHITECTURE WORK IN PROGRESS".split(" ");
 
   return (
-    <div className='w-screen bg[#F4F0EA]'>
+    <div className='w-screen '>
       <div className='flex items-center gap-24'>
         <div className='w-fit py-4'>
-          <h1 className='text-black text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>
+          <h1 className='text-[#4D3D30] text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>
             {words.map((word, index) => (
               <motion.span
                 key={index}

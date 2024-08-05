@@ -41,7 +41,7 @@ function App() {
 
      
 
-      <div className='w-full h-screen overflow-x-clip'>
+      <div className='w-full h-screen overflow-x-clip bg[#F4F0EA]'>
         <LandingPage />
       </div>
 
