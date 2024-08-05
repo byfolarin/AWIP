@@ -15,7 +15,7 @@ const LandingPage = () => {
   const words = "ARCHITECTURE WORK IN PROGRESS".split(" ");
 
   return (
-    <div className='w-screen'>
+    <div className='w-screen bg[#F4F0EA]'>
       <div className='flex items-center gap-24'>
         <div className='w-fit py-4'>
           <h1 className='text-black text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>
