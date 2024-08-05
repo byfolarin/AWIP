@@ -93,6 +93,16 @@ const LandingPage = () => {
 
 
       <h1 className='text-black text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>Projects</h1>
+      <hr />
+
+      <div className='flex '>
+      <p className='w-3/5 text-[24px] tracking-tight font-interTight font-light'>
+          The AWIP is a modern interpretation of typography found in classic architecture.
+        </p>
+         <div className='w-[450px] h-[450px] bg-slate-400 '></div>
+
+      </div> 
+      
     </div>
   )
 }
