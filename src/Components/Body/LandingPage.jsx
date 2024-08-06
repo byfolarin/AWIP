@@ -1,6 +1,9 @@
 import React, { useRef } from 'react'
 import Img from './image.png'
 import { motion, useScroll, useTransform } from "framer-motion";
+import myvid from './Hvideo.mp4'
+
+
 
 const LandingPage = () => {
   const containerRef = useRef(null);
@@ -47,7 +50,12 @@ const LandingPage = () => {
         ease: "easeOut"
       }}
       className='w-full max-w-screen'>
-        <div className=' bg-[#343434] h-[500px]'></div>
+        <div className=' bg-[#343434] h-[500px]'>
+          <video  className="absolute inset-0 w-full h-full object-cover" controls>
+          <source src={myvid} type="video/mp4" />
+          Your browser does not support the video tag.
+          </video>
+        </div>
       </motion.div>
 
       <div className='w-full max-w-screen flex justify-between gap-11 my-16 px-8'>
