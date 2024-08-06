@@ -15,7 +15,7 @@ const LandingPage = () => {
   const words = "ARCHITECTURE WORK IN PROGRESS".split(" ");
 
   return (
-    <div className='w-screen '>
+    <div className='w-screen bg-[#F4F0EA]  '>
       <div className='flex items-center gap-24'>
         <div className='w-fit py-4'>
           <h1 className='text-[#4D3D30] text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>
@@ -51,10 +51,10 @@ const LandingPage = () => {
       </motion.div>
 
       <div className='w-full max-w-screen flex justify-between gap-11 my-16 px-8'>
-        <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight font-light tracking-tighter leading-tight'>
+        {/* <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight font-light tracking-tighter leading-tight'>
           INTERIOR
-        </h2>
-        <p className='w-3/5 text-[24px] tracking-tight font-interTight font-light'>
+        </h2> */}
+        <p className='w-3/5 text-[#4D3D30] text-[30px] tracking-tight font-interTight font-light'>
           The AWIP is a modern interpretation of typography found in classic architecture, traditionally etched into stone. This narrative reflected Little Project Co's established history, while maintaining a progressive focus on the future.
         </p>
       </div>
@@ -98,7 +98,7 @@ const LandingPage = () => {
       </div>
 
 
-      <h1 className='text-black text-[160px] font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>Projects</h1>
+      <h1 className='text-[160px] text-[#4D3D30] font-extralight tracking-[-0.1em] font-interTight leading-[1.00]'>Projects</h1>
       <hr  className='mt-8'/>
 
 
