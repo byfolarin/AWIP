@@ -50,8 +50,8 @@ const LandingPage = () => {
         ease: "easeOut"
       }}
       className='w-full max-w-screen'>
-        <div className=' bg-[#343434] h-[500px]'>
-          <video  className="absolute inset-0 w-full h-full object-cover" controls>
+        <div className=' bg-[#343434] h-[550px]'>
+          <video  className=" w-full h-full object-cover" autoPlay muted loop>
           <source src={myvid} type="video/mp4" />
           Your browser does not support the video tag.
           </video>
