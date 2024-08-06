@@ -114,14 +114,7 @@ const LandingPage = () => {
 
 
 
-      <hr className='mt-8'/>
-      <div className='flex'>
-      <p className='w-3/5 text-[24px] tracking-tight font-interTight font-light'>
-          The AWIP is a modern interpretation of typography found in classic architecture.
-        </p>
-         <div className='w-[450px] h-[450px] bg-slate-400 '></div>
-
-      </div> 
+    
 
       </div>
 
