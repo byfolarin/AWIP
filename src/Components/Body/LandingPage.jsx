@@ -41,22 +41,33 @@ const LandingPage = () => {
         </div>
       </div>
 
+    
+
       <motion.div 
-      initial={{ scale: 0.8, opacity:0}}
+      initial={{ scale: 0.5, opacity:0}}
       animate={{ scale: 1, opacity:1}}
       transition={{
-        duration: 0.5,
+        duration: 1,
         delay: 0.7,
         ease: "easeOut"
       }}
       className='w-full max-w-screen'>
-        <div className=' bg-[#343434] h-[550px]'>
+
+        <div className=' bg-[#343434] h-[550px] relative'>
           <video  className=" w-full h-full object-cover" autoPlay muted loop>
           <source src={myvid} type="video/mp4" />
           Your browser does not support the video tag.
           </video>
+
+          <div className="absolute inset-0 bg-black opacity-30"></div>  
         </div>
+
       </motion.div>
+
+
+      <hr  className='mt-8'/>
+
+      
 
       <div className='w-full max-w-screen flex justify-between gap-11 my-16 px-8'>
         {/* <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight font-light tracking-tighter leading-tight'>
