@@ -11,14 +11,14 @@ const NavigationLeft = ({isHovered}) => {
         <img src={isHovered} alt="Real Estate Image" className="object-cover w-full h-full" />
      </div>
 
-      <div className='full bg-[#fdfbf0] h-1/5 p-2'>
+      <div className='full bg-[#561D0A] h-1/5 p-2'>
 
-      <p className='text-[12px] font-mono'>
+      <p className='text-[12px] font-mono text-[#FFFDF0]'>
             One more glance at the clinic website, elegant and balanced,
              with neat content arrangement, eye-pleasing color palette, and smooth motion.
       </p>
 
-      <p className='text-[12px] font-mono mt-4'>
+      <p className='text-[12px] font-mono mt-4 text-[#FFFDF0]'>
         Copyright 2024. AWIP
       </p>
         
