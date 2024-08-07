@@ -3,6 +3,7 @@ import Img from './image.png'
 import { motion, useScroll, useTransform } from "framer-motion";
 import myvid from './Hvideo.mp4'
 import ImageScroll from './ImageScroll';
+import AWIP4 from './AWIP4.jpg'
 
 
 
@@ -23,7 +24,7 @@ const LandingPage = () => {
     <div className='w-screen bg-[#F4F0EA]  '>
       <div className='flex items-center gap-24'>
         <div className='w-fit py-4'>
-          <h1 className='hidden lg:block lg:text-[#4D3D30] lg:text-[160px] lg:font-extralight lg:tracking-[-0.11em] lg:font-interTight lg:leading-[1.00]'>
+          <h1 className='hidden lg:block lg:text-[#561D0A] lg:text-[160px] lg:font-extralight lg:tracking-[-0.11em] lg:font-interTight lg:leading-[1.00]'>
             {words.map((word, index) => (
               <motion.span
                 key={index}
@@ -100,7 +101,10 @@ const LandingPage = () => {
 
       <div 
       className='w-full max-w-screen'>
-        <div className=' bg-[#343434] h-[500px]'></div>
+        <div className=' bg-[#343434] h-[500px]'>
+          
+        <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+        </div>
       </div>
 
 

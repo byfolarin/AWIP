@@ -2,6 +2,9 @@ import React from 'react'
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import AWIP1 from './AWIP1.jpg'
+import AWIP2 from './AWIP2.jpg'
+import AWIP3 from './AWIP3.jpg'
+import AWIP4 from './AWIP4.jpg'
 
 const ImageScroll = () => {
     const containerRef = useRef(null);
@@ -33,32 +36,24 @@ const ImageScroll = () => {
                      </div>
 
                      <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
+                         <div className="bg-[#d7d7d7] h-[500px]">
+                         <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+                         </div>
                      </div>
 
                      <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
+                         <div className="bg-[#d7d7d7] h-[500px]">
+                         <img src={AWIP3}  alt=""  className='w-full h-full object-cover'/>
+                         </div>
                      </div>
 
                      <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
+                         <div className="bg-[#d7d7d7] h-[500px]">
+                         <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+                         </div>
                      </div>
 
-                     <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
-                     </div>
 
-                     <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
-                     </div>
-
-                     <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
-                     </div>
-
-                     <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
-                     </div>
 
                 </motion.div>
             </div>
