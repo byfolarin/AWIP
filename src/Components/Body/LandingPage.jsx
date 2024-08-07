@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import Img from './image.png'
 import { motion, useScroll, useTransform } from "framer-motion";
 import myvid from './Hvideo.mp4'
+import ImageScroll from './ImageScroll';
 
 
 
@@ -12,7 +13,8 @@ const LandingPage = () => {
     offset: ["start start", "end end"]
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-75%"]);
+
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-95%"]);
 
   // Split the h1 text into words
   const words = "ARCHITECTURE WORK IN PROGRESS".split(" ");
@@ -78,27 +80,9 @@ const LandingPage = () => {
         </p>
       </div>
 
-      <div ref={containerRef} className="h-[300vh]">
-        <div className="sticky top-10 h-screen overflow-hidden">
-          <motion.div 
-            className="flex gap-2 pl-[300px]"
-            style={{ x }}
-          >
-            <div className="w-[600px] flex-shrink-0 ">
-              <div className="bg-[#343434] h-[500px]"></div>
-            </div>
-            <div className="w-[600px] flex-shrink-0">
-              <div className="bg-[#343434] h-[500px]"></div>
-            </div>
-            <div className="w-[600px] flex-shrink-0">
-              <div className="bg-[#343434] h-[500px]"></div>
-            </div>
-            <div className="w-[600px] flex-shrink-0">
-              <div className="bg-[#343434] h-[500px]"></div>
-            </div>
-          </motion.div>
-        </div>
-      </div>
+     <ImageScroll />
+
+    
 
 
          <div className='w-full max-w-screen flex justify-between items-start gap-11 py-24 px-8'>
