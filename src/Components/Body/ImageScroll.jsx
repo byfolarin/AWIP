@@ -57,17 +57,6 @@ const ImageScroll = () => {
                          <div className="bg-[#d7d7d7] h-[500px]"></div>
                      </div>
 
-                     <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
-                     </div>
-
-                     <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
-                     </div>
-
-                     <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
-                     </div>
                 </motion.div>
             </div>
         </div>
