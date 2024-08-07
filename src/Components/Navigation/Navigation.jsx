@@ -28,7 +28,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
     <div
       className=' bg-[#FFFDF0] w-1/3 h-screen px-11 py-8 '>
 
-        <div className='flex justify-end py-8 cursor-pointer'>
+        <div className='flex justify-end py-2 cursor-pointer'>
           <CloseIcon closeNav={closeNav} />       
         </div>
 
