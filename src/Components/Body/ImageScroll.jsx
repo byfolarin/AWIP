@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import AWIP1 from './AWIP1.jpg'
 
 const ImageScroll = () => {
     const containerRef = useRef(null);
@@ -26,7 +27,9 @@ const ImageScroll = () => {
                     dragElastic={0.2}
                 >
                    <div className="w-[600px] flex-shrink-0 ">
-                         <div className="bg-[#d7d7d7] h-[500px]"></div>
+                         <div className="bg-[#d7d7d7] h-[500px]">
+                            <img src={AWIP1}  alt=""  className='w-full h-full object-cover'/>
+                         </div>
                      </div>
 
                      <div className="w-[600px] flex-shrink-0 ">
