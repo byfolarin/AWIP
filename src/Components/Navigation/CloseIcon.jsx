@@ -5,12 +5,10 @@ const CloseIcon = ({closeNav}) => {
 
   return (
     <div onClick={closeNav} className='cursor-pointer'>
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M9.16992 14.83L14.8299 9.16998" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M14.8299 14.83L9.16992 9.16998" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-     </svg>
-
+     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L48.7297 48.7297" stroke="#561D0A" stroke-width="2"/>
+        <path d="M1 48.7297L48.7297 1.00003" stroke="#561D0A" stroke-width="2"/>
+      </svg>  
     </div>
   )
 }
