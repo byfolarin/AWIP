@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Default from './Components/Navigation/Default.jpeg'
+import Default from './Components/Navigation/default.png'
 import LandingPage from './Components/Body/LandingPage'
 import OpenIcon from './Components/Navigation/OpenIcon'
 import Nav from './Components/Navigation/Nav'
