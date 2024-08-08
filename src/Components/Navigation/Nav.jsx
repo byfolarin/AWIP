@@ -8,7 +8,7 @@ const Nav = ({ isHovered, setIsHovered, closeNav }) => {
   const variants = {
     initial: { x: "100%" },
     animate: { x: 0 },
-    exit: { x: "100%" },
+    exit: { x: "100%" } // Change this to mirror the animate variant
   }
 
   return (
@@ -25,10 +25,7 @@ const Nav = ({ isHovered, setIsHovered, closeNav }) => {
       }}
     >
 
-         <NavigationLeft isHovered={isHovered} setIsHovered={setIsHovered} />
-  
-
-
+      <NavigationLeft isHovered={isHovered} setIsHovered={setIsHovered} />
       <Navigation 
         setIsHovered={setIsHovered} 
         closeNav={closeNav}
