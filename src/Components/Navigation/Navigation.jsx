@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
 import { motion } from "framer-motion"
-import Img from './Realestate.jpeg'
-import About from './About.jpeg'
-import Project from './Project.jpeg'
-import Contact from './Contact.jpeg'
 import Default from './default.png'
 import CloseIcon from './CloseIcon'
 import AWIP1 from './AWIP1.jpg'
