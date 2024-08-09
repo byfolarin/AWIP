@@ -62,7 +62,7 @@ const LandingPage = () => {
       }}
       className='w-full max-w-screen'>
 
-        <div className=' bg-[#343434] h-[550px] relative'>
+        <div className=' bg-[#343434] h-[550px] relative border border-red-400'>
           <video  className=" w-full h-full object-cover" autoPlay muted loop>
               <source src={myvid} type="video/mp4" />
               Your browser does not support the video tag.
