@@ -34,6 +34,7 @@ const ProjectsComponent = () => {
         dragElastic={0.1}
       >
         {[...projectItems, ...projectItems, ...projectItems].map((item, index) => (
+            
           <motion.div key={index} className='mx-8 flex gap-7'>
             <div className='flex items-center relative'>
               <div className='w-[450px] h-[450px] bg-slate-400'>

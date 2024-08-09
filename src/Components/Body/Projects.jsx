@@ -15,13 +15,15 @@ const Projects = () => {
        font-interTight leading-[1.00]'>PROJECTS</h1>
 
 
-       <div className='flex gap-4'>
-        <div className='w-1/3 bg-slate-300 h-[450px]'></div>
-        <div className='w-1/3 bg-slate-300 h-[450px]'></div>
-        <div className='w-1/3 bg-slate-300 h-[450px]'></div>
-       </div>
+       {/* <div className='flex gap-5'>
+        <div className='w-[450px] bg-slate-300 h-[450px]'></div>
+        <div className='w-[450px] bg-slate-300 h-[450px]'></div>
+        <div className='w-[450px] bg-slate-300 h-[450px]'></div>
+        <div className='w-[450px] bg-slate-300 h-[450px]'></div>
+        <div className='w-[450px] bg-slate-300 h-[450px]'></div>
+       </div> */}
 
-       {/* <ProjectsComponent /> */}
+       <ProjectsComponent />
     </div>
   )
 }
