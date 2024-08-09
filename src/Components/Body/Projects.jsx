@@ -22,6 +22,7 @@ const Projects = () => {
 
   return (
     <div className='my-12 overflow-hidden' ref={containerRef}>
+        
       <h1 className='text-[160px] my-12 text-[#561D0A] mx-4 font-extralight tracking-[-0.11em]
        font-interTight leading-[1.00]'>Projects</h1>
       
