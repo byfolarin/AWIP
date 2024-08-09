@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <div className='h-full bg-[#FFFDF0]'> 
+    <div className='h-full bg-[#FFFDF0] '> 
 
   
       {isNavOpen &&
