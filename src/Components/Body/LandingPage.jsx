@@ -78,13 +78,13 @@ const LandingPage = () => {
       <SecondSection />
 
 
+
+
+
       <Projects/>
-      {/* <ImageScroll /> */}
-
-    
 
 
-         <div className='w-full max-w-screen flex justify-between items-start gap-11 py-24 px-8'>
+         <div className='w-full max-w-screen flex justify-between items-start gap-11 py-2 px-8'>
             <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight font-light tracking-tighter leading-tight'>
               OUR MISSION
             </h2>

@@ -17,7 +17,7 @@ const ImageScroll = () => {
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-95%"]);
 
     return (
-        <div ref={containerRef} className="h-[300vh]">
+        <div ref={containerRef} className="h-[100vh]">
             <div className="sticky top-10 h-screen overflow-hidden">
                 <motion.div
                     className="flex gap-2 pl-[300px]"

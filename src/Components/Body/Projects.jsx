@@ -5,6 +5,7 @@ import AWIP1 from './AWIP1.jpg'
 import AWIP2 from './AWIP2.jpg'
 import AWIP3 from './AWIP3.jpg'
 import AWIP4 from './AWIP4.jpg'
+import ImageScroll from './ImageScroll'
 
 const Projects = () => {
 
@@ -23,7 +24,9 @@ const Projects = () => {
         <div className='w-[450px] bg-slate-300 h-[450px]'></div>
        </div> */}
 
-       <ProjectsComponent />
+       <ImageScroll />
+
+       {/* <ProjectsComponent /> */}
     </div>
   )
 }
