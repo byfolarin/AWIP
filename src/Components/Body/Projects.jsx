@@ -14,7 +14,14 @@ const Projects = () => {
       <h1 className='text-[160px] my-[64px] text-[#561D0A] mx-4 font-extralight tracking-[-0.11em]
        font-interTight leading-[1.00]'>PROJECTS</h1>
 
-       <ProjectsComponent />
+
+       <div className='flex gap-4'>
+        <div className='w-1/3 bg-slate-300 h-[450px]'></div>
+        <div className='w-1/3 bg-slate-300 h-[450px]'></div>
+        <div className='w-1/3 bg-slate-300 h-[450px]'></div>
+       </div>
+
+       {/* <ProjectsComponent /> */}
     </div>
   )
 }
