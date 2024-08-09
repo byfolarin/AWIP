@@ -64,8 +64,8 @@ const LandingPage = () => {
 
         <div className=' bg-[#343434] h-[550px] relative'>
           <video  className=" w-full h-full object-cover" autoPlay muted loop>
-          <source src={myvid} type="video/mp4" />
-          Your browser does not support the video tag.
+              <source src={myvid} type="video/mp4" />
+              Your browser does not support the video tag.
           </video>
 
           <div className="absolute inset-0 bg-black opacity-30"></div>  
@@ -78,9 +78,9 @@ const LandingPage = () => {
 
       <SecondSection />
 
-     
 
-     <ImageScroll />
+      <Projects/>
+      {/* <ImageScroll /> */}
 
     
 
@@ -104,7 +104,7 @@ const LandingPage = () => {
       </div>
 
 
-      <Projects/>
+   
       <SectionTwo />
 
     </div>
