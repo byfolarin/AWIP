@@ -1,6 +1,10 @@
 import React from 'react'
 
 const Projects = () => {
+
+
+
+
   return (
     <div className='my-12'>
       <h1 className='text-[160px] my-12 text-[#561D0A] mx-4 font-extralight tracking-tighter font-interTight leading-[1.00]'>Projects</h1>
