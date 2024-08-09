@@ -5,6 +5,7 @@ import myvid from './Hvideo.mp4'
 import ImageScroll from './ImageScroll';
 import AWIP4 from './AWIP4.jpg'
 import Projects from './Projects';
+import SectionTwo from './SectionTwo';
 
 
 
@@ -110,6 +111,7 @@ const LandingPage = () => {
 
 
       <Projects/>
+      <SectionTwo />
 
     </div>
   )
