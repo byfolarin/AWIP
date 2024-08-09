@@ -13,7 +13,7 @@ const Projects = () => {
     { title: "Verraki", description: "Lorem ipsum dolor sit amet consectetur. Mattis egestas ut arcu scelerisque orci mauris. Scelerisque aenean lobortis volutpat in quam. Sit velit libero varius hendrerit egestas aenean.", image: AWIP1 },
     { title: "Afya Care", description: "Lorem ipsum dolor sit amet consectetur. Mattis egestas ut arcu scelerisque orci mauris. Scelerisque aenean lobortis volutpat in quam. Sit velit libero varius hendrerit egestas aenean.", image: AWIP2 },
     { title: "Bastion HMO", description: "Lorem ipsum dolor sit amet consectetur. Mattis egestas ut arcu scelerisque orci mauris. Scelerisque aenean lobortis volutpat in quam. Sit velit libero varius hendrerit egestas aenean.", image: AWIP3 },
-    { title: "Eagle Consulting", description: "Lorem ipsum dolor sit amet consectetur. Mattis egestas ut arcu scelerisque orci mauris. Scelerisque aenean lobortis volutpat in quam. Sit velit libero varius hendrerit egestas aenean.", image: AWIP4 },
+    { title: "Mummy Delicious", description: "Lorem ipsum dolor sit amet consectetur. Mattis egestas ut arcu scelerisque orci mauris. Scelerisque aenean lobortis volutpat in quam. Sit velit libero varius hendrerit egestas aenean.", image: AWIP4 },
   ]
 
   useEffect(() => {
@@ -24,11 +24,11 @@ const Projects = () => {
 
   return (
     <div className='my-12 overflow-hidden' ref={containerRef}>
-      <h1 className='text-[160px] my-12 text-[#561D0A] mx-4 font-extralight tracking-[-0.11em]
+      <h1 className='text-[160px] my-[64px] text-[#561D0A] mx-4 font-extralight tracking-[-0.11em]
        font-interTight leading-[1.00]'>PROJECTS</h1>
       
       <motion.div 
-        className='flex gap-[64px] cursor-grab active:cursor-grabbing'
+        className='flex gap-[64px] cursor-grab  active:cursor-grabbing'
         drag="x"
         dragConstraints={{ right: 0, left: -width }}
         dragElastic={0.1}
@@ -42,7 +42,7 @@ const Projects = () => {
             </div>
 
             <div className='w-[423px]'>
-              <h2 className='text-[#561D0A] text-[64px] font-interTight '>{item.title}</h2>
+              <h2 className='text-[#561D0A] text-[64px] leading-[1.00] font-interTight '>{item.title}</h2>
               <p>{item.description}</p>
             </div>
           </motion.div>
