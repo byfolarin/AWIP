@@ -3,6 +3,8 @@ import Img from './image.png'
 import { motion, useScroll, useTransform } from "framer-motion";
 import myvid from './Hvideo.mp4'
 import ImageScroll from './ImageScroll';
+import AWIP1 from './AWIP1.jpg'
+import AWIP2 from './AWIP2.jpg'
 import AWIP4 from './AWIP4.jpg'
 import Projects from './Projects';
 import SectionTwo from './SectionTwo';
@@ -78,12 +80,12 @@ const LandingPage = () => {
 
       <SecondSection />
 
-
-
-
-
       <Projects/>
+    
+
       <Achievements />
+
+  
 
          <div className='w-full max-w-screen flex justify-end  py-11 px-8'>
             
@@ -102,13 +104,14 @@ const LandingPage = () => {
 
         <div className=' w-[50%] bg-[#343434] h-[450px]'>
           
-        <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+        <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
         </div>
 
 
 
       </div>
 
+    
 
    
       <SectionTwo />

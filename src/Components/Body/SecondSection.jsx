@@ -1,24 +1,34 @@
-import React from 'react'
+import React from 'react';
+import { motion, useInView } from 'framer-motion';
 
-const SecondSection = () => {
+const Section = () => {
+  const ref = React.useRef(null);
+  const isInView = useInView(ref, { triggerOnce: true });
+
   return (
     <div className='bg-[#561D0A]'>
-       <div className='w-full max-w-screen flex justify-between gap-11 py-32 px-8'>
-
+      <div className='w-full max-w-screen flex justify-between gap-11 py-32 px-8' ref={ref}>
         <p className='text-[#F8FAFC] text-[16px] font-interTight'>Introduction</p>
-    
-        <p className='w-3/5 text-[#F8FAFC] text-[30px] tracking-tighter font-interTight font-light'>
+
+        <motion.p
+          className='w-3/5 text-[#F8FAFC] text-[30px] tracking-tighter font-interTight font-light'
+          initial={{ opacity: 0, y: 50 }} // Start text 50px below
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // Move text up to its original position
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           The AWIP is a modern interpretation of typography found in classic architecture, traditionally etched into stone. This narrative reflected Little Project Co's established history, while maintaining a progressive focus on the future.
           <br />
           <br />
-
-          <hr className='py-8' />
-        </p>
-
-        
+          <motion.hr
+            initial={{ width: 0 }}
+            animate={isInView ? { width: '100%' } : { width: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className='py-8'
+          />
+        </motion.p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SecondSection
+export default Section;
