@@ -33,24 +33,28 @@ const ImageScroll = () => {
                          <div className="bg-[#d7d7d7] h-[500px]">
                             <img src={AWIP1}  alt=""  className='w-full h-full object-cover'/>
                          </div>
+                         <h2>Verraki Homes</h2>
                      </div>
 
                      <div className="w-[600px] flex-shrink-0 ">
                          <div className="bg-[#d7d7d7] h-[500px]">
                          <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
                          </div>
+                         <h2>Verraki Homes</h2>
                      </div>
 
                      <div className="w-[600px] flex-shrink-0 ">
                          <div className="bg-[#d7d7d7] h-[500px]">
                          <img src={AWIP3}  alt=""  className='w-full h-full object-cover'/>
                          </div>
+                         <h2 className='text-[#561D0A] text-[32px] leading-[1.00] font-interTight pt-6 '>Verraki Partners</h2>
                      </div>
 
                      <div className="w-[600px] flex-shrink-0 ">
                          <div className="bg-[#d7d7d7] h-[500px]">
                          <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
                          </div>
+                         <h2>Verraki Homes</h2>
                      </div>
 
 
