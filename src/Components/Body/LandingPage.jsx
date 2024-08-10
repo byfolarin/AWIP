@@ -84,8 +84,23 @@ const LandingPage = () => {
       <Projects/>
 
 
-      <div>
-        
+      <div className='flex justify-between align-middle px-6'>
+
+        <div className='flex'>
+         <h1 className='text-[320px] font-interTight'>12</h1> 
+         <p>Year building Sustainable Products</p>
+        </div>
+
+        <div className='flex'>
+        <h1 className='text-[320px] font-interTight'>12</h1> 
+        <p>Year building Sustainable Products</p>
+        </div>
+
+        <div className='flex'>
+        <h1 className='text-[320px] font-interTight'>12</h1> 
+        <p>Year building Sustainable Products</p>
+        </div>
+
       </div>
 
 
