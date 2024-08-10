@@ -7,6 +7,7 @@ import AWIP4 from './AWIP4.jpg'
 import Projects from './Projects';
 import SectionTwo from './SectionTwo';
 import SecondSection from './SecondSection';
+import Achievements from './Achievements';
 
 
 
@@ -82,46 +83,30 @@ const LandingPage = () => {
 
 
       <Projects/>
+      <Achievements />
 
-
-      <div className='flex justify-between align-middle px-6'>
- 
-          <div className='flex border-r '>
-              <h1 className='text-[320px] font-interTight text-[#561D0A]'>12</h1> 
-              <p>Year building Sustainable Products</p>
-          </div>
-
-         
-          <div className='flex border-r '>
-              <h1 className='text-[320px] font-interTight text-[#561D0A]'>12</h1> 
-              <p>Year building Sustainable Products</p>
-          </div>
-
-          
-          <div className='flex border-r '>
-              <h1 className='text-[320px] font-interTight text-[#561D0A]'>12</h1> 
-              <p>Year building Sustainable Products</p>
-          </div>
-
-      </div>
-
-
-         {/* <div className='w-full max-w-screen flex justify-between items-start gap-11 py-2 px-8'>
-            <h2 className='text-[48px] 3/5 text-[#00000048] font-interTight font-light tracking-tighter leading-tight'>
-              OUR MISSION
-            </h2>
+         <div className='w-full max-w-screen flex justify-end  py-11 px-8'>
+            
             <p className='w-3/5 text-[24px] tracking-tight font-interTight font-light'>
               The AWIP is a modern interpretation of typography found in classic architecture, traditionally etched into stone. This narrative reflected Little Project Co's established history, while maintaining a progressive focus on the future.
             </p>
-      </div> */}
+      </div>
 
 
       <div 
-      className='w-full max-w-screen'>
-        <div className=' bg-[#343434] h-[500px]'>
+      className='w-full flex gap-4'>
+        <div className=' w-[50%] bg-[#343434] h-[750px]'>
           
         <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
         </div>
+
+        <div className=' w-[50%] bg-[#343434] h-[450px]'>
+          
+        <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+        </div>
+
+
+
       </div>
 
 
