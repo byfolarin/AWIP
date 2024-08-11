@@ -30,16 +30,20 @@ const Projects = () => {
         PROJECTS
       </motion.h1>
        
-      <motion.hr 
-        ref={lineRef}
-        className='mx-6 #561D0A'
-        initial="hidden"
-        animate={isLineInView ? "visible" : "hidden"}
-        variants={lineVariants}
-        style={{ originX: 0 }}
-      />
+      <motion.hr
+          ref={lineRef}
+          className='mx-6'  // Assuming you don't want a custom class for background color
+          style={{
+            height: '2px',  backgroundColor: 'grey',  }}
+          initial="hidden"
+          animate={isLineInView ? "visible" : "hidden"}
+          variants={lineVariants}
+        />
+
 
       <ImageScroll />
+
+
 
       {/* <ProjectsComponent /> */}
     </div>

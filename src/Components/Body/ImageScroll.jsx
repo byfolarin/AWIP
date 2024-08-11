@@ -10,25 +10,27 @@ const ImageScroll = () => {
     const constraintsRef = useRef(null);
 
     return (
-        <div className=" overflow-x-none justify-center items-center" ref={constraintsRef}>
-            <div className="flex gap-4 p-10">
-                <div className="w-[350px] flex-shrink-0">
+        <div className=" justify-center items-center" ref={constraintsRef}>
+
+            <div className="flex gap-4 py-10 mx-10">
+
+                <div className="w-[350px] ">
                     <div className="bg-[#d7d7d7] h-[500px]">
-                        <img src={AWIP1} alt="" className='w-full h-full object-cover'/>
+                        <img src={AWIP1} alt="" className='w-full h-full object-cover hover:blur-sm'/>
                     </div>
                     <h2 className='text-[#561D0A] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki Homes</h2>
                 </div>
 
-                <div className="w-[600px] flex-shrink-0">
+                <div className="w-[600px] ">
                     <div className="bg-[#d7d7d7] h-[500px]">
-                        <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+                        <img src={AWIP2} alt="" className='w-full h-full object-cover hover:blur-sm'/>
                     </div>
                     <h2 className='text-[#561D0A] text-[32px] leading-[1.00] font-interTight pt-6'>Afya Care</h2>
                 </div>
 
-                <div className="w-[350px] flex-shrink-0">
+                <div className="w-[350px] " >
                     <div className="bg-[#d7d7d7] h-[500px]">
-                        <img src={AWIP3} alt="" className='w-full h-full object-cover'/>
+                        <img src={AWIP3} alt="" className='w-full h-full object-cover hover:blur-sm '/>
                     </div>
                     <h2 className='text-[#561D0A] text-[32px] leading-[1.00] font-interTight pt-6'>Bastion HMO</h2>
                 </div>
