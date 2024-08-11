@@ -5,6 +5,7 @@ import AWIP1 from './AWIP1.jpg'
 import AWIP2 from './AWIP2.jpg'
 import AWIP3 from './AWIP3.jpg'
 import AWIP4 from './AWIP4.jpg'
+import ImageScroll from './ImageScroll'
 
 const Projects = () => {
 
@@ -17,7 +18,10 @@ const Projects = () => {
 
        <hr className='mx-6' />
 
-       <ProjectsComponent />
+       <ImageScroll />
+
+
+       {/* <ProjectsComponent /> */}
     </div>
   )
 }
