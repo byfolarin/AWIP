@@ -32,7 +32,7 @@ const Projects = () => {
        
       <motion.hr 
         ref={lineRef}
-        className='mx-6'
+        className='mx-6 #561D0A'
         initial="hidden"
         animate={isLineInView ? "visible" : "hidden"}
         variants={lineVariants}

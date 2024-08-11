@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
 
 const CountUp = ({ end, duration = 2 }) => {
+    
   const [count, setCount] = useState(0)
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
@@ -35,6 +36,7 @@ const CountUp = ({ end, duration = 2 }) => {
 }
 
 const AchievementItem = ({ number, text, showBorder = true }) => {
+
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
   const controls = useAnimation()
@@ -50,6 +52,7 @@ const AchievementItem = ({ number, text, showBorder = true }) => {
 
   return (
     <div className='flex relative' ref={ref}>
+
       {showBorder && (
         <motion.div 
           className='absolute top-0 right-0 w-[1px] bg-[#D8D8D8]'
@@ -57,11 +60,14 @@ const AchievementItem = ({ number, text, showBorder = true }) => {
           animate={controls}
         />
       )}
+
       <h1 className='text-[320px] font-interTight text-[#561D0A]'>
         <CountUp end={number} />
         {number > 9 ? '+' : ''}
       </h1> 
+
       <p className='font-interTight w-[128px]'>{text}</p>
+
     </div>
   )
 }
