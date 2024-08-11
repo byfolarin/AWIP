@@ -10,7 +10,7 @@ const ImageScroll = () => {
     const constraintsRef = useRef(null);
 
     return (
-        <div className=" overflow-x-none" ref={constraintsRef}>
+        <div className=" overflow-x-none justify-center items-center" ref={constraintsRef}>
             <div className="flex gap-4 p-10">
                 <div className="w-[350px] flex-shrink-0">
                     <div className="bg-[#d7d7d7] h-[500px]">
