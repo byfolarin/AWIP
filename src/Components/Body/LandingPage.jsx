@@ -11,6 +11,7 @@ import SectionTwo from './SectionTwo';
 import SecondSection from './SecondSection';
 import Achievements from './Achievements';
 import TextRead from './TextRead';
+import Footer from './Footer';
 
 
 
@@ -82,7 +83,7 @@ const LandingPage = () => {
       <SecondSection />
       <Projects/>
       <Achievements />
-        <TextRead />
+      <TextRead />
   
 
 
@@ -104,9 +105,10 @@ const LandingPage = () => {
       </div>
 
     
-
-   
+     
       <SectionTwo />
+      <Footer />
+   
 
     </div>
   )
