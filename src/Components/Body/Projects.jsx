@@ -22,7 +22,7 @@ const Projects = () => {
     <div className='my-12 overflow-hidden'>
       <motion.h1 
         ref={titleRef}
-        className='text-[160px] my-[64px] text-[#561D0A] mx-4 font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'
+        className='text-[160px] my-[64px] text-[#561D0A] mx-4 font-light tracking-[-0.11em] font-interTight leading-[1.00]'
         initial="hidden"
         animate={isTitleInView ? "visible" : "hidden"}
         variants={titleVariants}
