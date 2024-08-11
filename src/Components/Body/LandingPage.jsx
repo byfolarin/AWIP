@@ -86,8 +86,9 @@ const LandingPage = () => {
   
 
 
-      <div 
-      className='w-full flex gap-4'>
+        {/* <h1 className='text-[128px] font-interTight text-[#561D0A] font-light'>ELEGANCE</h1> */}
+
+      <div className='w-full flex gap-4'>
         <div className=' w-[50%] bg-[#343434] h-[750px]'>
           
         <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
