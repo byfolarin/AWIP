@@ -12,7 +12,7 @@ const ImageScroll = () => {
     return (
         <div className=" justify-center items-center" ref={constraintsRef}>
 
-            <div className="flex gap-4 py-10 mx-10">
+            <div className="flex gap-4 py-10 mx-4">
 
                 <div className="w-[350px] ">
                     <div className="bg-[#d7d7d7] h-[500px]">
