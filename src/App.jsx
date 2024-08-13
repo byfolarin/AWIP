@@ -24,7 +24,7 @@ function App() {
 
   return (
     <Router>
-      <div className='h-full bg-[#FFFDF0]'> 
+      <div className='max-h-full bg-[#FFFDF0]'> 
         {isNavOpen &&
           <Nav 
             isHovered={isHovered} 
@@ -43,10 +43,10 @@ function App() {
         </div>
 
         <Routes>
-          <Route path='/' element={<LandingPage />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/projectss' element={<ProjectsSpace />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/' element={<LandingPage/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/projectss' element={<ProjectsSpace/>} />
+          <Route path='/contact' element={<Contact/>} />
         </Routes>
         
       </div>
