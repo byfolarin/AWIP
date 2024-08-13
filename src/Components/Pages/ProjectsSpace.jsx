@@ -1,13 +1,25 @@
-import React from 'react'
-import { motion } from "framer-motion"
+import React, { useRef } from 'react'
+import { motion, useInView } from 'framer-motion'
+import ImageScroll from '../Body/ImageScroll'
 
-const Projects = () => {
+const ProjectsSpace = () => {
+  const titleRef = useRef(null)
+  const lineRef = useRef(null)
+  const isTitleInView = useInView(titleRef, { once: true, amount: 0.5 })
+  const isLineInView = useInView(lineRef, { once: true, amount: 0.5 })
+
+  const titleVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } }
+  }
+
+  const lineVariants = {
+    hidden: { scaleX: 0 },
+    visible: { scaleX: 1, transition: { duration: 0.9, ease: 'easeInOut' } }
+  }
+
   return (
-    <div>
-      <div className='my-12 overflow-hidden  mx-4'>
-
-
-
+    <div className='my-12 overflow-hidden  mx-4'>
       <motion.h1 
         ref={titleRef}
         className='text-[160px] text-[#561D0A] font-light tracking-[-0.11em] font-interTight leading-[1.00]'
@@ -39,8 +51,7 @@ const Projects = () => {
 
       {/* <ProjectsComponent /> */}
     </div>
-    </div>
   )
 }
 
-export default Projects
+export default ProjectsSpace

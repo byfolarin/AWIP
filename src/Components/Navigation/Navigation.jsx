@@ -61,7 +61,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
                 </motion.li>
               </Link>
 
-
+              <Link to={'about'}>
               <motion.li
                 whileHover={{ x: 10 }} 
                 className='text-[42px]  font-interTight text-[#561D0A] font-light '
@@ -69,6 +69,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
                 onMouseLeave={() => setIsHovered([Default])} >
                 About
               </motion.li>
+              </Link>
 
 
               <motion.li 
