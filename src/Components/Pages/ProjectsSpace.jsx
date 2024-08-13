@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import ImageScroll from '../Body/ImageScroll'
+import ImgScro from '../Body/ImgScro'
 
 const ProjectsSpace = () => {
   const titleRef = useRef(null)
@@ -45,7 +45,7 @@ const ProjectsSpace = () => {
         />
 
 
-      <ImageScroll />
+      <ImgScro/>
 
 
 
