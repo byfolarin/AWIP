@@ -89,9 +89,9 @@ const Navigation = ({ setIsHovered, closeNav }) => {
             
             <ul className=' font-interTight text-[16px] pt-4 gap-2 tracking-normal cursor-pointer text-[#561D0A]'>
               <li className='text-[24px]'>Socials</li>
-              <li>Instagram</li>
-              <li>Facebook</li>
-              <li>LinkedIn</li>
+              <li className='text-[14px]'>Instagram</li>
+              <li className='text-[14px]'>Facebook</li>
+              <li className='text-[14px]'>LinkedIn</li>
             </ul>
 
             </div>
