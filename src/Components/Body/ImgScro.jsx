@@ -32,7 +32,7 @@ const ImgScro = () => {
                     <div className="bg-[#d7d7d7] h-[500px]">
                         <img src={AWIP1} alt="" className='w-full h-full object-cover'/>
                     </div>
-                    <h2 className='text-[#561D0A] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki Homes</h2>
+                    <h2 className='text-[#561D0A] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki</h2>
                 </div>
 
                 <div className="w-[600px] inline-block">
