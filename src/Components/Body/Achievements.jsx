@@ -61,7 +61,7 @@ const AchievementItem = ({ number, text, showBorder = true }) => {
         />
       )}
 
-      <h1 className='text-[320px] font-interTight text-[#561D0A]'>
+      <h1 className='text-[320px] font-interTight text-[#000000]'>
         <CountUp end={number} />
         {number > 9 ? '+' : ''}
       </h1> 

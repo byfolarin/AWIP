@@ -6,12 +6,12 @@ const Section = () => {
   const isInView = useInView(ref, { triggerOnce: true });
 
   return (
-    <div className='bg-[#561D0A]'>
+    <div className='bg-[#ffffff]'>
       <div className='w-full max-w-screen flex justify-between gap-11 py-32 px-8' ref={ref}>
         <p className='text-[#F8FAFC] text-[16px] font-interTight'>INTRODUCTION</p>
 
         <motion.p
-          className='w-3/5 text-[#F8FAFC] text-[30px] tracking-tighter font-interTight font-light'
+          className='w-3/5 text-[#000000] text-[30px] tracking-tighter font-interTight font-light'
           initial={{ opacity: 0, y: 50 }} // Start text 50px below
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // Move text up to its original position
           transition={{ duration: 0.8, delay: 0.2 }}

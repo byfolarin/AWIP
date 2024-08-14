@@ -86,13 +86,27 @@ const Navigation = ({ setIsHovered, closeNav }) => {
             </div>
 
             <hr className='w-full border-[#561D0A] h-1 my-4' />
-            
-            <ul className=' font-interTight text-[16px] pt-4 gap-2 tracking-normal cursor-pointer text-[#561D0A]'>
+
+            <div className='flex justify-between'>
+
+            <ul className=' font-interTight text-[16px] gap-2 tracking-normal cursor-pointer text-[#000000]'>
               <li className='text-[24px]'>Socials</li>
               <li className='text-[14px]'>Instagram</li>
               <li className='text-[14px]'>Facebook</li>
               <li className='text-[14px]'>LinkedIn</li>
             </ul>
+
+
+            <ul className=' font-interTight text-[16px]  gap-2 tracking-normal cursor-pointer text-[#000000]'>
+              <li className='text-[24px]'>Work</li>
+              <li className='text-[14px]'>hello@awip.com.ng</li>
+              <li className='text-[14px]'>323 Main Street, Los Angeles, CA 90001</li>
+              <li className='text-[14px]'>+1 (555) 123-4567</li>
+             
+            </ul>
+            </div>
+            
+          
 
             </div>
            
