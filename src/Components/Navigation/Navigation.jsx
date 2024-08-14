@@ -25,7 +25,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
        
           <div 
-            className=' bg-[#FFFDF0] w-1/3 h-screen px-11 py-8 '>
+            className=' bg-[#ffffff] w-1/3 h-screen px-11 py-8 '>
             
 
               <div className='flex justify-end py-2 cursor-pointer'>
@@ -88,9 +88,10 @@ const Navigation = ({ setIsHovered, closeNav }) => {
             <hr className='w-full border-[#561D0A] h-1 my-4' />
             
             <ul className=' font-interTight text-[16px] pt-4 gap-2 tracking-normal cursor-pointer text-[#561D0A]'>
-              <li>Service</li>
-              <li>Culture</li>
-              <li>Clients</li>
+              <li className='text-[24px]'>Socials</li>
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
             </ul>
 
             </div>
