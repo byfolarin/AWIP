@@ -13,7 +13,7 @@ const Header = () => {
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-95%"]);
   
     // Split the h1 text into words
-    const words = "ARCHITECTURE WORK IN PROGRESS".split(" ");
+    const words = "ARCHITECTURE, WORK IN PROGRESS".split(" ");
   return (
     <div>
 
@@ -26,7 +26,7 @@ const Header = () => {
 
 
 
-          <h1 className='hidden lg:block  lg:text-[#561D0A] lg:text-[160px] lg:font-extralight lg:tracking-[-0.11em] lg:font-interTight lg:leading-[1.00]'>
+          <h1 className='hidden lg:block  lg:text-[#ffffff] absolute lg:text-[128px] lg:font-extralight lg:tracking-[-0.11em] lg:font-interTight lg:leading-[1.00] z-50'>
             {words.map((word, index) => (
               <motion.span
                 key={index}
@@ -44,9 +44,6 @@ const Header = () => {
             ))}
           </h1>
 
-
-          <h1 className='sm:hidden text-[#000000] text-[160px] 
-          font-extralight tracking-[-0.11em] font-interTight leading-[1.00]'>AWIP</h1>
 
 
         </div>
@@ -66,7 +63,7 @@ const Header = () => {
                 delay: 0.7,
                 ease: "easeOut"
             }}
-                    className='w-full max-w-screen absolute'>
+                    className='w-full max-w-screen'>
 
                 <div className=' bg-[#343434] h-[550px] relative'>
                 <video  className=" w-full h-full object-cover" autoPlay muted loop>
