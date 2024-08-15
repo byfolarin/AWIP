@@ -22,7 +22,7 @@ const Projects = () => {
     <div className='my-12 overflow-hidden  mx-4'>
       <motion.h1 
         ref={titleRef}
-        className='text-[160px] text-[#561D0A] font-light tracking-[-0.06em] font-interTight leading-[1.00]'
+        className='text-[124px] text-[#000000] font-light tracking-[-0.06em] font-interTight leading-[1.00]'
         initial="hidden"
         animate={isTitleInView ? "visible" : "hidden"}
         variants={titleVariants}
@@ -31,7 +31,7 @@ const Projects = () => {
       </motion.h1>
 
       <p className='w-2/3 mx-4 py-2 text-[#0000009c]'>
-      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br /> demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. 
+      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br /> demonstrate the. 
       </p>
        
       <motion.hr
