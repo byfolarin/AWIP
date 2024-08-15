@@ -14,14 +14,14 @@ const Services = () => {
     <div>
          
 
-<div className='w-full flex gap-4'>
-      <div className=' w-[50%] bg-[#343434] h-[750px]'>            
-          <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+          <div className='w-full flex gap-4'>
+                <div className=' w-[50%] bg-[#343434] h-[750px]'>            
+                    <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+                    </div>
+                    <div className=' w-[50%] bg-[#343434] h-[450px]'>
+                    <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+                </div>
           </div>
-          <div className=' w-[50%] bg-[#343434] h-[450px]'>
-          <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
-      </div>
-</div>
     </div>
   )
 }
