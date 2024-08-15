@@ -40,11 +40,11 @@ const TextRead = () => {
 
       <div className='py-16'>
          <hr />
-         <h2 className='text-[24px] py-8 px-16 font-interTight font-light'>Sustainability Design</h2>
+         <h2 className='text-[24px] py-8 px-16 font-interTight font-light cursor-pointer'>Sustainability Design</h2>
          <hr />
-         <h2 className='text-[24px] py-8 px-16 font-interTight font-light'>Architectural Design</h2>
+         <h2 className='text-[24px] py-8 px-16 font-interTight font-light cursor-pointe'>Architectural Design</h2>
          <hr />
-         <h2 className='text-[24px] py-8 px-16 font-interTight font-light'>Interior Design</h2>
+         <h2 className='text-[24px] py-8 px-16 font-interTight font-light cursor-pointe'>Interior Design</h2>
          <hr />
       </div>
 
