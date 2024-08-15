@@ -69,16 +69,19 @@ const Header = () => {
                 delay: 0.7,
                 ease: "easeOut"
             }}
-                    className='w-full max-w-screen'>
+                    className='w-full max-w-screen '>
 
                 <div className=' bg-[#343434] h-[750px] relative'>
-                <video  className=" w-full h-full object-cover" autoPlay muted loop>
-                    <source src={myvid} type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                    <video  className=" w-full h-full object-cover" autoPlay muted loop>
+                        <source src={myvid} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
 
-                <div className="absolute inset-0 bg-black opacity-30"></div>  
+                <div className="absolute inset-0 bg-black opacity-40"></div> 
                 </div>
+
+
+            
 
             </motion.div>
     </div>

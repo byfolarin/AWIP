@@ -7,7 +7,7 @@ const Section = () => {
 
   return (
     <div className='bg-[#ffffff]'>
-      <div className='w-full max-w-screen flex justify-between gap-11 py-32 px-8' ref={ref}>
+      <div className='w-full max-w-screen flex justify-between gap-11 py-11 px-8' ref={ref}>
         <p className='text-[#F8FAFC] text-[16px] font-interTight'>INTRODUCTION</p>
 
         <motion.p
@@ -23,7 +23,7 @@ const Section = () => {
             initial={{ width: 0 }}
             animate={isInView ? { width: '100%' } : { width: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className='py-8'
+            className='py-2'
           />
         </motion.p>
       </div>

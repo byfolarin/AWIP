@@ -6,9 +6,14 @@ const SectionTwo = () => {
   return (
     <div>
        <div className='w-full max-w-screen mt-[64px]'>
-        <div className='bg-[#343434] h-[500px]'>
-          <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
-        </div>
+
+          <div className='bg-[#343434] relative h-[700px]'>
+            <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+            <div className="absolute inset-0 bg-black opacity-30"></div> 
+          </div>
+
+          <p className='text-[black] '>"The way forward is to make a way, design, sketch anything that transcends design and time"</p>
+
       </div>
     </div>
   )

@@ -24,6 +24,7 @@ const LandingPage = () => {
     <div className='w-screen bg-[#ffffff] m-0 p-0 scroll-smooth overflow-hidden '>
       <Header/>
       <SecondSection/>
+      <SectionTwo/>
       <Achievements/>
       <Projects/>
       <TextRead/>
