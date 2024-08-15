@@ -12,6 +12,7 @@ import TextRead from './TextRead';
 import Footer from './Footer';
 import Header from './Header';
 import Services from './Services';
+import SecondSectionAgain from './SecondSectionAgain';
 
 
 
@@ -26,6 +27,7 @@ const LandingPage = () => {
       <SecondSection/>
       <SectionTwo/>
       <Achievements/>
+      <SecondSectionAgain/>
       <Projects/>
       <TextRead/>
       <Services/>

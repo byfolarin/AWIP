@@ -7,7 +7,7 @@ const Section = () => {
 
   return (
     <div className='bg-[#ffffff]'>
-      <div className='w-full max-w-screen flex justify-between gap-11 py-11 px-8' ref={ref}>
+      <div className='w-full max-w-screen flex justify-between gap-11 pt-16 px-8' ref={ref}>
         <p className='text-[#F8FAFC] text-[16px] font-interTight'>INTRODUCTION</p>
 
         <motion.p

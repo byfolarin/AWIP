@@ -46,11 +46,7 @@ const Header = () => {
                 
               </motion.span>
             ))}
-          </h1>
-
-          <div className='w-3 h-3 bg-slate-500 '></div>
-
-            
+          </h1>       
 
         </div>
 
