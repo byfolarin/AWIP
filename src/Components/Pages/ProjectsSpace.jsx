@@ -10,7 +10,7 @@ const ProjectsSpace = () => {
 
   return (
     <div className='my-12 overflow-hidden mx-4'>
-      <h1 className='text-[64px] text-[#000000]  tracking-[-0.05em] font-interTight leading-[1.00]'
+      <h1 className='text-[164px] text-[#000000]  tracking-[-0.05em] font-interTight leading-[1.00]'
         
       >
         Selected Projects
@@ -66,7 +66,7 @@ const ProjectsSpace = () => {
 
              <div  className='flex justify-start gap-4'>
               <p className='font-mono'>02</p>
-              <div className='w-[70%]' >
+              <div className='w-[100%]' >
                 <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Verraki Partners</h1>
               </div>
               </div>
@@ -112,10 +112,11 @@ const ProjectsSpace = () => {
 
            <div className='flex justify-between items-center'>
 
-
-              <p>01</p>
-              <div className='w-[70%]' >
-                <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Bastion Health</h1>
+              <div className='flex justify-start gap-4'>
+                <p>03</p>
+                <div className='w-[100%]' >
+                  <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Bastion Health</h1>
+                </div>
               </div>
             
             <div className='w-[30%]' >
