@@ -10,7 +10,7 @@ const ProjectsSpace = () => {
 
   return (
     <div className='my-12 overflow-hidden mx-4'>
-      <h1 className='text-[124px] text-[#000000] font-light tracking-[-0.06em] font-interTight leading-[1.00]'
+      <h1 className='text-[64px] text-[#000000]  tracking-[-0.05em] font-interTight leading-[1.00]'
         
       >
         Selected Projects
@@ -25,7 +25,7 @@ const ProjectsSpace = () => {
       <div className='flex justify-between items-center'>
 
               <div >
-                <h1 className='text-[128px] font-interTight  tracking-[-0.06em]'>Afya Care</h1>
+                <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Afya Care</h1>
               </div>
 
               <p className='text-[#2020209c]'>
@@ -36,38 +36,55 @@ const ProjectsSpace = () => {
 
 
               <div className='w-full flex gap-4'>
-                        <div className=' w-[50%] bg-[#343434] h-[750px]'>            
+                        <div className=' w-[30%] bg-[#343434] h-[750px]'>            
                             <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
                             </div>
-                            <div className=' w-[50%] bg-[#343434] h-[450px]'>
+                            <div className=' w-[70%] bg-[#343434] h-[750px]'>
                             <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
                         </div>
         </div>
 
-          <hr className='mx-4'/>
+
+
+
+
+
+
+
+          <hr className='mx-4 my-7'/>
+
+
+
+
 
 
 
            <div className='flex justify-between items-center'>
 
-              <div >
-                <h1 className='text-[128px] font-interTight  tracking-[-0.06em]'>Afya Care</h1>
+              <div className='w-[70%]' >
+                <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Verraki Partners</h1>
               </div>
-
+            
+            <div className='w-[30%]' >
               <p className='text-[#2020209c]'>
-              In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br /> demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. 
+              In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to  demonstrate the visual
               </p>
-
               </div>
 
+          </div>
 
-              <div className='w-full flex gap-4'>
-                        <div className=' w-[50%] bg-[#343434] h-[750px]'>            
-                            <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
-                            </div>
-                            <div className=' w-[50%] bg-[#343434] h-[450px]'>
-                            <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
-                        </div>
+
+        <div className='w-full flex gap-4'>
+
+           <div className=' w-[70%] bg-[#343434] h-[750px]'>            
+                 <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+            </div>
+
+
+            <div className=' w-[30%] bg-[#343434] h-[750px]'>
+                 <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+            </div>
+
           </div>
       
 
