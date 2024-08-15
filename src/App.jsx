@@ -26,6 +26,8 @@ function App() {
     
     <Router>
       <div className='max-h-full '> 
+
+        
         {isNavOpen &&
           <Nav 
             isHovered={isHovered} 

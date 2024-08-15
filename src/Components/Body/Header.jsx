@@ -24,7 +24,7 @@ const Header = () => {
 
 
 
-        <div className='w-fit pl-11 absolute'>
+        <div className='w-fit pl-11'>
 
 
 
@@ -47,6 +47,8 @@ const Header = () => {
               </motion.span>
             ))}
           </h1>
+
+          <div className='w-3 h-3 bg-slate-500 '></div>
 
             
 
