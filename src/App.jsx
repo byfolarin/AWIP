@@ -23,6 +23,7 @@ function App() {
   };
 
   return (
+    
     <Router>
       <div className='max-h-full '> 
         {isNavOpen &&

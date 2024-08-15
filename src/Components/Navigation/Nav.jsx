@@ -13,7 +13,7 @@ const Nav = ({ isHovered, setIsHovered, closeNav }) => {
 
   return (
     <motion.div 
-      className='flex fixed justify-end w-full z-[50] bg-[#000000b3] right-0 overflow-hidden overflow-y-hidden'
+      className='flex fixed justify-end w-full z-[9999] bg-[#000000b3] right-0 overflow-hidden overflow-y-hidden'
       variants={variants}
       initial="initial"
       animate="animate"

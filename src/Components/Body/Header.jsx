@@ -26,7 +26,8 @@ const Header = () => {
 
 
 
-          <h1 className='hidden lg:block  lg:text-[#ffffff] absolute lg:text-[128px] lg:font-extralight lg:tracking-[-0.11em] lg:font-interTight lg:leading-[1.00] z-50'>
+          <h1 className='hidden lg:block  lg:text-[#ffffff] absolute lg:text-[128px]
+           lg:font-extralight lg:tracking-[-0.11em] lg:font-interTight lg:leading-[1.00] z-50'>
             {words.map((word, index) => (
               <motion.span
                 key={index}
