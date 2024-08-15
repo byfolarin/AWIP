@@ -20,7 +20,7 @@ const TextRead = () => {
 
      
 
-          <div className='w-full max-w-screen flex-col flex-end py-11 px-8'>
+          <div className='w-full max-w-screen flex-col flex-end py-11 pl-64 px-8'>
 
             <motion.h1 
               ref={titleRef}
@@ -36,8 +36,19 @@ const TextRead = () => {
             <p className='w-3/5 text-[24px] tracking-tight font-interTight font-light'>
               The AWIP is a modern interpretation of typography found in classic architecture, traditionally etched into stone. This narrative reflected Little Project Co's established history, while maintaining a progressive focus on the future.
             </p>
-     
          </div>
+
+      <div className='py-16'>
+         <hr />
+         <h2 className='text-[24px] py-8 px-16 font-interTight font-light'>Sustainability Design</h2>
+         <hr />
+         <h2 className='text-[24px] py-8 px-16 font-interTight font-light'>Architectural Design</h2>
+         <hr />
+         <h2 className='text-[24px] py-8 px-16 font-interTight font-light'>Interior Design</h2>
+         <hr />
+      </div>
+
+
     </div>
   )
 }

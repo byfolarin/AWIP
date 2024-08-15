@@ -34,15 +34,7 @@ const Projects = () => {
       In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br /> demonstrate the. 
       </p>
        
-      <motion.hr
-          ref={lineRef}
-          className='mx-4'  // Assuming you don't want a custom class for background color
-          style={{
-            height: '2px',  backgroundColor: 'grey',  }}
-          initial="hidden"
-          animate={isLineInView ? "visible" : "hidden"}
-          variants={lineVariants}
-        />
+      <hr/>
 
 
       <ImageScroll />
