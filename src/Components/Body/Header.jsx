@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { motion, useScroll, useTransform } from "framer-motion";
-import myvid from './Hvideo.mp4'
+import myvid from './Images/Hvideo.mp4'
 
 const Header = () => {
     const containerRef = useRef(null);
@@ -14,6 +14,8 @@ const Header = () => {
   
     // Split the h1 text into words
     const words = "ARCHITECTURE, WORK IN PROGRESS".split(" ");
+  
+    
   return (
     <div>
 
@@ -22,12 +24,12 @@ const Header = () => {
 
 
 
-        <div className='w-fit py-4'>
+        <div className='w-fit pl-11 absolute'>
 
 
 
           <h1 className='hidden lg:block  lg:text-[#ffffff] absolute lg:text-[128px]
-           lg:font-extralight lg:tracking-[-0.11em] lg:font-interTight lg:leading-[1.00] z-50'>
+           lg:font-extralight lg:tracking-[-0.11em] pt-10 lg:font-interTight lg:leading-[1.00] z-50'>
             {words.map((word, index) => (
               <motion.span
                 key={index}
@@ -41,11 +43,12 @@ const Header = () => {
                 className="inline-block mr-[0.1em]"
               >
                 {word}{' '}
+                
               </motion.span>
             ))}
           </h1>
 
-
+            
 
         </div>
 
@@ -66,7 +69,7 @@ const Header = () => {
             }}
                     className='w-full max-w-screen'>
 
-                <div className=' bg-[#343434] h-[550px] relative'>
+                <div className=' bg-[#343434] h-[750px] relative'>
                 <video  className=" w-full h-full object-cover" autoPlay muted loop>
                     <source src={myvid} type="video/mp4" />
                     Your browser does not support the video tag.

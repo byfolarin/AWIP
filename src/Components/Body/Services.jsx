@@ -1,6 +1,8 @@
 import React from 'react'
-import AWIP4 from './AWIP4.jpg'
-import AWIP2 from './AWIP2.jpg'
+import AWIP1 from './Images/AWIP1.jpg'
+import AWIP2 from './Images/AWIP2.jpg'
+import AWIP3 from './Images/AWIP3.jpg'
+import AWIP4 from '././Images/AWIP4.jpg'
 
 const Services = () => {
   return (

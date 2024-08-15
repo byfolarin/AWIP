@@ -1,5 +1,6 @@
 import React from 'react'
-import AWIP4 from './AWIP4.jpg'
+
+import AWIP4 from '././Images/AWIP4.jpg'
 
 const SectionTwo = () => {
   return (
