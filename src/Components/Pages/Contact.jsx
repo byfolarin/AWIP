@@ -16,15 +16,15 @@ const Contact = () => {
             <hr />
             <h2 className='text-[24px] py-8 px-16 font-interTight font-light cursor-pointe'>+234 803 3927 062 <br />
                 +1 979 7090 732 <br />
-                +234 809 230 5980n</h2>
+                +234 809 230 5980</h2>
             <hr />
-            <h2 className='text-[24px] py-8 px-16 font-interTight font-light cursor-pointe'>Interior Design</h2>
+            <h2 className='text-[24px] py-8 px-16 font-interTight font-light cursor-pointe'>12A, Alake Onileere Crescent, Gbagada, Lagos</h2>
             <hr />
           </div>
           </div>
-          <div  className='w-[50%] h-screen bg-slate-400'></div>
+          <div  className='w-[50%] h-screen bg-slate-400 sticky'></div>
 
-          
+
     </div>
   )
 }
