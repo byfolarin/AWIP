@@ -24,11 +24,11 @@ const Header = () => {
 
 
 
-        <div className='w-fit pl-11'>
+        <div className='w-fit pl-11 '>
 
 
 
-          <h1 className='hidden lg:block  lg:text-[#ffffff] absolute lg:text-[128px]
+          <h1 className='hidden lg:block mt-32  lg:text-[#ffffff] absolute lg:text-[128px]
            lg:font-extralight lg:tracking-[-0.11em] pt-10 lg:font-interTight lg:leading-[1.00] z-50'>
             {words.map((word, index) => (
               <motion.span

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom'
 import './App.css'
 import Default from './Components/Navigation/default.png'
 import LandingPage from './Components/Body/LandingPage'
@@ -37,9 +37,13 @@ function App() {
         }
 
         <div className='border w-full absolute z-[1000] border-[#d7d7d7] border-x-0 p-8 flex justify-between'>
+          
+          <Link to={"/"}>
           <div>
             <img src={Logo} alt="" className='w-14 h-14' />
           </div>
+          </Link>
+
           <div className='border border-emerald-500'>
             <OpenIcon openNav={openNav} />
           </div>
