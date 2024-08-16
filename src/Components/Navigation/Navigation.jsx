@@ -51,7 +51,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
               </motion.li>
               </Link>
 
-              <Link to={"/projectss"}>
+              <Link to={"/projects"}>
                 <motion.li 
                   whileHover={{ x: 10 }}  
                   className='text-[42px]  font-interTight text-[#561D0A] font-light' 
@@ -61,7 +61,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
                 </motion.li>
               </Link>
 
-              <Link to={'about'}>
+              <Link to={'/about'}>
               <motion.li
                 whileHover={{ x: 10 }} 
                 className='text-[42px]  font-interTight text-[#561D0A] font-light '
@@ -71,7 +71,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
               </motion.li>
               </Link>
 
-
+              <Link to={'/contact'}>
               <motion.li 
                 whileHover={{ x: 10 }} 
                 className='text-[42px]  font-interTight text-[#561D0A] font-light  ' 
@@ -79,6 +79,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
                 onMouseLeave={() => setIsHovered([Default])} >
                 Contact
               </motion.li>
+              </Link>
             </ul>
 
             
