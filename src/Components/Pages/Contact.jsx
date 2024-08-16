@@ -2,8 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-      
+    <div className='flex gap-12'>
+      <div className='w-[50%] h-screen bg-slate-400'></div>
+      <div  className='w-[50%] h-screen bg-slate-400'></div>
     </div>
   )
 }
