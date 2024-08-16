@@ -25,34 +25,26 @@ const Header = () => {
 
 
         <div className='w-fit pl-11 '>
-
-
-
-          <h1 className='hidden lg:block mt-32  lg:text-[#ffffff] absolute lg:text-[128px]
-           lg:font-extralight lg:tracking-[-0.11em] pt-10 lg:font-interTight lg:leading-[1.00] z-50'>
-            {words.map((word, index) => (
-              <motion.span
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                  duration: 0.5,
-                  delay: index * 0.3,
-                  ease: "easeOut"
-                }}
-                className="inline-block mr-[0.1em]"
-              >
-                {word}{' '}
-                
-              </motion.span>
-            ))}
-          </h1>       
-
+            <h1 className='hidden lg:block mt-32  lg:text-[#ffffff] absolute lg:text-[128px]
+            lg:font-extralight lg:tracking-[-0.11em] pt-10 lg:font-interTight lg:leading-[1.00] z-50'>
+              {words.map((word, index) => (
+                <motion.span
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: index * 0.3,
+                    ease: "easeOut"
+                  }}
+                  className="inline-block mr-[0.1em]"
+                >
+                  {word}{' '}
+                  
+                </motion.span>
+              ))}
+            </h1>       
         </div>
-
-
-
-
       </div>
 
     
@@ -67,7 +59,7 @@ const Header = () => {
             }}
                     className='w-full max-w-screen '>
 
-                <div className=' bg-[#343434] h-[750px] relative'>
+                <div className=' bg-[#000000] h-[750px] relative'>
                     <video  className=" w-full h-full object-cover" autoPlay muted loop>
                         <source src={myvid} type="video/mp4" />
                         Your browser does not support the video tag.

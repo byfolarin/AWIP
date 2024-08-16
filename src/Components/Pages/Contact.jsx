@@ -4,12 +4,12 @@ import AWIP2 from '../Body/Images/AWIP2.jpg'
 const Contact = () => {
   return (
     <div className='flex'>
-      <div className='w-[50%] py-32'>
-        <h1 className='text-[164px] text-[#000000] tracking-[-0.05em] pt-4 font-interTight leading-[1.00]'>
+      <div className='w-[50%] pt-32'>
+        <h1 className='text-[164px] text-[#000000] tracking-[-0.05em]  font-interTight leading-[1.00]'>
           Let's Talk
         </h1>
 
-        <div className='py-16'>
+        <div className='py-8'>
           <hr />
           <h2 className='text-[24px] py-8 px-4 font-interTight font-light cursor-pointer'>Hello@awip.com.ng</h2>
           <hr />
@@ -20,7 +20,7 @@ const Contact = () => {
           </h2>
           <hr />
           <h2 className='text-[24px] py-8 px-4 font-interTight font-light cursor-pointer'>12A, Alake Onileere Crescent, Gbagada, Lagos</h2>
-          <hr />
+    
         </div>
         
         {/* Add some extra content to ensure scrolling */}

@@ -36,7 +36,7 @@ function App() {
           />
         }
 
-        <div className='border w-full absolute z-[1000] border-[#d7d7d7] border-x-0 p-8 flex items-center justify-between'>
+        <div className='border w-full fixed z-[1000] bg-[#31313145]  border-[#d7d7d7] border-x-0 px-8 py-3 flex items-center justify-between'>
           
           <Link to={"/"}>
           <div>
