@@ -36,7 +36,7 @@ function App() {
           />
         }
 
-        <div className='border w-full absolute z-[1000] border-[#d7d7d7] border-x-0 p-8 flex justify-between'>
+        <div className='border w-full absolute z-[1000] border-[#d7d7d7] border-x-0 p-8 flex items-center justify-between'>
           
           <Link to={"/"}>
           <div>
@@ -44,7 +44,7 @@ function App() {
           </div>
           </Link>
 
-          <div className='border border-emerald-500'>
+          <div className='m-0 p-0'>
             <OpenIcon openNav={openNav} />
           </div>
         </div>
