@@ -15,11 +15,29 @@ const Services = () => {
          
 
           <div className='w-full flex gap-4'>
+
+
                 <div className=' w-[50%] bg-[#343434] h-[750px]'>            
                     <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
                     </div>
-                    <div className=' w-[50%] bg-[#343434] h-[450px]'>
-                    <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+
+
+                    <div className='flex-col w-[50%] '>
+                        <div className='  bg-[#343434] h-[450px]'>
+                        <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+
+                        <div className='py-16'>
+                        <hr />
+                        <h2 className='text-[24px] py-8 px-4 font-interTight font-light cursor-pointer'>Hello@awip.com.ng</h2>
+                        <hr />
+                        <h2 className='text-[24px] py-8 px-4 font-interTight font-light cursor-pointer'>
+                          +234 803 3927 062 <br />
+                        </h2>
+              
+                      
+                      </div>
+
+                    </div>
                 </div>
           </div>
     </div>
