@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='flex'>
       <div className='w-[50%] pt-32'>
         <h1 className='text-[164px] text-[#000000] tracking-[-0.05em]  font-interTight leading-[1.00]'>
-          Let's Talk
+          Let's Discuss
         </h1>
 
         <div className='py-8'>
