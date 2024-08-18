@@ -22,7 +22,7 @@ const LandingPage = () => {
 
 
   return (
-    <div className='w-screen bg-[#ffffff] m-0 p-0 scroll-smooth overflow-hidden '>
+    <div className='w-screen bg-[#ffffff] m-0 p-0 scroll-smooth overflow-x-hidden'>
       <Header/>
       <SecondSection/>
       <SectionTwo/>

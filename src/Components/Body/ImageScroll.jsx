@@ -19,21 +19,21 @@ const ImageScroll = () => {
 
                 <div className="w-[350px] ">
                     <div className="bg-[#d7d7d7] h-[600px]">
-                        <img src={AWIP1} alt="" className='w-full h-full object-cover hover:blur-sm'/>
+                        <img src={AWIP1} alt="" className='w-full h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki Homes</h2>
                 </div>
 
                 <div className="w-[600px] ">
                     <div className="bg-[#d7d7d7] h-[600px]">
-                        <img src={AWIP2} alt="" className='w-full h-full object-cover hover:blur-sm'/>
+                        <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Afya Care</h2>
                 </div>
 
                 <div className="w-[350px] " >
                     <div className="bg-[#d7d7d7] h-[600px]">
-                        <img src={AWIP3} alt="" className='w-full h-full object-cover hover:blur-sm '/>
+                        <img src={AWIP3} alt="" className='w-full h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Bastion HMO</h2>
                 </div>
