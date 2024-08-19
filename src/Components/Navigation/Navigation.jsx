@@ -41,13 +41,13 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
 
               <Link to={"/"}>
-              <motion.li
-                whileHover={{ x: 10 }}
-                className='text-[42px]  flex align-middle text-[#561D0A]  font-interTight font-light'
-                onMouseEnter={() => handleImageChange([AWIP1])}
-                onMouseLeave={() => setIsHovered([Default])}>
-                Home
-              </motion.li>
+                <motion.li
+                  whileHover={{ x: 10 }}
+                  className='text-[42px]  flex align-middle text-[#561D0A]  font-interTight font-light'
+                  onMouseEnter={() => handleImageChange([AWIP1])}
+                  onMouseLeave={() => setIsHovered([Default])}>
+                  Home
+                </motion.li>
               </Link>
 
               <Link to={"/projects"}>
