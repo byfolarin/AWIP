@@ -61,12 +61,15 @@ const AchievementItem = ({ number, text, showBorder = true }) => {
         />
       )}
 
-      <h1 className='text-[320px] lg:text-[320px] items-center font-interTight text-[#000000]'>
-        <CountUp end={number} />
-        {number > 9 ? '+' : ''}
-      </h1> 
+      <div className='flex flex-col items-center'>
+              <p className='font-interTight w-[128px]'>{text}</p>
 
-      <p className='font-interTight w-[128px]'>{text}</p>
+              
+              <h1 className='text-[320px] lg:text-[320px] items-center font-interTight text-[#000000]'>
+                <CountUp end={number} />
+                {number > 9 ? '+' : ''}
+              </h1>     
+      </div>
 
     </div>
   )
@@ -81,10 +84,14 @@ const Achievements = () => {
           number={12} 
           text="Year building Sustainable Products" 
         />
+
+  
         <AchievementItem 
           number={8} 
           text="Year building Sustainable Products" 
         />
+
+
         <AchievementItem 
           number={6} 
           text="Year building Sustainable Products" 
