@@ -11,25 +11,28 @@ const ImageScroll = () => {
     const isInView = useInView(ref, { triggerOnce: true });
 
     return (
-        <div className=" justify-center overflow-hidden items-center" ref={constraintsRef}>
+        <div className=" w-full " ref={constraintsRef}>
 
-            <div className="flex flex-col lg:flex-row gap-4 py-10 mx-1">
+            <div className="grid grid-rows-3 lg:grid-cols-4 gap-4 py-10">
 
-                <div className="w-[full] lg:w-[350px]  ">
+                <div className="  ">
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP1} alt="" className='w-full h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki Homes</h2>
                 </div>
 
-                <div className="w-full lg:w-[600px] ">
+
+                <div className=" lg:col-span-2 ">
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Afya Care</h2>
                 </div>
 
-                <div className="w-full lg:w-[350px]" >
+
+
+                <div className=" " >
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP3} alt="" className='w-full h-full object-cover'/>
                     </div>

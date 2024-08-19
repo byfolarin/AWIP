@@ -19,7 +19,7 @@ const Projects = () => {
   }
 
   return (
-    <div className='my-12 overflow-hidden font-interTight '>
+    <div className='my-12 w-full font-interTight '>
       <motion.h1 
         ref={titleRef}
         className='text-[64px] lg:text-[124px] text-[#561D0A] font-light tracking-[-0.06em]  leading-[1.00]'
@@ -36,8 +36,9 @@ const Projects = () => {
        
       <hr/>
 
-
+      <div className='w-full'>
       <ImageScroll />
+      </div>
 
 
 
