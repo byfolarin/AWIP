@@ -24,7 +24,7 @@ const TextRead = () => {
 
             <motion.h1 
               ref={titleRef}
-              className='text-[100px] lg:text-[124px] lg:pr-32 text-[#000000] pb-11 font-light tracking-[-0.06em] font-interTight leading-[1.00]'
+              className='text-[64px] lg:text-[124px] lg:pr-32 text-[#000000] pb-11 font-light tracking-[-0.06em] font-interTight leading-[1.00]'
               initial="hidden"
               animate={isTitleInView ? "visible" : "hidden"}
               variants={titleVariants}
