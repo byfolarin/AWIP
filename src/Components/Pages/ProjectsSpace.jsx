@@ -10,33 +10,33 @@ const ProjectsSpace = () => {
 
   return (
     <div className='overflow-hidden mx-4'>
-      <h1 className='text-[164px] mt-32 text-[#000000]  tracking-[-0.05em] font-interTight leading-[1.00]'
+      <h1 className='text-8xl lg:text-[164px] mt-32 text-[#000000]  tracking-[-0.05em] font-interTight leading-[1.00]'
         
       >
         Selected Projects
       </h1>
 
       <p className='w-2/3 mx-4 py-2 text-[#6464649c]'>
-      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br /> demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. 
+      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
       </p>
        
       <hr className='mx-4' />
 
-      <div className='flex justify-between items-center mt-8'>
+            <div className='flex justify-between items-center mt-8'>
 
-              <div className='flex justify-start gap-4'>
-              <p className='font-mono'>01</p>
-              <div >
-                <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Afya Care</h1>
-              </div>
-              </div>
+                    <div className='flex lg:justify-start gap-6'>
+                      <p className='font-mono'>01</p>
+                      <div className='w-full'>
+                        <h1 className='text-6xl lg:text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Afya Care</h1>
+                      </div>
+                    </div>
 
-              <p className='text-[#2020209c]'>
-              In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br /> demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. 
-              </p>
-              
+                    <p className='text-[#2020209c]'>
+                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <span className='lg:hidden'>...</span> <br /> <span className='hidden lg:block'>demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. </span> 
+                    </p>
+                    
 
-              </div>
+            </div>
 
 
               <div className='w-full flex gap-4'>
