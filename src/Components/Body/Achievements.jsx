@@ -61,7 +61,7 @@ const AchievementItem = ({ number, text, showBorder = true }) => {
         />
       )}
 
-      <h1 className='text-[320px] font-interTight text-[#000000]'>
+      <h1 className='text-[220px] items-center font-interTight text-[#000000]'>
         <CountUp end={number} />
         {number > 9 ? '+' : ''}
       </h1> 
@@ -76,7 +76,7 @@ const Achievements = () => {
   return (
     <div className='py-11 '>
 
-      <div className='flex flex-col lg:flex-row justify-between align-middle px-6 w-1/3'>
+      <div className='flex flex-col lg:flex-row justify-between items-center align-middle px-6 w-1/3'>
         <AchievementItem 
           number={12} 
           text="Year building Sustainable Products" 
