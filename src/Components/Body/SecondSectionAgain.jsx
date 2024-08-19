@@ -9,7 +9,7 @@ const SecondSectionAgain = () => {
     
   return (
     <div className='bg-[#ffffff]'>
-    <div className='w-full max-w-screen flex justify-start gap-11 py-16 px-8' ref={ref}>
+    <div className='w-full max-w-screen flex lg:justify-between lg:gap-11 pt-16 lg:px-8' ref={ref}>
       <p className='text-[#F8FAFC] text-[16px] font-interTight'>INTRODUCTION</p>
 
       <motion.p
@@ -28,7 +28,7 @@ const SecondSectionAgain = () => {
           initial={{ width: 0 }}
           animate={isInView ? { width: '100%' } : { width: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className='py-2'
+          className='py-2 hidden '
         />
       </motion.p>
     </div>

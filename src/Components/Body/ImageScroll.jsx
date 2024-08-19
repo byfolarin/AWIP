@@ -17,21 +17,21 @@ const ImageScroll = () => {
 
             <div className="flex flex-col lg:flex-row gap-4 py-10 mx-4">
 
-                <div className="w-[600px] lg:w-[350px]  ">
+                <div className="w-[full] lg:w-[350px]  ">
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP1} alt="" className='w-full h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki Homes</h2>
                 </div>
 
-                <div className="w-[600px] ">
+                <div className="w-full lg:w-[600px] ">
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Afya Care</h2>
                 </div>
 
-                <div className="w-[600px] lg:w-[350px]" >
+                <div className="w-full lg:w-[350px]" >
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP3} alt="" className='w-full h-full object-cover'/>
                     </div>
