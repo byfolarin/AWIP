@@ -21,7 +21,7 @@ const Nav = ({ isHovered, setIsHovered, closeNav }) => {
       transition={{
         type: "tween",
         ease: "easeInOut",
-        duration: 0.2
+        duration: 0.4
       }}
     >
 
