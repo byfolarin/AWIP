@@ -18,10 +18,10 @@ const Header = () => {
     
   return (
     <div>
-      <div className='flex items-center gap-24'>
-        <div className='w-fit pl-11 '>
-            <h1 className='hidden lg:block mt-32  lg:text-[#ffffff] absolute lg:text-[128px]
-            lg:font-extralight lg:tracking-[-0.11em] pt-10 lg:font-interTight lg:leading-[1.00] z-50'>
+      <div className='flex items-center gap-24 overflow-hidden'>
+        <div className='w-fit lg:pl-11 '>
+            <h1 className=' text-[64px] tracking-[-0.05em] leading-[1.00]  lg:block mt-32  text-[#ffffff] absolute lg:text-[128px]
+            font-extralight lg:tracking-[-0.11em] pt-10 font-interTight lg:leading-[1.00] z-50'>
               {words.map((word, index) => (
                 <motion.span
                   key={index}
