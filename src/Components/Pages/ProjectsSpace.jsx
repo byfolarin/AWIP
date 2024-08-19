@@ -10,7 +10,7 @@ const ProjectsSpace = () => {
 
   return (
     <div className='overflow-hidden mx-2'>
-      <h1 className='text-8xl lg:text-[164px] mt-32 text-[#000000]  tracking-[-0.05em] font-interTight leading-[1.00]'
+      <h1 className='text-8xl lg:text-[164px] mt-32 text-[#561D0A]  tracking-[-0.05em] font-interTight leading-[1.00]'
         
       >
         Selected Projects
