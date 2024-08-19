@@ -76,7 +76,7 @@ const Achievements = () => {
   return (
     <div className='py-11 '>
 
-      <div className='flex flex-col lg:flex-row justify-between items-center align-middle px-6 w-1/3'>
+      <div className='flex flex-col lg:flex-row justify-between items-center align-middle px-6 '>
         <AchievementItem 
           number={12} 
           text="Year building Sustainable Products" 
