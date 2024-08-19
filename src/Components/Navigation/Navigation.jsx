@@ -87,7 +87,7 @@ const Navigation = ({ setIsHovered, closeNav }) => {
 
             <hr className='w-full border-[#561D0A] h-1 my-4' />
 
-            <div className='flex justify-between'>
+            <div className='flex justify-between gap-11'>
 
             <ul className=' font-interTight text-[16px] gap-2 tracking-normal cursor-pointer text-[#000000]'>
               <li className='text-[24px]'>Socials</li>
