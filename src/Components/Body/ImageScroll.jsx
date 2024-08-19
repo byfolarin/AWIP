@@ -4,8 +4,6 @@ import { useRef } from "react";
 import AWIP1 from './Images/AWIP1.jpg'
 import AWIP2 from './Images/AWIP2.jpg'
 import AWIP3 from './Images/AWIP3.jpg'
-import AWIP4 from '././Images/AWIP4.jpg'
-
 
 const ImageScroll = () => {
     const constraintsRef = useRef(null);
@@ -15,7 +13,7 @@ const ImageScroll = () => {
     return (
         <div className=" justify-center overflow-hidden items-center" ref={constraintsRef}>
 
-            <div className="flex flex-col lg:flex-row gap-4 py-10 mx-4">
+            <div className="flex flex-col lg:flex-row gap-4 py-10 mx-1">
 
                 <div className="w-[full] lg:w-[350px]  ">
                     <div className="bg-[#d7d7d7] h-[600px]">

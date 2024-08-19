@@ -19,7 +19,7 @@ const Projects = () => {
   }
 
   return (
-    <div className='my-12 overflow-hidden font-interTight  mx-4'>
+    <div className='my-12 overflow-hidden font-interTight '>
       <motion.h1 
         ref={titleRef}
         className='text-[124px] text-[#000000] font-light tracking-[-0.06em]  leading-[1.00]'
@@ -30,7 +30,7 @@ const Projects = () => {
         Selected Projects
       </motion.h1>
 
-      <p className='w-2/3 mx-4 py-2 text-[#0000009c]'>
+      <p className='w-2/3  py-2 text-[#0000009c]'>
          In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <br /> demonstrate the. 
       </p>
        
