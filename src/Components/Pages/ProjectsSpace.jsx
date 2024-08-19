@@ -16,34 +16,41 @@ const ProjectsSpace = () => {
         Selected Projects
       </h1>
 
-      <p className='w-2/3 mx-4 py-2 text-[#6464649c]'>
+      <p className='w-full lg:w-2/3  py-2 text-[#6464649c]'>
       In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
       </p>
        
       <hr className='mx-4' />
 
-            <div className='flex justify-between items-center mt-8'>
+            <div className='flex flex-col lg:flex-row justify-between lg:items-center gap-6 my-8'>
 
                     <div className='flex lg:justify-start gap-6'>
                       <p className='font-mono'>01</p>
                       <div className='w-full'>
-                        <h1 className='text-6xl lg:text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Afya Care</h1>
+                        <h1 className='text-8xl lg:text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Afya Care</h1>
                       </div>
                     </div>
 
-                    <p className='text-[#2020209c]'>
-                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to <span className='lg:hidden'>...</span> <br /> <span className='hidden lg:block'>demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. </span> 
+          
+
+                    <p className='text-[#2020209c] lg:hidden'>
+                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form  of a document or a typeface without relying on meaningful content. 
+                    </p>
+
+
+                    <p className='text-[#2020209c] lg:block hidden'>
+                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to  <br /> demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. 
                     </p>
                     
 
             </div>
 
 
-              <div className='w-full flex gap-4'>
-                        <div className=' w-[30%] bg-[#343434] h-[750px]'>            
+              <div className='w-full flex flex-col lg:flex-row gap-4'>
+                        <div className='w-full lg:w-[30%] bg-[#343434] h-[450px] lg:h-[750px]'>            
                             <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
                             </div>
-                            <div className=' w-[70%] bg-[#343434] h-[750px]'>
+                            <div className='w-full lg:w-[70%] bg-[#343434] h-[750px]'>
                             <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
                         </div>
         </div>
@@ -55,92 +62,88 @@ const ProjectsSpace = () => {
 
 
 
-          <hr className='mx-4 my-7'/>
+                <hr className='mx-4 my-7' />
 
+        <div className='flex flex-col lg:flex-row justify-between lg:items-center gap-6 my-8'>
 
-
-
-
-
-
-           <div className='flex justify-between items-center'>
-
-             <div  className='flex justify-start gap-4'>
-              <p className='font-mono'>02</p>
-              <div className='w-[100%]' >
-                <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Verraki Partners</h1>
-              </div>
-              </div>
-            
-            <div className='w-[30%]' >
-              <p className='text-[#2020209c]'>
-              In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to  demonstrate the visual
-              </p>
-              </div>
-
-          </div>
-
-
-        <div className='w-full flex gap-4'>
-
-           <div className=' w-[70%] bg-[#343434] h-[750px]'>            
-                 <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
-            </div>
-
-
-            <div className=' w-[30%] bg-[#343434] h-[750px]'>
-                 <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
-            </div>
-
-          </div>
-
-
-
-
-
-
-
-
-
-
-          <hr className='mx-4 my-7'/>
-
-
-
-
-
-
-
-           <div className='flex justify-between items-center'>
-
-              <div className='flex justify-start gap-4'>
-                <p>03</p>
-                <div className='w-[100%]' >
-                  <h1 className='text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Bastion Health</h1>
+                <div className='flex lg:justify-start gap-6'>
+                  <p className='font-mono'>02</p>
+                  <div className='w-full'>
+                    <h1 className='text-8xl lg:text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Verraki Partners</h1>
+                  </div>
                 </div>
+
+
+
+                <p className='text-[#2020209c] lg:hidden'>
+                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form  of a document or a typeface without relying on meaningful content. 
+                </p>
+
+
+                <p className='text-[#2020209c] lg:block hidden'>
+                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to  <br /> demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. 
+                </p>
+                
+
+                </div>
+
+
+          <div className='w-full flex flex-col lg:flex-row gap-4'>
+                    <div className='w-full lg:w-[30%] bg-[#343434] h-[450px] lg:h-[750px]'>            
+                        <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+                        </div>
+                        <div className='w-full lg:w-[70%] bg-[#343434] h-[750px]'>
+                        <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+                    </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                      <hr className='mx-4 my-7' />
+
+              <div className='flex flex-col lg:flex-row justify-between lg:items-center gap-6 my-8'>
+
+                      <div className='flex lg:justify-start gap-6'>
+                        <p className='font-mono'>01</p>
+                        <div className='w-full'>
+                          <h1 className='text-8xl lg:text-[128px] font-interTight text-[#561D0A] tracking-[-0.06em]'>Bastion HMO</h1>
+                        </div>
+                      </div>
+
+
+
+                      <p className='text-[#2020209c] lg:hidden'>
+                      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form  of a document or a typeface without relying on meaningful content. 
+                      </p>
+
+
+                      <p className='text-[#2020209c] lg:block hidden'>
+                      In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to  <br /> demonstrate the visual form  of a document or a typeface without relying on meaningful <br /> content. 
+                      </p>
+                      
+
               </div>
-            
-            <div className='w-[30%]' >
-              <p className='text-[#2020209c]'>
-              In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to  demonstrate the visual
-              </p>
+
+
+                <div className='w-full flex flex-col lg:flex-row gap-4'>
+                          <div className='w-full lg:w-[30%] bg-[#343434] h-[450px] lg:h-[750px]'>            
+                              <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+                              </div>
+                              <div className='w-full lg:w-[70%] bg-[#343434] h-[750px]'>
+                              <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+                          </div>
               </div>
 
-          </div>
 
-
-        <div className='w-full flex gap-4'>
-
-           <div className=' w-[40%] bg-[#343434] h-[750px]'>            
-                 <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
-            </div>
-
-
-            <div className=' w-[60%] bg-[#343434] h-[750px]'>
-                 <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
-            </div>
-
-          </div>
       
 
       {/* <ImgScro/> */}
