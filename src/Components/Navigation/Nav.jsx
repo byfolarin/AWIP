@@ -25,7 +25,9 @@ const Nav = ({ isHovered, setIsHovered, closeNav }) => {
       }}
     >
 
+
       <NavigationLeft isHovered={isHovered} setIsHovered={setIsHovered} />
+
       <Navigation 
         setIsHovered={setIsHovered} 
         closeNav={closeNav}
