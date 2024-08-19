@@ -15,9 +15,9 @@ const ImageScroll = () => {
     return (
         <div className=" justify-center overflow-hidden items-center" ref={constraintsRef}>
 
-            <div className="flex gap-4 py-10 mx-4">
+            <div className="flex flex-col lg:flex-row gap-4 py-10 mx-4">
 
-                <div className="w-[350px] ">
+                <div className="w-[600px] lg:w-[350px]  ">
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP1} alt="" className='w-full h-full object-cover'/>
                     </div>
@@ -31,7 +31,7 @@ const ImageScroll = () => {
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Afya Care</h2>
                 </div>
 
-                <div className="w-[350px] " >
+                <div className="w-[600px] lg:w-[350px]" >
                     <div className="bg-[#d7d7d7] h-[600px]">
                         <img src={AWIP3} alt="" className='w-full h-full object-cover'/>
                     </div>
