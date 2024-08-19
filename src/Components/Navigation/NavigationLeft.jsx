@@ -6,7 +6,7 @@ const NavigationLeft = ({isHovered}) => {
  
   return (
     <div className='hidden lg:flex justify-end'>
-        <div className=' bg-[#a09d8d]  lg:w-[550px]'>
+        <div className=' bg-[#a09d8d]  lg:w-[350px]'>
 
           <div className='w-full bg-[#3c3b34] h-4/5 object-contain'>
             <img src={isHovered} alt="Real Estate Image" className="object-cover w-full h-full" />
