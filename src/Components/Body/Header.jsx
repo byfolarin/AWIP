@@ -21,7 +21,7 @@ const Header = () => {
       <div className='flex items-center gap-24 overflow-hidden'>
         <div className='w-fit lg:pl-11 '>
             <h1 className=' text-5xl tracking-[-0.05em] leading-[1.00]  lg:block mt-32  text-[#ffffff] absolute lg:text-[128px]
-            font-extralight lg:tracking-[-0.11em] pt-10 font-interTight lg:leading-[1.00] z-50'>
+            font-extralight lg:tracking-[-0.11em] px-4 pt-10 font-interTight lg:leading-[1.00] z-50'>
               {words.map((word, index) => (
                 <motion.span
                   key={index}
