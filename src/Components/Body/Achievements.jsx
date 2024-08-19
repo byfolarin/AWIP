@@ -87,13 +87,13 @@ const Achievements = () => {
 
   
         <AchievementItem 
-          number={8} 
+          number={10} 
           text="Year building Sustainable Products" 
         />
 
 
         <AchievementItem 
-          number={6} 
+          number={10} 
           text="Year building Sustainable Products" 
           showBorder={false}
         />
