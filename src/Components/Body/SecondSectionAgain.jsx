@@ -10,10 +10,10 @@ const SecondSectionAgain = () => {
   return (
     <div className='bg-[#ffffff]'>
     <div className='w-full max-w-screen flex lg:justify-between lg:gap-11 pt-16 lg:px-8' ref={ref}>
-      <p className='text-[#F8FAFC] text-[16px] font-interTight'>INTRODUCTION</p>
+      <p className='hidden text-[#F8FAFC] text-[16px] font-interTight'>INTRODUCTION</p>
 
       <motion.p
-        className='w-3/5 text-[#000000] text-[30px] tracking-tighter font-interTight font-light'
+        className='w-full lg:w-3/5 text-[#000000] text-[30px] tracking-tighter font-interTight font-light'
         initial={{ opacity: 0, y: 50 }} // Start text 50px below
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // Move text up to its original position
         transition={{ duration: 0.8, delay: 0.2 }}

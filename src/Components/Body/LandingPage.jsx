@@ -32,7 +32,10 @@ const LandingPage = () => {
       <TextRead/>
       <Services/>
       <SectionTwo/>
+      <div className='hidden lg:block'>
       <Footer/>
+      </div>
+     
     </div>
   )
 }
