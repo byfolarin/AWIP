@@ -51,11 +51,11 @@ const AchievementItem = ({ number, text, showBorder = true }) => {
   }, [isInView, controls])
 
   return (
-    <div className='flex relative' ref={ref}>
+    <div className='flex  relative' ref={ref}>
 
       {showBorder && (
         <motion.div 
-          className='absolute top-0 right-0 w-[1px] bg-[#D8D8D8]'
+          className='absolute hidden lg:block top-0 right-0 w-[1px] bg-[#D8D8D8]'
           initial={{ height: 0 }}
           animate={controls}
         />
@@ -74,8 +74,9 @@ const AchievementItem = ({ number, text, showBorder = true }) => {
 
 const Achievements = () => {
   return (
-    <div className='py-11'>
-      <div className='flex justify-between align-middle px-6 w-1/3'>
+    <div className='py-11 '>
+
+      <div className='flex flex-col lg:flex-row justify-between align-middle px-6 w-1/3'>
         <AchievementItem 
           number={12} 
           text="Year building Sustainable Products" 
@@ -90,6 +91,7 @@ const Achievements = () => {
           showBorder={false}
         />
       </div>
+
     </div>
   )
 }

@@ -12,7 +12,7 @@ const SectionTwo = () => {
             <div className="absolute inset-0 bg-black opacity-40"></div> 
           </div>
 
-          <p className='text-[white] font-interTight leading-7 italic absolute text-[18px] top-32 w-[48%] pl-32'><span className='text-[32px]'>"</span>The way forward is to make a way, design, sketch anything that transcends design and time <span className='text-[32px]'>"</span></p>
+          <p className='text-[white] font-interTight leading-7 italic absolute text-[18px] top-32 w-[48%] pl-4 lg:pl-32'><span className='text-[32px]'>"</span>The way forward is to make a way, design, sketch anything that transcends design and time <span className='text-[32px]'>"</span></p>
 
       </div>
     </div>
