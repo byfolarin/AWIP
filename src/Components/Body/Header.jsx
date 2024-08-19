@@ -18,12 +18,7 @@ const Header = () => {
     
   return (
     <div>
-
-
       <div className='flex items-center gap-24'>
-
-
-
         <div className='w-fit pl-11 '>
             <h1 className='hidden lg:block mt-32  lg:text-[#ffffff] absolute lg:text-[128px]
             lg:font-extralight lg:tracking-[-0.11em] pt-10 lg:font-interTight lg:leading-[1.00] z-50'>
