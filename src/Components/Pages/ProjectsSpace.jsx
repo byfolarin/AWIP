@@ -51,7 +51,7 @@ const ProjectsSpace = () => {
                             <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
                             </div>
                             <div className='w-full lg:w-[70%] bg-[#343434] h-[750px]'>
-                            {/* <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/> */}
+                            <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
                         </div>
         </div>
 
