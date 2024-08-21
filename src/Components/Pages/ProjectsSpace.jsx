@@ -46,14 +46,14 @@ const ProjectsSpace = () => {
             </div>
 
 
-              {/* <div className='w-full flex flex-col lg:flex-row gap-4'>
+              <div className='w-full flex flex-col lg:flex-row gap-4'>
                         <div className='w-full lg:w-[30%] bg-[#343434] h-[450px] lg:h-[750px]'>            
                             <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
                             </div>
                             <div className='w-full lg:w-[70%] bg-[#343434] h-[750px]'>
                             <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
                         </div>
-        </div> */}
+        </div>
 
 
 
