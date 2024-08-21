@@ -27,15 +27,16 @@ const LandingPage = () => {
       <SecondSection/>
       {/* <SectionTwo/> */}
       <Achievements/>
-      {/* <SecondSectionAgain/>
-      <Projects/>
-      <TextRead/>
       <Services/>
+      {/* <SecondSectionAgain/> */}
+      {/* <Projects/>
+      <TextRead/>
+      
       <SectionTwo/>
       <div className='hidden lg:block'>
-      <Footer/>
-      </div>
-      */}
+      <Footer/> */}
+      {/* </div> */}
+     
     </div>
   )
 }
