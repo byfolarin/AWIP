@@ -5,7 +5,7 @@ import { motion, useInView, useAnimation } from 'framer-motion'
   
 const Achievements = () => {
   return (
-    <div className='py-11 font-interTight '>
+    <div className='py-11 font-interTight px-5'>
 
       <div className='flex gap-4 '>
 

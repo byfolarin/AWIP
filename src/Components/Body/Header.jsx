@@ -7,7 +7,7 @@ const Header = () => {
 
 
   return (
-    <div >
+    <div className='px-5'>
       <div className='flex items-center pt-24 '>
         <div >
             <h1 className='text-[64px] tracking-[-0.05em] leading-[1.00]  lg:block my-12  text-[#561D0A]  lg:text-[145px]

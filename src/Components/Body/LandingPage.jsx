@@ -22,7 +22,7 @@ const LandingPage = () => {
 
 
   return (
-    <div className='px-5 bg-[#FFFEF2]'>
+    <div className=' bg-[#FFFEF2]'>
       <Header/>
       <SecondSection/>
       {/* <SectionTwo/> */}

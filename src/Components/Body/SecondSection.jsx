@@ -6,7 +6,7 @@ const Section = () => {
   const isInView = useInView(ref, { triggerOnce: true });
 
   return (
-    <div className='bg-[#FFFEF2] '> 
+    <div className='bg-[#FFFEF2] px-5'> 
 
       <div className=' w-full max-w-screen px-4 flex lg:justify-between lg:gap-11 pt-16 lg:px-8' ref={ref}>
         <p className='hidden text-[#F8FAFC] text-[16px] font-interTight lg:block'>INTRODUCTION</p>
