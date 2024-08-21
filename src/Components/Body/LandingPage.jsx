@@ -22,7 +22,7 @@ const LandingPage = () => {
 
 
   return (
-    <div className='max-w-full bg-[#ffffff] overflow-x-hidden'>
+    <div className='max-w-full bg-[#FFFEF2] overflow-x-hidden'>
       <Header/>
       <SecondSection/>
       <SectionTwo/>
