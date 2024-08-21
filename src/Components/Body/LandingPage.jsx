@@ -22,9 +22,9 @@ const LandingPage = () => {
 
 
   return (
-    <div className='max-w-full bg-[#FFFEF2] overflow-x-hidden'>
+    <div className=' bg-[#FFFEF2]'>
       <Header/>
-      <SecondSection/>
+      {/* <SecondSection/>
       <SectionTwo/>
       <Achievements/>
       <SecondSectionAgain/>
@@ -34,7 +34,7 @@ const LandingPage = () => {
       <SectionTwo/>
       <div className='hidden lg:block'>
       <Footer/>
-      </div>
+      </div> */}
      
     </div>
   )

@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         interTight: ['Inter Tight', 'sans-serif'], 
+        Satisfy: ['Satisfy-Regular', 'sans-serif'], 
       },
     },
   },

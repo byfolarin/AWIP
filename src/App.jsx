@@ -28,7 +28,7 @@ function App() {
       <div > 
 
         
-        {isNavOpen &&
+        {/* {isNavOpen &&
           <Nav 
             isHovered={isHovered} 
             setIsHovered={setIsHovered}
@@ -48,7 +48,7 @@ function App() {
           <div className='m-0 p-0'>
             <OpenIcon openNav={openNav} />
           </div>
-        </div>
+        </div> */}
 
         <Routes>
           <Route path='/' element={<LandingPage/>} />
