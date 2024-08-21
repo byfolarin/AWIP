@@ -28,7 +28,7 @@ function App() {
       <div > 
 
         
-        {/* {isNavOpen &&
+        {isNavOpen &&
           <Nav 
             isHovered={isHovered} 
             setIsHovered={setIsHovered}
@@ -36,7 +36,7 @@ function App() {
           />
         }
 
-        <div className='border w-full fixed z-[1000] bg-[#31313145]  
+        <div className='border w-full fixed z-[1000] bg-[#FFFEF2]  
         border-[#d7d7d7] border-x-0 px-8 py-3 flex items-center justify-between'>
           
           <Link to={"/"}>
@@ -48,7 +48,7 @@ function App() {
           <div className='m-0 p-0'>
             <OpenIcon openNav={openNav} />
           </div>
-        </div> */}
+        </div>
 
         <Routes>
           <Route path='/' element={<LandingPage/>} />
