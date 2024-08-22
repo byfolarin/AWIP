@@ -11,7 +11,7 @@ const Projects = () => {
         Projects
       </h1>
        
-      <hr/>
+
 
       <div>
       <ImageScroll />
