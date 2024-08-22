@@ -15,28 +15,27 @@ const ImageScroll = () => {
 
             <div className="grid grid-rows-3 lg:grid-cols-4 gap-4 py-10">
 
-                <div className="  ">
-                    <div className="bg-[#d7d7d7] h-[600px]">
-                        <img src={AWIP1} alt="" className='w-full h-full object-cover'/>
+                {/* <div className="  ">
+                    <div className="bg-[#d7d7d7] rounded-xl h-[600px]">
+                        <img src={AWIP1} alt="" className='w-full rounded-xl h-full object-cover'/>
                     </div>
-                    <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki Homes</h2>
-                </div>
+               
+                </div> */}
 
 
                 <div className=" lg:col-span-2 ">
-                    <div className="bg-[#d7d7d7] h-[600px]">
-                        <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+                    <div className="bg-[#d7d7d7] rounded-xl h-[600px]">
+                        <img src={AWIP2} alt="" className='w-full rounded-xl h-full object-cover'/>
                     </div>
                     <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Afya Care</h2>
                 </div>
 
 
 
-                <div className=" " >
-                    <div className="bg-[#d7d7d7] h-[600px]">
-                        <img src={AWIP3} alt="" className='w-full h-full object-cover'/>
+                <div className="col-span-2 " >
+                    <div className="bg-[#F7F6E9] rounded-xl h-[600px]">
+                    
                     </div>
-                    <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Bastion HMO</h2>
                 </div>
 
              

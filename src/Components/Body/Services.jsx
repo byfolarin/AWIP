@@ -11,20 +11,20 @@ const Services = () => {
 
   return (
 
-    <div>
+    <div className='mx-6'>
          
 
           <div className='w-full flex flex-col lg:flex-row gap-4 relative z-50 mb-12'>
 
 
-                <div className='w-full lg:w-[50%] bg-[#343434] h-[750px]'>            
-                    <img src={AWIP4}  alt=""  className='w-full h-full object-cover'/>
+                <div className='w-full lg:w-[50%] bg-[#343434] rounded-xl h-[750px]'>            
+                    <img src={AWIP4}  alt=""  className='w-full rounded-xl h-full object-cover'/>
                     </div>
 
 
-                    <div className='flex-col w-full lg:w-[50%] '>
-                        <div className='  bg-[#343434] h-[450px]'>
-                        <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
+                    <div className='flex-col w-full rounded-xl lg:w-[50%] '>
+                        <div className=' rounded-xl  bg-[#343434] h-[450px]'>
+                        <img src={AWIP2}  alt=""   className='w-full h-full rounded-xl object-cover'/>
 
                     
 

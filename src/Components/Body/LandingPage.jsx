@@ -30,13 +30,13 @@ const LandingPage = () => {
       <Services/>
       <TextRead/>
       {/* <SecondSectionAgain/> */}
-      {/* <Projects/>
+       <Projects/>
      
       
-      <SectionTwo/>
+      {/* <SectionTwo/>
       <div className='hidden lg:block'>
-      <Footer/> */}
-      {/* </div> */}
+      <Footer/> 
+   </div> */}
      
     </div>
   )
