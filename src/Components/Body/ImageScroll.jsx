@@ -16,7 +16,7 @@ const ImageScroll = () => {
     return (
         <div >
 
-        <div className="grid lg:grid-cols-2 gap-x-2 gap-y-10 py-10">
+        <div className="grid lg:grid-cols-3 gap-x-2 gap-y-10 py-10">
 
 
         <Link to="/project-details" className="block">
