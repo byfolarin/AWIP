@@ -9,6 +9,7 @@ import Nav from './Components/Navigation/Nav'
 import ProjectsSpace from '../src/Components/Pages/ProjectsSpace'
 import About from './Components/Pages/About'
 import Contact from './Components/Pages/Contact'
+import ProjectDetails from './Components/Pages/ProjectDetails/ProjectDetails'
 
 function App() {
   const [isHovered, setIsHovered] = useState([Default]);
@@ -55,6 +56,7 @@ function App() {
           <Route path='/about' element={<About/>} />
           <Route path='/projects' element={<ProjectsSpace/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='/project-details' element={<ProjectDetails/>} />
         </Routes>
         
       </div>

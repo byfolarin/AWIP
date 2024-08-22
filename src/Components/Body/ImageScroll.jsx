@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from "react";
 import AWIP1 from './Images/AWIP1.jpg'
 import AWIP2 from './Images/AWIP2.jpg'
 import AWIP3 from './Images/AWIP3.jpg'
 import AWIP4 from './Images/AWIP4.jpg'
+
+
 
 
 const ImageScroll = () => {
@@ -15,6 +18,8 @@ const ImageScroll = () => {
 
         <div className="grid lg:grid-cols-2 gap-x-2 gap-y-10 py-10">
 
+
+        <Link to="/project-details" className="block">
                 <div className="group relative overflow-hidden cursor-pointer">
                     <div className="bg-[#d7d7d7] rounded-xl h-[500px] overflow-hidden relative">
                         <img src={AWIP1} alt="" className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-110'/>
@@ -28,7 +33,8 @@ const ImageScroll = () => {
                     <h2 className='text-[#561D0A] text-[32px] leading-[1.00] font-interTight pt-6 transition-transform duration-300 group-hover:translate-x-2'>
                             Verraki Partners
                     </h2>
-             </div>
+                </div>
+             </Link>
 
 
 
