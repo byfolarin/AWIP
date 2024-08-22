@@ -2,25 +2,25 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-[#561D0A] mx-6 rounded-xl mt-9 font-interTight'>
+    <div className='bg-[#561D0A] mx-6 rounded-xl mt-9 font-interTight p-12'>
 
 
-      <div>
       
+      <div className='flex justify-between'>
 
-        <div className="social-media grid grid-cols-3">
-          <div>Instagram</div>
-          <div>Twitter</div>
-          <div>Facebook</div>
-          <div>LinkedIn</div>
-          <div>Youtube</div>
-          <div>Behance</div>
+        <div className="social-media grid grid-cols-3 w-[50%] gap-1  text-black">
+          <div className='px-4 py-6 rounded-xl bg-slate-200'>Instagram</div>
+          <div className='px-4 py-6 rounded-xl bg-slate-200'>Instagram</div>
+          <div className='px-4 py-6 rounded-xl bg-slate-200'>Instagram</div>
+          <div className='px-4 py-6 rounded-xl bg-slate-200'>Instagram</div>
+          <div className='px-4 py-6 rounded-xl bg-slate-200'>Instagram</div>
+          <div className='px-4 py-6 rounded-xl bg-slate-200'>Instagram</div>
         </div>
-      </div>
+    
 
 
 
-      <div>
+      <div className='text-white'>
       <p>Menu</p>
       <div>
         <div>Home</div>
@@ -28,6 +28,8 @@ const Footer = () => {
         <div>About</div>
         <div>Contact</div>
       </div>
+      </div>
+
       </div>
 
       

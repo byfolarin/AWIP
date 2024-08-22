@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import ImageScroll from './ImageScroll'
+import ImageDetails from './ImageDetails'
+import ProjectBody from './ProjectBody'
 
 const Projects = () => {
  
@@ -14,7 +16,9 @@ const Projects = () => {
 
 
       <div>
-      <ImageScroll />
+      {/* <ImageScroll /> */}
+      <ImageDetails />
+      {/* <ProjectBody /> */}
       </div> 
 
 
