@@ -14,6 +14,8 @@ import Header from './Header';
 import Services from './Services';
 import SecondSectionAgain from './SecondSectionAgain';
 import Testimonials from './Testimonials';
+import Our from './Our';
+import Clients from './Clients';
 
 
 
@@ -25,6 +27,7 @@ const LandingPage = () => {
   return (
     <div className=' bg-[#FFFEF2]'>
       <Header/>
+      <Clients />
       <SecondSection/>
 
       <Achievements/>
@@ -33,6 +36,7 @@ const LandingPage = () => {
 
        <Projects/>
        <Testimonials />
+       <Our />
      
       
  
