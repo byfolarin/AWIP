@@ -13,6 +13,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Services from './Services';
 import SecondSectionAgain from './SecondSectionAgain';
+import Testimonials from './Testimonials';
 
 
 
@@ -31,6 +32,7 @@ const LandingPage = () => {
       <TextRead/>
 
        <Projects/>
+       <Testimonials />
      
       
  
