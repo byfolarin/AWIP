@@ -14,7 +14,7 @@ const ProjectsSpace = () => {
 
       <Marquee>
       <h1 className='text-[174px] font-medium my-32 text-[#561D0A]  tracking-[-0.05em] font-interTight leading-[1.00]'>
-       -Projects-Works-Portfolio
+       - Projects - Works - Portfolio
       </h1>
       </Marquee>
 
