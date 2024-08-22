@@ -36,8 +36,9 @@ const LandingPage = () => {
 
        <Projects/>
        <Testimonials />
-       <Our />
+       {/* <Our /> */}
      
+     <Footer />
       
  
      
