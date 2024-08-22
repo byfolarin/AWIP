@@ -13,7 +13,7 @@ const OpenIcon = ({ openNav }) => {
   return (
     <motion.div
       onClick={openNav}
-      className='cursor-pointer flex justify-center items-center bg-white w-[32px] h-[32px]'
+      className='cursor-pointer flex justify-center items-center w-[32px] h-[32px]'
       variants={variants}
       whileTap="tap" // Trigger animation on tap
     >

@@ -25,18 +25,15 @@ const LandingPage = () => {
     <div className=' bg-[#FFFEF2]'>
       <Header/>
       <SecondSection/>
-      {/* <SectionTwo/> */}
+
       <Achievements/>
       <Services/>
       <TextRead/>
-      {/* <SecondSectionAgain/> */}
+
        <Projects/>
      
       
-      {/* <SectionTwo/>
-      <div className='hidden lg:block'>
-      <Footer/> 
-   </div> */}
+ 
      
     </div>
   )
