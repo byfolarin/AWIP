@@ -1,5 +1,9 @@
 import React from 'react'
 import Marquee from 'react-fast-marquee'
+import AWIP4 from '../Body/Images/AWIP4.jpg'
+import AWIP2 from '../Body/Images/AWIP2.jpg'
+import AWIP3 from '../Body/Images/AWIP3.jpg'
+import AWIP1 from '../Body/Images/AWIP1.jpg'
 
 const About = () => {
 
@@ -62,7 +66,7 @@ const About = () => {
 
         </div>
 
-              <div className='py-16'>
+            <div className='py-16'>
                 <div className='grid grid-cols-3 grid-rows-3 gap-4 px-4 '>
                     <div className='py-16 px-8 flex flex-col justify-between rounded-xl hover:bg-[#F7F6E9] border border-white bg-[#FFFEF2]'>
                     <div className='space-y-20'>
@@ -172,7 +176,79 @@ const About = () => {
             </div>
 
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+                 
+            </div>
+
+            <Marquee speed={150} >
+           
+           <div className='py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12  gap-4'>
+             
+                 <div className=' justify-between rounded-xl border hover:bg-[#F7F6E9] h-[650px] border-white bg-[#FFFEF2] col-span-2'>   
+                 <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+
+                 </div>
+
+                 <div className='py-16 px-8 justify-between rounded-xl border hover:bg-[#F7F6E9] h-[650px] border-white bg-[#FFFEF2]'>   
+                 <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+                 </div>
+
+                 <div className='py-16 px-8 justify-between rounded-xl border hover:bg-[#F7F6E9] h-[650px] border-white bg-[#FFFEF2] '>   
+                 <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+                 </div>
+
+                  <div className='py-16 px-8 justify-between rounded-xl border hover:bg-[#F7F6E9] h-[650px] border-white bg-[#FFFEF2] col-span-2'>   
+                  <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+                 </div>
+
+                 <div className='py-16 px-8 justify-between rounded-xl border hover:bg-[#F7F6E9] h-[650px] border-white bg-[#FFFEF2] '>  
+                 <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+                 </div>
+
+                 <div className='py-16 px-8 justify-between rounded-xl border hover:bg-[#F7F6E9] h-[650px] border-white bg-[#FFFEF2] col-span-2'>   
+                 <img src={AWIP2} alt="" className='w-full h-full object-cover'/>
+                 </div>
+
+          </div>
+
+         </Marquee>
 
     </div>
   )
