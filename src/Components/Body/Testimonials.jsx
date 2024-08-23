@@ -3,7 +3,7 @@ import Baslogo from './Baslogo.png'
 
 const Testimonials = () => {
   return (
-    <div className='px-6'  >
+    <div className='px-12'  >
 
         <div className='flex-col justify-end bg-[#561D0A]  rounded-2xl font-interTight px-6 py-7'>
 

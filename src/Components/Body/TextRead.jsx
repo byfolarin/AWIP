@@ -16,7 +16,7 @@ const TextRead = () => {
 
 
   return (
-    <div className='flex-col justify-end bg-[#F7F6E9] font-interTight py-12'>
+    <div className='flex-col justify-end bg-[#F7F6E9] font-interTight px-6 py-12'>
 
      
 

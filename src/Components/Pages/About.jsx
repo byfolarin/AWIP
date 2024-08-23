@@ -6,6 +6,7 @@ import AWIP2 from '../Body/Images/AWIP2.jpg'
 import AWIP3 from '../Body/Images/AWIP3.jpg'
 import AWIP1 from '../Body/Images/AWIP1.jpg'
 import Teams from '../Body/Teams'
+import Clients from '../Body/Clients'
 
 const About = () => {
 
@@ -182,7 +183,7 @@ const About = () => {
             </div>
 
 
-
+            <Clients />
 
         <Marquee speed={150} >
            
@@ -214,6 +215,8 @@ const About = () => {
                  </div>
 
           </div>
+
+      
 
          </Marquee>
 

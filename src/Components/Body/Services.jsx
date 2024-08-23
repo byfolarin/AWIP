@@ -11,7 +11,7 @@ const Services = () => {
 
   return (
 
-    <div className='mx-6'>
+    <div className='px-12'>
          
 
           <div className='w-full flex flex-col lg:flex-row gap-4 relative z-50 mb-12'>
