@@ -183,7 +183,7 @@ const About = () => {
             </div>
 
 
-            <Clients />
+         
 
         <Marquee speed={150} >
            
@@ -220,9 +220,11 @@ const About = () => {
 
          </Marquee>
 
+        
 
          <Testimonials/>
 
+         <Clients />
 
 
        <Teams />
