@@ -96,6 +96,14 @@ const ProjectDetails = () => {
                                 <h2 className='text-[#000000] text-[18px]  font-interTight pt-6'>Open-plan living room with floor-to-ceiling windows offers expansive ocean views and ample natural light.</h2>
                         </div>
 
+                        <div className="" >
+                            <div className="bg-[#F7F6E9] rounded-xl h-[350px]">
+                            <img src={AWIP2} alt="" className='w-full rounded-xl h-full object-cover'/>
+                            </div>
+
+                            <h2 className='text-[#000000] text-[18px]  font-interTight pt-6'>Open-plan living room with floor-to-ceiling windows offers expansive ocean views and ample natural light.</h2>
+                        </div>
+
 
 
                         <div className="" >
@@ -125,6 +133,15 @@ const ProjectDetails = () => {
                             </div>
 
                             <h2 className='text-[#000000] text-[18px]  font-interTight pt-6'>Open-plan living room with floor-to-ceiling windows offers expansive ocean views and ample natural light.</h2>
+                        </div>
+
+
+
+                        <div className="  ">
+                                <div className="bg-[#d7d7d7] rounded-xl h-[300px]">
+                                    <img src={AWIP2} alt="" className='w-full rounded-xl h-full object-cover'/>
+                                </div>
+                                <h2 className='text-[#000000] text-[18px]  font-interTight pt-6'>Open-plan living room with floor-to-ceiling windows offers expansive ocean views and ample natural light.</h2>
                         </div>
 
                 </div>
