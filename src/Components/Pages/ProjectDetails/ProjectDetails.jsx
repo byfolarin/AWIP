@@ -1,5 +1,7 @@
 import React from 'react'
 import Vid from './Hvideo.mp4'
+import AWIP2 from '../../Body/Images/AWIP2.jpg'
+
 
 const ProjectDetails = () => {
   return (
@@ -65,6 +67,46 @@ const ProjectDetails = () => {
                    </video>
                  </div>
             </div>
+
+
+            <div className='flex  justify-center w-[100%] bg-[#561D0A] rounded-xl my-8 '>                     
+                <div className='font-medium text-[32px] text-[#FFFEF2] w-[60%] leading-tight  py-24 text-center' >
+                  " To create unique, functional, and sustainable living spaces that enhance the quality of life for our clients. We aim to blend creativity with practicality, delivering designs that are both aesthetically pleasing and deeply personal. "
+                </div>
+            </div>
+
+
+            <div className='flex flex-col items-center justify-center pt-24 '>
+                <p>PROJECT IMAGES</p>
+                <div >
+                    <h1 className=' tracking-[-0.05em] leading-[1.00] my-4  text-[#561D0A]  lg:text-[145px] font-medium lg:tracking-[-0.05em] font-interTight '>
+                        Showcase
+                    </h1>       
+                </div>
+            </div>
+
+
+
+                <div className="grid lg:grid-cols-2 gap-4 py-10">
+
+                        <div className="  ">
+                                <div className="bg-[#d7d7d7] rounded-xl h-[900px]">
+                                    <img src={AWIP2} alt="" className='w-full rounded-xl h-full object-cover'/>
+                                </div>
+                                <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Afya Care</h2>
+                        </div>
+
+
+
+                        <div className="" >
+                            <div className="bg-[#F7F6E9] rounded-xl h-[600px]">
+                            <img src={AWIP2} alt="" className='w-full rounded-xl h-full object-cover'/>
+                            </div>
+
+                            <h2 className='text-[#000000] text-[32px] leading-[1.00] font-interTight pt-6'>Verraki Partners</h2>
+                        </div>
+
+                </div>
 
 
     </div>
