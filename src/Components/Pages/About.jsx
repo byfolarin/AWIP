@@ -1,4 +1,5 @@
 import React from 'react'
+import Testimonials from '../Body/Testimonials'
 import Marquee from 'react-fast-marquee'
 import AWIP4 from '../Body/Images/AWIP4.jpg'
 import AWIP2 from '../Body/Images/AWIP2.jpg'
@@ -176,48 +177,13 @@ const About = () => {
             </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-
                  
             </div>
 
-            <Marquee speed={150} >
+
+            
+
+        <Marquee speed={150} >
            
            <div className='py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12  gap-4'>
              
@@ -249,6 +215,9 @@ const About = () => {
           </div>
 
          </Marquee>
+
+
+         <Testimonials/>
 
     </div>
   )

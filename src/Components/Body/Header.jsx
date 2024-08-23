@@ -12,7 +12,7 @@ const Header = () => {
         <div >
             <h1 className='text-[64px] tracking-[-0.05em] leading-[1.00]  lg:block my-12  text-[#561D0A]  lg:text-[145px]
             font-medium lg:tracking-[-0.05em] font-interTight '>
-                Architecture, <br /> Work In  Progress
+                Architecture, Work In  Progress
             </h1>       
         </div>
       </div>
