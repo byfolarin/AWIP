@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div className='px-6'  >
 
-        <div className='flex-col justify-end bg-[#561D0A]  rounded-2xl font-interTight px-6 py-12'>
+        <div className='flex-col justify-end bg-[#561D0A]  rounded-2xl font-interTight px-6 py-7'>
 
         
 
@@ -18,14 +18,10 @@ const Testimonials = () => {
 
                 </div>
 
-                <div className='py-16'>
+                <div className='py-6'>
 
 
                         <div className='grid grid-cols-3 gap-4 px-4 '>
-
-                               
-
-
 
                                     <div className='py-16 px-8 flex flex-col justify-between rounded-xl border hover:bg-[#F7F6E9] border-white bg-[#FFFEF2]'>
                                     <div className='space-y-20'>
@@ -53,6 +49,15 @@ const Testimonials = () => {
 
 
                         </div>
+
+
+                <div>
+                        
+                        <div className='font-medium text-[24px] w-[60%] flex align-middle leading-tight  py-24 text-center' >
+                        To create unique, functional, and sustainable living spaces that enhance the quality of life for our clients. We aim to blend creativity with practicality, delivering designs that are both aesthetically pleasing and deeply personal.
+                        </div>
+
+                </div>
             
 
                 </div>
