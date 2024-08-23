@@ -1,4 +1,5 @@
 import React from 'react'
+import Baslogo from './Baslogo.png'
 
 const Testimonials = () => {
   return (
@@ -19,18 +20,20 @@ const Testimonials = () => {
                 <div className='py-6'>
 
 
-                        <div className='grid grid-cols-3 gap-4 px-4 '>
+                <div className='grid grid-cols-3 gap-4 px-4 '>
 
-                                    <div className='py-16 px-8 flex flex-col justify-between rounded-xl border hover:bg-[#F7F6E9] border-white bg-[#FFFEF2]'>
-                                    <div className='space-y-20'>
+                    <div className='py-16 px-8 flex flex-col justify-between rounded-xl border hover:bg-[#F7F6E9] border-white bg-[#FFFEF2]'>
 
-                                        <div>
-                                        <h3 className='text-[20px] tracking-[-0.03em] font-medium text-[#454545b6] '>Bastion HMO</h3>
-                                        <h3 className='text-[32px] tracking-[-0.03em] font-semibold text-[#561D0A] '>Dotun Oyewole</h3>
-                                    
-                                    </div>
-                                </div>
-                                </div>
+                    <div className='space-y-20'>
+
+                        <div>
+                            <h3 className='text-[20px] tracking-[-0.03em] font-medium text-[#454545b6] '>Bastion HMO</h3>
+                            <h3 className='text-[32px] tracking-[-0.03em] font-semibold text-[#561D0A] '>Dotun Oyewole</h3>
+                        </div>
+                    </div>
+
+                   <img src={Baslogo} alt="Logo" className="w-full max-w-[200px] aspect-auto"/>
+                 </div>
 
 
 
