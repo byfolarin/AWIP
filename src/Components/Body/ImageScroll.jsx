@@ -24,6 +24,7 @@ const ImageScroll = () => {
                     <div className="bg-[#d7d7d7] rounded-xl h-[500px] overflow-hidden relative">
                         <img src={AWIP1} alt="" className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-110'/>
                         <div className="absolute inset-0 bg-[#000000c0] opacity-0 group-hover:opacity-70 flex items-center justify-center transition-opacity duration-300 rounded-xl">
+                            
                             <p className="text-[#FFFEF2] font-medium text-4xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
                                 Verraki Partners
                             </p>
