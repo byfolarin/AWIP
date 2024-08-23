@@ -1,6 +1,9 @@
 import React from 'react'
 import Vid from './Hvideo.mp4'
+import Projects from '../../Body/Projects'
 import AWIP2 from '../../Body/Images/AWIP2.jpg'
+import Footer from '../../Body/Footer'
+import Marquee from 'react-fast-marquee'
 
 
 const ProjectDetails = () => {
@@ -8,14 +11,12 @@ const ProjectDetails = () => {
     <div>
       <div className='px-12 bg-[#FFFEF2] font-interTight leading-snug'>
 
-            <div className='flex items-center pt-24 '>
-                <div >
-                    <h1 className='text-[64px] tracking-[-0.05em] leading-[1.00]  lg:block my-12  text-[#561D0A]  lg:text-[145px]
-                    font-medium lg:tracking-[-0.05em] font-interTight '>
-                        Afya Care
-                    </h1>       
-                </div>
-            </div>
+      <Marquee >
+        <h1 className='text-4xl sm:text-6xl py-24 md:text-8xl lg:text-[174px] font-medium text-[#561D0A] tracking-[-0.05em] font-interTight leading-[1.00]'>
+         - Afya Care - Works - Afya Care
+        </h1>
+      </Marquee>
+
 
             <div className='rounded-xl '>
                 <div>
@@ -156,7 +157,16 @@ const ProjectDetails = () => {
         </div>
 
 
+        <div className='bg-[#F7F6E9] py-8 rounded-xl'>
+         <Projects/>
+          </div>
+
+
+          <Footer />
     </div>
+
+  
+
     </div>
   )
 }
