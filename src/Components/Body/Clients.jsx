@@ -6,33 +6,21 @@ import LagosWater from './images.png'
 
 const Clients = () => {
   return (
-    <div className='mt-12'>
-            <div className='flex flex-col items-center font-interTight mt-6'>
-               <div className="tag">CLIENTS</div>
-             <h2 className='text-[42px] tracking-[-0.03em] font-semibold text-[#561D0A] '>Our Clients & Partners</h2>
-            </div>
-        
-    <Marquee speed={100}  >
-           
-       
-        <div className='font-interTight flex gap-16 px-6 mt-12 overflow-hidden'>
-
-              <img src={Baslogo} alt="Logo" className="w-full max-w-[200px] aspect-auto"/>
-          
-              <img src={Afyalogo} alt="Logo" className="w-full max-w-[100px] aspect-auto"/>
-
-              <img src={LagosWater} alt="Logo" className="w-full max-w-[200px] "/>
-
-              
+    <div className='mt-8 sm:mt-10 md:mt-12'>
+      <div className='flex flex-col items-center font-interTight mt-4 sm:mt-6'>
+        <div className="tag text-sm sm:text-base mb-2 sm:mb-3">CLIENTS</div>
+        <h2 className='text-[28px] sm:text-[36px] md:text-[42px] tracking-[-0.03em] font-semibold text-[#561D0A] text-center px-4'>
+          Our Clients & Partners
+        </h2>
+      </div>
       
-
+      <Marquee speed={100} className="my-10 sm:mt-10 md:mt-12">
+        <div className='font-interTight flex items-center gap-8 sm:gap-12 md:gap-16 px-4 sm:px-6'>
+          <img src={Baslogo} alt="Logo" className="w-[100px] sm:w-[150px] md:w-[200px] h-auto"/>
+          <img src={Afyalogo} alt="Logo" className="w-[50px] sm:w-[75px] md:w-[100px] h-auto"/>
+          <img src={LagosWater} alt="Logo" className="w-[100px] sm:w-[150px] md:w-[200px] h-auto"/>
         </div>
-       
-
-      
-
-
-    </Marquee>
+      </Marquee>
     </div>
   )
 }
