@@ -3,10 +3,10 @@ import myvid from './Images/Hvideo.mp4'
 
 const Header = () => {
   return (
-    <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
-      <div className='flex items-center pt-12 sm:pt-16 md:pt-20 lg:pt-24'>
+    <div className='px-2 sm:px-6 md:px-8 lg:px-12'>
+      <div className='flex items-center pt-24 sm:pt-24 md:pt-24 lg:pt-24'>
         <div>
-          <h1 className='text-[32px] sm:text-[48px] md:text-[64px] lg:text-[145px] 
+          <h1 className='text-7xl sm:text-7xl md:text-[64px] lg:text-[145px] 
                          tracking-[-0.05em] leading-[1.00] 
                          my-6 sm:my-8 md:my-10 lg:my-12 
                          text-[#561D0A] 
