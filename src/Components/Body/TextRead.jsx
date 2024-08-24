@@ -11,9 +11,9 @@ const TextRead = () => {
   }
 
   return (
-    <div className='flex-col justify-end bg-[#F7F6E9] font-interTight px-4 sm:px-6 py-8 sm:py-12'>
-      <div className='w-full max-w-screen flex flex-col items-center lg:items-end'>
-        <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-[164px] text-[#561D0A] font-medium tracking-[-0.04em] font-interTight leading-[1.00]'>
+    <div className='flex-col justify-end bg-[#F7F6E9] font-interTight px-2 sm:px-6 py-8 sm:py-12'>
+      <div className='w-full max-w-screen flex flex-col items-center lg:items-center'>
+        <h1 className='text-7xl sm:text-6xl md:text-7xl lg:text-[164px] text-[#561D0A] font-medium tracking-[-0.04em] font-interTight leading-[1.00]'>
           Services
         </h1>
       </div>
