@@ -2,7 +2,8 @@ import React from 'react';
 import myvid from './Images/Hvideo.mp4'
 
 const Header = () => {
-  return (
+ return (
+
     <div className='px-2 sm:px-6 md:px-8 lg:px-12'>
       <div className='flex items-center pt-24 sm:pt-24 md:pt-24 lg:pt-24'>
         <div>
@@ -16,6 +17,7 @@ const Header = () => {
         </div>
       </div>
 
+
       <div className='rounded-xl'>
         <div className='aspect-w-16 aspect-h-9'>
           <video className="w-full h-full object-cover rounded-xl" autoPlay muted loop playsInline>
@@ -25,6 +27,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+
   )
 }
 

@@ -28,7 +28,8 @@ const Testimonials = () => {
                 <div>
                   <p className='text-sm sm:text-base lg:text-lg'>" Over 200 successful projects completed, showcasing our extensive experience and portfolio, AWIP was the perfect choice to go with, there was hardly any bidding as they were miles ahead of even the number 2, working with them and their attention to details is too impressive. "</p>
                 </div>
-                <h2 className='text-4xl sm:text-6xl md:text-8xl lg:text-[134px] text-[#d4d3c3] lg:tracking-[-0.05em] font-semibold'>"Attention"</h2>
+
+                <h2 className='flex justify-center text-6xl sm:text-6xl md:text-8xl lg:text-[134px] text-[#d4d3c3] lg:tracking-[-0.05em] font-semibold'>"Attention"</h2>
               </div>
             </div>
           </div>
