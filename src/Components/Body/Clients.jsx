@@ -6,7 +6,7 @@ import LagosWater from './images.png'
 
 const Clients = () => {
   return (
-    <div className='mt-8 sm:mt-10 md:mt-12'>
+    <div className='mt-8 sm:mt-10 md:mt-12 font-interTight'>
       <div className='flex flex-col items-center font-interTight mt-4 sm:mt-6'>
         <div className="tag text-sm sm:text-base mb-2 sm:mb-3">CLIENTS</div>
         <h2 className='text-[28px] sm:text-[36px] md:text-[42px] tracking-[-0.03em] font-semibold text-[#561D0A] text-center px-4'>
