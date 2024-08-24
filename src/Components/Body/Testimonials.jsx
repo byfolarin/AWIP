@@ -6,7 +6,7 @@ const Testimonials = () => {
     <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
       <div className='flex-col justify-end bg-[#561D0A] rounded-2xl font-interTight px-4 sm:px-6 py-7'>
         <div className='w-full max-w-screen flex flex-col items-center lg:items-center'>
-          <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-[164px] text-[#F7F6E9] py-6 font-medium tracking-[-0.04em] font-interTight leading-[1.00]'>
+          <h1 className='text-7xl sm:text-6xl md:text-7xl lg:text-[164px] text-[#F7F6E9] py-6 font-medium tracking-[-0.04em] font-interTight leading-[1.00]'>
             Testimonials
           </h1>
         </div>
