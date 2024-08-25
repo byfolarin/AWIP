@@ -27,14 +27,14 @@ const Navigation = ({ setIsHovered, closeNav }) => {
           <div  className=' bg-[#FFFEF2] w-full  lg:w-[350px] h-screen px-11 py-8 '>
             
 
-              {/* <div className='flex justify-end py-2 cursor-pointer'>
+              <div className='flex justify-end py-2 cursor-pointer'>
                 <CloseIcon closeNav={closeNav} />       
               </div>
 
               <div>
                 <p className='text-[12px]'>
                     MENU
-                </p> */}
+                </p>
 
 
             <ul className='font-sans text-[42px] pt-4 tracking-tighter cursor-pointer text '>
