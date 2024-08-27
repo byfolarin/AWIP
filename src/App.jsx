@@ -1,6 +1,7 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route,Link, useLocation } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
+import Lenis from '@studio-freight/lenis'
 import './App.css'
 import Default from './Components/Navigation/default.png'
 import LandingPage from './Components/Body/LandingPage'
@@ -39,6 +40,31 @@ function App() {
   const closeNav = () => {
     setIsNavOpen(false);
   };
+
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      direction: 'vertical',
+      gestureDirection: 'vertical',
+      smooth: true,
+      mouseMultiplier: 1,
+      smoothTouch: false,
+      touchMultiplier: 2,
+      infinite: false,
+    })
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+
+    return () => {
+      lenis.destroy()
+    }
+  }, [])
 
   return (
     <Router>
