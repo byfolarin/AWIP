@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { motion } from 'framer-motion'
 import Img from './Images/image.png'
 import ImageScroll from './Images/image.png';
 import AWIP1 from './Images/AWIP1.jpg'
@@ -17,32 +18,26 @@ import Testimonials from './Testimonials';
 import Our from './Our';
 import Clients from './Clients';
 
-
-
 const LandingPage = () => {
-
- 
-
-
   return (
-    <div className=' bg-[#FFFEF2]'>
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.3 }}
+      className='bg-[#FFFEF2]'
+    >
       <Header/>
       <Clients />
       <SecondSection/>
-
       <Achievements/>
       <Services/>
       <TextRead/>
-
-       <Projects/>
-       <Testimonials />
-       {/* <Our /> */}
-     
-     <Footer />
-      
- 
-     
-    </div>
+      <Projects/>
+      <Testimonials />
+      {/* <Our /> */}
+      <Footer />
+    </motion.div>
   )
 }
 
