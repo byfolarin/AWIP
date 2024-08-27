@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import Testimonials from '../Body/Testimonials'
 import Marquee from 'react-fast-marquee'
 import AWIP4 from '../Body/Images/AWIP4.jpg'
@@ -11,7 +12,13 @@ import Clients from '../Body/Clients'
 const About = () => {
 
   return (
-    <div  className='overflow-hidden font-interTight bg-[#FFFEF2]'>
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.3 }}
+      className='overflow-hidden font-interTight bg-[#FFFEF2]'
+    >
 
       <Marquee>
       <h1 className='text-[174px] font-medium my-32 text-[#561D0A]  tracking-[-0.05em] font-interTight leading-[1.00]'>
@@ -232,10 +239,8 @@ const About = () => {
 
         
 
-    </div>
+    </motion.div>
   )
 }
 
 export default About
-
-
