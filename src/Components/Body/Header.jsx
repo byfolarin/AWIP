@@ -49,7 +49,7 @@ const Header = () => {
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-[8vw] xl:text-[145px] tracking-[-0.05em] leading-[1.1] text-[#561D0A] 
                          font-medium font-interTight
                          origin-top-left'>
-            {['Architecture,', 'Work', 'In', 'Progress...'].map((word, index) => (
+            {['Architecture,', 'Work', 'In', 'Progress'].map((word, index) => (
               <motion.span key={index} className="inline-block mr-2 sm:mr-3 md:mr-4" variants={wordVariants}>
                 {word}
               </motion.span>
