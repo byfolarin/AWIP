@@ -20,7 +20,7 @@ const testimonials = [
     highlightWord: "Creativity",
   },
   {
-    company: "Lagos Water Corporation",
+    company: "Lagos Water Corpora",
     name: "Michael Chen",
     logo: OtherLogo2,
     quote: "AWIP's commitment to sustainability in design is unparalleled. They seamlessly integrated eco-friendly solutions without compromising on style or functionality. Our new space is both beautiful and environmentally responsible.",
@@ -43,7 +43,7 @@ const Testimonials = () => {
 
   return (
     <div className='px-4 sm:px-6 md:px-8 lg:px-12 font-interTight'>
-      <div className='flex-col justify-end bg-[#561D0A] rounded-2xl font-interTight px-4 sm:px-6 py-7'>
+      <div className='flex-col justify-end bg-[#561D0A] rounded-xl font-interTight px-4 sm:px-6 py-7'>
         <div className='w-full max-w-screen flex flex-col items-center lg:items-center'>
           <h1 className='text-6xl sm:text-6xl md:text-7xl lg:text-[164px] text-[#F7F6E9] py-6 font-medium tracking-[-0.04em] font-interTight leading-[1.00]'>
             Testimonials
@@ -52,7 +52,7 @@ const Testimonials = () => {
 
         <div className='py-6'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-2 sm:px-4'>
-            <div className='py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 flex flex-col justify-between rounded-xl border border-white bg-[#FFFEF2]'>
+            <div className='py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 flex flex-col justify-between rounded-2xl border border-white bg-[#FFFEF2]'>
               <div className='space-y-10 sm:space-y-16 lg:space-y-20'>
                 <div>
                   <AnimatePresence mode="wait">
@@ -83,7 +83,7 @@ const Testimonials = () => {
               </AnimatePresence>
             </div>
 
-            <div className='py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-2 flex flex-col justify-between rounded-xl border border-white bg-[#FFFEF2] md:col-span-2'>
+            <div className='py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 flex flex-col justify-between rounded-2xl border border-white bg-[#FFFEF2] md:col-span-2'>
               <div className='space-y-10 sm:space-y-16 lg:space-y-20'>
                 <div>
                   <AnimatePresence mode="wait">
@@ -109,7 +109,7 @@ const Testimonials = () => {
                   <AnimatePresence mode="wait">
                     <motion.h2 
                       key={currentTestimonial}
-                      className='flex justify-center items-center h-full text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-[#561D0A]  lg:tracking-[-0.05em] font-semibold'
+                      className='flex justify-center items-center h-full text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-[#561D0A] lg:tracking-[-0.05em] font-semibold'
                       initial={{ opacity: 0, x: -20 }}
                       animate={{ opacity: 1, x: 0 }}
                       exit={{ opacity: 0, x: 20 }}
