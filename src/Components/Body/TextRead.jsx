@@ -3,7 +3,9 @@ import { motion, useInView } from 'framer-motion'
 
 const TextRead = () => {
   const ref = useRef(null)
+  const cardsRef = useRef(null)
   const inView = useInView(ref, { once: true, threshold: 0.5 })
+  const cardsInView = useInView(cardsRef, { once: true, threshold: 0.1 })
 
   const titleVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -14,6 +16,28 @@ const TextRead = () => {
         duration: 0.6,
         ease: 'easeInOut'
       } 
+    }
+  }
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: { 
+        duration: 0.5,
+        ease: 'easeOut'
+      } 
+    }
+  }
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.8
+      }
     }
   }
 
@@ -40,11 +64,18 @@ const TextRead = () => {
         </motion.h1>
       </div>
 
-      <div className='py-8 sm:py-12 md:py-16'>
+      <motion.div 
+        ref={cardsRef}
+        initial="hidden"
+        animate={cardsInView ? "visible" : "hidden"}
+        variants={containerVariants}
+        className='py-8 sm:py-12 md:py-16'
+      >
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-2 sm:px-4'>
           {serviceCards.map((card, index) => (
-            <div
+            <motion.div
               key={index}
+              variants={cardVariants}
               className='py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 flex flex-col justify-between rounded-xl hover:bg-[#F7F6E9] border border-white bg-[#FFFEF2]'
             >
               <div className='space-y-10 sm:space-y-16 lg:space-y-20'>
@@ -56,10 +87,10 @@ const TextRead = () => {
                   {card.number.split('+')[0]}<span className='text-black'>+</span>
                 </h2>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
