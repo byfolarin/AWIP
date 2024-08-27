@@ -1,38 +1,92 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import NavigationLeft from './NavigationLeft'
 import Navigation from './Navigation'
 
-const Nav = ({ isHovered, setIsHovered, closeNav }) => {
+const Nav = ({ isHovered, setIsHovered, closeNav, isNavOpen }) => {
 
-  const variants = {
+  const containerVariants = {
     initial: { x: "100%" },
-    animate: { x: 0 },
-    exit: { x: "100%" } // Change this to mirror the animate variant
+    animate: { 
+      x: 0,
+      transition: {
+        type: "tween",
+        ease: "easeInOut",
+        duration: 0.5
+      }
+    },
+    exit: { 
+      x: "100%",
+      transition: {
+        type: "tween",
+        ease: "easeInOut",
+        duration: 0.5
+      }
+    }
   }
 
-  return (
-    <motion.div 
-      className='flex fixed justify-end w-full z-[9999] bg-[#000000b3] right-0 overflow-hidden overflow-y-hidden'
-      variants={variants}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={{
+  const leftVariants = {
+    initial: { x: "100%" },
+    animate: { 
+      x: 0,
+      transition: {
+        type: "tween",
+        ease: "easeInOut",
+        duration: 0.6
+      }
+    },
+    exit: { 
+      x: "100%",
+      transition: {
         type: "tween",
         ease: "easeInOut",
         duration: 0.4
-      }}
-    >
+      }
+    }
+  }
 
+  const rightVariants = {
+    initial: { x: "100%" },
+    animate: { 
+      x: 0,
+      transition: {
+        type: "tween",
+        ease: "easeInOut",
+        duration: 0.4
+      }
+    },
+    exit: { 
+      x: "100%",
+      transition: {
+        type: "tween",
+        ease: "easeInOut",
+        duration: 0.3
+      }
+    }
+  }
 
-      <NavigationLeft isHovered={isHovered} setIsHovered={setIsHovered} />
-
-      <Navigation 
-        setIsHovered={setIsHovered} 
-        closeNav={closeNav}
-      />
-    </motion.div>
+  return (
+    <AnimatePresence>
+      {isNavOpen && (
+        <motion.div 
+          className='flex fixed justify-end w-full z-[9999] bg-[#000000b3] right-0 overflow-hidden overflow-y-hidden'
+          variants={containerVariants}
+          initial="initial"
+          animate="animate"
+          exit="exit"
+        >
+          <motion.div variants={leftVariants}>
+            <NavigationLeft isHovered={isHovered} />
+          </motion.div>
+          <motion.div variants={rightVariants}>
+            <Navigation 
+              setIsHovered={setIsHovered} 
+              closeNav={closeNav}
+            />
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   )
 }
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route,Link, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import './App.css'
 import Default from './Components/Navigation/default.png'
@@ -43,13 +43,12 @@ function App() {
   return (
     <Router>
       <div> 
-        {isNavOpen &&
-          <Nav 
-            isHovered={isHovered} 
-            setIsHovered={setIsHovered}
-            closeNav={closeNav}
-          />
-        }
+        <Nav 
+          isHovered={isHovered} 
+          setIsHovered={setIsHovered}
+          closeNav={closeNav}
+          isNavOpen={isNavOpen}
+        />
 
         <div className='border w-full fixed z-[1000] bg-[#FFFEF2]  
         border-[#d7d7d7] border-x-0 px-8 py-3 flex items-center justify-between'>
