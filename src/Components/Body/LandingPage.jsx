@@ -62,7 +62,7 @@ const LandingPage = () => {
             exit="hidden"
             variants={containerVariants}
           >
-            <div className="h-full mx-[16px] w-screen px-4 sm:px-6 lg:px-8">
+            <div className="h-full mx-[48px]">
               <div className="grid h-full grid-cols-4 sm:grid-cols-8 lg:grid-cols-12 gap-4">
                 {[...Array(12)].map((_, index) => (
                   <motion.div 
