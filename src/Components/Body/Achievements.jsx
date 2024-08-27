@@ -54,7 +54,7 @@ const AchievementCard = ({ number, suffix, title, description, delay }) => (
 const Achievements = () => {
   return (
     <div className='py-11 font-interTight px-2 lg:px-12'>
-      <div className='flex flex-col lg:flex-row gap-4'>
+      <div className='flex flex-col items-center justify-center lg:flex-row gap-4'>
         <AchievementCard
           number={200}
           suffix="+"
@@ -75,7 +75,7 @@ const Achievements = () => {
           title="Happy Clients"
           description="Over 150 satisfied clients who trust our services and continue to work with us."
           delay={0.8}
-          
+
         />
       </div>
     </div>
