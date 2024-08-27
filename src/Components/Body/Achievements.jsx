@@ -1,41 +1,81 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { InView } from 'react-intersection-observer';
+
+const CounterAnimation = ({ end, duration }) => {
+  const [count, setCount] = useState(0);
+
+  return (
+    <motion.span
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <motion.span
+        animate={{ count: end }}
+        onUpdate={({ count }) => setCount(Math.floor(count))}
+        transition={{ duration }}
+      >
+        {count}
+      </motion.span>
+    </motion.span>
+  );
+};
+
+const AchievementCard = ({ number, suffix, title, description }) => (
+  <InView triggerOnce>
+    {({ inView, ref }) => (
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: 50 }}
+        animate={inView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        className='py-8 lg:py-16 px-4 lg:px-8 flex flex-col justify-between rounded-xl border border-white bg-[#F7F6E9]'
+      >
+        <div className='space-y-8 lg:space-y-20'>
+          <h2 className='text-8xl lg:text-[134px] lg:tracking-[-0.05em] font-semibold text-[#561D0A]'>
+            {inView ? <CounterAnimation end={number} duration={2} /> : '0'}
+            <span className='text-black'>{suffix}</span>
+          </h2>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
+            <h3 className='text-2xl lg:text-[32px] tracking-[-0.03em] font-semibold text-[#561D0A]'>{title}</h3>
+            <p className='text-sm lg:text-base pt-4 font-interTight'>{description}</p>
+          </motion.div>
+        </div>
+      </motion.div>
+    )}
+  </InView>
+);
 
 const Achievements = () => {
   return (
     <div className='py-11 font-interTight px-2 lg:px-12'>
       <div className='flex flex-col lg:flex-row gap-4'>
-        <div className='py-8 lg:py-16 px-4 lg:px-8 flex flex-col justify-between rounded-xl border border-white bg-[#F7F6E9]'>
-          <div className='space-y-8 lg:space-y-20'>
-            <h2 className='text-8xl lg:text-[134px] lg:tracking-[-0.05em] font-semibold text-[#561D0A]'>200<span className='text-black'>+</span></h2>
-            <div>
-              <h3 className='text-2xl lg:text-[32px] tracking-[-0.03em] font-semibold text-[#561D0A]'>Project Completed</h3>
-              <p className='text-sm lg:text-base pt-4 font-interTight'>Over 200 successful projects completed, showcasing our extensive experience and portfolio.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className='py-8 lg:py-16 px-4 lg:px-8 flex flex-col justify-between rounded-xl border border-white bg-[#F7F6E9]'>
-          <div className='space-y-8 lg:space-y-20'>
-            <h2 className='text-8xl lg:text-[134px] lg:tracking-[-0.05em] font-interTight font-semibold text-[#561D0A]'>13<span className='text-black'>+</span></h2>
-            <div>
-              <h3 className='text-2xl lg:text-[32px] font-interTight tracking-[-0.03em] font-semibold text-[#561D0A]'>Years of Experience</h3>
-              <p className='text-sm lg:text-base font-interTight pt-4'>Over a decade of expertise in delivering high-quality solutions to our clients.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className='py-8 lg:py-16 px-4 lg:px-8 flex flex-col justify-between rounded-xl border border-white bg-[#F7F6E9]'>
-          <div className='space-y-8 lg:space-y-20'>
-            <h2 className='text-8xl lg:text-[134px] font-interTight text-[#561D0A] lg:tracking-[-0.05em] font-semibold'>150<span className='text-black'>+</span></h2>
-            <div>
-              <h3 className='text-2xl lg:text-[32px] font-interTight tracking-[-0.03em] font-semibold text-[#561D0A]'>Happy Clients</h3>
-              <p className='text-sm lg:text-base font-interTight pt-4'>Over 150 satisfied clients who trust our services and continue to work with us.</p>
-            </div>
-          </div>
-        </div>
+        <AchievementCard
+          number={200}
+          suffix="+"
+          title="Project Completed"
+          description="Over 200 successful projects completed, showcasing our extensive experience and portfolio."
+        />
+        <AchievementCard
+          number={13}
+          suffix="+"
+          title="Years of Experience"
+          description="Over a decade of expertise in delivering high-quality solutions to our clients."
+        />
+        <AchievementCard
+          number={150}
+          suffix="+"
+          title="Happy Clients"
+          description="Over 150 satisfied clients who trust our services and continue to work with us."
+        />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Achievements
+export default Achievements;
