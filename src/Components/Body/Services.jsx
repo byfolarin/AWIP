@@ -1,20 +1,41 @@
-import React from 'react'
-import AWIP2 from './Images/AWIP2.jpg'
+import React, { useRef } from 'react'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import AWIP4 from './Images/AWIP4.jpg'
 
 const Services = () => {
-  return (
-    <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
-      <div className='w-full flex flex-col lg:flex-row gap-4 relative z-50 mb-12'>
-        <div className='w-full lg:w-1/2 bg-[#343434] rounded-xl h-[350px] sm:h-[450px] md:h-[550px] lg:h-[750px]'>            
-          <img src={AWIP4} alt="" className='w-full rounded-xl h-full object-cover'/>
-        </div>
+  const ref = useRef(null)
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"]
+  })
 
-        <div className='flex-col w-full lg:w-1/2'>
-          <div className='rounded-xl bg-[#343434] h-[250px] sm:h-[300px] md:h-[350px] lg:h-[450px]'>
-            <img src={AWIP2} alt="" className='w-full h-full rounded-xl object-cover'/>
-          </div>
-        </div>
+  const y1 = useTransform(scrollYProgress, [0, 1], ['-30%', '30%'])
+
+  const imageVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { 
+      opacity: 1, 
+      scale: 1,
+      transition: { 
+        duration: 0.5,
+        ease: "easeOut"
+      }
+    }
+  }
+
+  return (
+    <div ref={ref} className='px-4 sm:px-6 md:px-8 lg:px-12'>
+      <div className='w-full flex flex-col lg:flex-row gap-4 relative z-50 mb-12'>
+        <motion.div 
+          className='w-full bg-[#343434] rounded-xl h-[350px] sm:h-[450px] md:h-[550px] lg:h-[750px] overflow-hidden'
+          initial="hidden"
+          animate="visible"
+          variants={imageVariants}
+        >            
+          <motion.div style={{ y: y1, height: '160%', width: '100%' }}>
+            <img src={AWIP4} alt="" className='w-full h-full object-cover object-center'/>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   )
