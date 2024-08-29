@@ -13,7 +13,13 @@ import Footer from './Footer'
 const LandingPage = () => {
   const [showGrid, setShowGrid] = useState(false);
 
-  
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      // Toggle grid when Shift+H is pressed
+      if (event.shiftKey && event.key === 'H') {
+        setShowGrid(prevState => !prevState);
+      }
+    };
 
     window.addEventListener('keydown', handleKeyDown);
 
