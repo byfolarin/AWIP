@@ -15,7 +15,6 @@ const LandingPage = () => {
 
   useEffect(() => {
     const handleKeyDown = (event) => {
-      // Toggle grid when Shift+H is pressed
       if (event.shiftKey && event.key === 'H') {
         setShowGrid(prevState => !prevState);
       }
