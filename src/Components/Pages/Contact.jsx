@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import AWIP2 from '../Body/Images/AWIP2.jpg'
 import Marquee from 'react-fast-marquee'
+import Footer from '../Body/Footer'
 
 const Contact = () => {
   return (
@@ -35,6 +36,7 @@ const Contact = () => {
       {/* <div>
         <img src={AWIP2}  alt=""  className='w-full h-full object-cover'/>
       </div> */}
+      <Footer />
     </motion.div>
   )
 }

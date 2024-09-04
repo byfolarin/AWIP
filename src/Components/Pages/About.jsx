@@ -8,6 +8,7 @@ import AWIP3 from '../Body/Images/AWIP3.jpg'
 import AWIP1 from '../Body/Images/AWIP1.jpg'
 import Teams from '../Body/Teams'
 import Clients from '../Body/Clients'
+import Footer from '../Body/Footer'
 
 const About = () => {
 
@@ -235,6 +236,8 @@ const About = () => {
 
 
        <Teams />
+
+       <Footer />
 
 
         
