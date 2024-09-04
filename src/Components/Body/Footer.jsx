@@ -6,7 +6,7 @@ const Footer = () => {
   const menuItems = ['Home', 'Projects', 'About', 'Contact']
 
   return (
-    <footer className='bg-[#561D0A] rounded-xl mt-9 font-interTight p-6 sm:p-8 md:p-10 lg:p-12 text-white'>
+    <footer className='bg-[#561D0A]  mt-9 font-interTight p-6 sm:p-8 md:p-10 lg:p-12 text-white'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12'>
         <div>
           <h2 className='text-2xl font-semibold mb-4'>AWIP</h2>
@@ -31,7 +31,6 @@ const Footer = () => {
       </div>
 
       <div className='border-t border-white/20 pt-8'>
-        <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-[#F7F6E9] text-center tracking-tighter mb-8'>AWIP</h1>
         <div className='flex flex-wrap justify-center gap-4'>
           {socialMedia.map((platform, index) => (
             <a key={index} href={`#${platform.toLowerCase()}`} className='px-4 py-2 bg-white/10 rounded-full text-sm hover:bg-white/20 transition-colors'>
