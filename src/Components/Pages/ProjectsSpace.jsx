@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import ImageScroll from '../Body/ImageScroll'
 import Marquee from "react-fast-marquee";
+import Footer from '../Body/Footer'
+
 
 const ProjectsSpace = () => {
   return (
@@ -25,6 +27,7 @@ const ProjectsSpace = () => {
 
       {/* <ImgScro/> */}
       {/* <ProjectsComponent /> */}
+      <Footer />
     </motion.div>
   )
 }
