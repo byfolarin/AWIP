@@ -13,7 +13,7 @@ const Footer = () => {
           <p className='text-sm opacity-80'>Transforming spaces with innovative and personalized interior design solutions.</p>
         </div>
         <div>
-          <h3 className='text-lg font-semibold mb-4'>Menu</h3>
+          <h3 className='text-lg font-semibold mb-4 text-gray-300'>Menu</h3>
           <nav>
             <ul className='grid grid-cols-2 gap-2'>
               {menuItems.map((item, index) => (
@@ -23,9 +23,9 @@ const Footer = () => {
           </nav>
         </div>
         <div>
-          <h3 className='text-lg font-semibold mb-4'>Contact</h3>
-          <p className='text-sm mb-2'>hello@awip.com.ng</p>
-          <p className='text-sm mb-2'>+234 803 3927 062</p>
+          <h3 className='text-lg font-semibold mb-4 text-gray-300'>Contact</h3>
+          <p className='text-sm mb-2 text-gray-300'>hello@awip.com.ng</p>
+          <p className='text-sm mb-2 text-gray-300'>+234 803 3927 062</p>
           <p className='text-sm'>12A, Alake Onileere Crescent, Gbagada, Lagos</p>
         </div>
       </div>
