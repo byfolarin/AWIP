@@ -1,35 +1,50 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  const socialMedia = ['Instagram', 'Twitter', 'Facebook', 'LinkedIn', 'YouTube', 'TikTok']
+  const menuItems = ['Home', 'Projects', 'About', 'Contact']
+
   return (
-    <div className='bg-[#561D0A] rounded-xl mt-9 font-interTight p-4 sm:p-6 md:p-8 lg:p-12'>
-      
-      <div className='flex flex-col lg:flex-row justify-between gap-8 lg:gap-0'>
-        <div className="social-media grid grid-cols-2 sm:grid-cols-3 w-full lg:w-[50%] gap-2 text-black">
-          {['Instagram', 'Twitter', 'Facebook', 'LinkedIn', 'YouTube', 'TikTok'].map((item, index) => (
-            <div key={index} className='px-2 sm:px-4 py-3 sm:py-6 rounded-xl bg-slate-200 text-sm sm:text-base'>{item}</div>
+    <footer className='bg-[#561D0A] rounded-xl mt-9 font-interTight p-6 sm:p-8 md:p-10 lg:p-12 text-white'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12'>
+        <div>
+          <h2 className='text-2xl font-semibold mb-4'>AWIP</h2>
+          <p className='text-sm opacity-80'>Transforming spaces with innovative and personalized interior design solutions.</p>
+        </div>
+        <div>
+          <h3 className='text-lg font-semibold mb-4'>Menu</h3>
+          <nav>
+            <ul className='grid grid-cols-2 gap-2'>
+              {menuItems.map((item, index) => (
+                <li key={index}><Link to={`/${item.toLowerCase()}`} className='hover:underline'>{item}</Link></li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <h3 className='text-lg font-semibold mb-4'>Contact</h3>
+          <p className='text-sm mb-2'>hello@awip.com.ng</p>
+          <p className='text-sm mb-2'>+234 803 3927 062</p>
+          <p className='text-sm'>12A, Alake Onileere Crescent, Gbagada, Lagos</p>
+        </div>
+      </div>
+
+      <div className='border-t border-white/20 pt-8'>
+        <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-[#F7F6E9] text-center tracking-tighter mb-8'>AWIP</h1>
+        <div className='flex flex-wrap justify-center gap-4'>
+          {socialMedia.map((platform, index) => (
+            <a key={index} href={`#${platform.toLowerCase()}`} className='px-4 py-2 bg-white/10 rounded-full text-sm hover:bg-white/20 transition-colors'>
+              {platform}
+            </a>
           ))}
         </div>
-    
-        <div className='text-white mt-8 lg:mt-0'>
-          <p className='font-semibold mb-4'>Menu</p>
-          <div className='grid grid-cols-2 sm:grid-cols-1 gap-2'>
-            {['Home', 'Projects', 'About', 'Contact'].map((item, index) => (
-              <div key={index} className='text-sm sm:text-base'>{item}</div>
-            ))}
-          </div>
-        </div>
       </div>
 
-      <h1 className='text-[64px] sm:text-[128px] md:text-[192px] lg:text-[320px] font-semibold text-[#F7F6E9] flex justify-center tracking-tighter mx-2 sm:mx-4 md:mx-6 leading-none mt-8 lg:mt-0'>AWIP</h1>
-
-      <div className="social-media grid grid-cols-2 sm:grid-cols-4 border-t py-5 px-4 sm:px-10 text-white text-sm sm:text-base mt-8">
-        <div>Instagram</div>
-        <div>Twitter</div>
-        <div>Facebook</div>
-        <div>LinkedIn</div>
+      <div className='text-center text-sm mt-12 opacity-60'>
+        © {new Date().getFullYear()} AWIP. All rights reserved.
       </div>
-    </div>
+    </footer>
   )
 }
 
