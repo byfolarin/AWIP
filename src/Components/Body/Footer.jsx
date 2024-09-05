@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <footer className='bg-[#561D0A]  mt-9 font-interTight p-6 sm:p-8 md:p-10 lg:p-12 text-white'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12'>
-        <div>
+        {/* <div>
           <h2 className='text-2xl font-semibold mb-4'>AWIP</h2>
           <p className='text-sm opacity-80'>Transforming spaces with innovative and personalized interior design solutions.</p>
-        </div>
+        </div> */}
         <div>
           <h3 className='text-lg font-semibold mb-4 text-gray-300'>Menu</h3>
           <nav>
