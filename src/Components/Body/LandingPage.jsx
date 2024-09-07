@@ -92,7 +92,10 @@ const LandingPage = () => {
         <TextRead/>
         <Projects/>
         <Testimonials />
+        <div className='pt-12'>
         <Services />
+        </div>
+      
         <Footer />
     
       </motion.div>
