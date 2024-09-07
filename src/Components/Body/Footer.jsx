@@ -12,6 +12,8 @@ const Footer = () => {
           <h2 className='text-2xl font-semibold mb-4'>AWIP</h2>
           <p className='text-sm opacity-80'>Transforming spaces with innovative and personalized interior design solutions.</p>
         </div>
+
+
         <div>
           <h3 className='text-lg font-semibold mb-4 text-gray-300'>Menu</h3>
           <nav>
@@ -22,6 +24,8 @@ const Footer = () => {
             </ul>
           </nav>
         </div>
+
+
         <div>
           <h3 className='text-lg font-semibold mb-4 text-gray-300'>Contact</h3>
           <p className='text-sm mb-2 text-gray-300'>hello@awip.com.ng</p>
@@ -29,6 +33,8 @@ const Footer = () => {
           <p className='text-sm'>12A, Alake Onileere Crescent, Gbagada, Lagos</p>
         </div>
       </div>
+
+      
 
       <div className='border-t border-white/20 pt-8'>
         <div className='flex flex-wrap justify-center gap-4'>
