@@ -84,14 +84,14 @@ const LandingPage = () => {
         transition={{ duration: 0.3 }}
         className='bg-[#FFFEF2]'
       >
-        {/* <Header/>
+        <Header/>
         <Clients />
         <SecondSection/>
         <Achievements/>
         <Services/>
         <TextRead/>
         <Projects/>
-        <Testimonials /> */}
+        <Testimonials />
         <div className='pt-12'>
         <Services />
         </div>
