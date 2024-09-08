@@ -43,7 +43,7 @@ const Header = () => {
           initial="hidden"
           animate="visible"
           variants={h1Variants}
-          className="sticky top-0 pt-16 sm:pt-20 md:pt-24 lg:pt-28"
+          className="sticky top-0 pt-24 sm:pt-20 md:pt-24 lg:pt-28"
           style={{ scale: h1Scale, opacity: h1Opacity }}
         >
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-[8vw] xl:text-[145px] tracking-[-0.05em] leading-[1.1] text-[#561D0A] 
