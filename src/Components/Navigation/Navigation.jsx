@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import Default from './default.jpg'
+import Default from './default.png'
 import CloseIcon from './CloseIcon'
 import AWIP1 from './AWIP1.jpg'
 import AWIP2 from './AWIP2.jpg'
