@@ -57,11 +57,11 @@ const Header = () => {
           </h1>       
         </motion.div>
 
-        <motion.div 
+               <motion.div 
           className='rounded-xl relative mt-8 sm:mt-12 md:mt-16 lg:mt-20'
           style={{ scale: videoScale, y: videoY }}
         >
-          <div className='aspect-w-16 aspect-h-24 sm:aspect-h-10 md:aspect-h-9'>
+          <div className='aspect-w-16 aspect-h-24 sm:aspect-h-10 md:aspect-h-9 mobile:aspect-h-16'> {/* Added mobile aspect ratio */}
             <video className="w-full h-full object-cover rounded-xl" autoPlay muted loop playsInline>
               <source src={myvid} type="video/mp4" />
               Your browser does not support the video tag.
