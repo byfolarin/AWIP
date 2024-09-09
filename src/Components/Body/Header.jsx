@@ -46,7 +46,7 @@ const Header = () => {
           className="sticky top-0 pt-24 sm:pt-20 md:pt-24 lg:pt-28"
           style={{ scale: h1Scale, opacity: h1Opacity }}
         >
-          <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-[8vw] xl:text-[145px] tracking-[-0.05em] leading-[1.1] text-[#561D0A] 
+          <h1 className='text-6xl sm:text-5xl md:text-6xl lg:text-[8vw] xl:text-[145px] tracking-[-0.05em] leading-[1.1] text-[#561D0A] 
                          font-medium font-interTight
                          origin-top-left'>
             {['Architecture,', 'Work', 'In', 'Progress'].map((word, index) => (
@@ -61,7 +61,7 @@ const Header = () => {
           className='rounded-xl relative mt-8 sm:mt-12 md:mt-16 lg:mt-20'
           style={{ scale: videoScale, y: videoY }}
         >
-          <div className='aspect-w-16 aspect-h-12 sm:aspect-h-10 md:aspect-h-9'>
+          <div className='aspect-w-16 aspect-h-24 sm:aspect-h-10 md:aspect-h-9'>
             <video className="w-full h-full object-cover rounded-xl" autoPlay muted loop playsInline>
               <source src={myvid} type="video/mp4" />
               Your browser does not support the video tag.
