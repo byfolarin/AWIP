@@ -12,7 +12,7 @@ const Teams = () => {
 
 
   const serviceCards = [
-    { title: "Femi Oyebola", description: "Managing Partner", icon: MrFemi },
+    { title: "Femi Oyebola", description: "Principal Partner", icon: MrFemi },
     { title: "Interior Design", description: "Transforming spaces with innovative and personalized interior design solutions.", icon: MrFemi },
     { title: "Space Survey", description: "Comprehensive space analysis to optimize functionality and aesthetics.", icon: MrFemi },
     { title: "3D Visualization", description: "Bringing ideas to life with stunning 3D renderings and walkthroughs.", icon: MrFemi },
