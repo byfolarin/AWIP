@@ -90,7 +90,7 @@ const TextRead = () => {
                     <h3 className='text-2xl sm:text-3xl lg:text-[32px] tracking-[-0.03em] font-semibold text-[#561D0A]'>{card.title}</h3>
                     <p className='mt-2 text-sm sm:text-base'>{card.description}</p>
                   </div>
-                  <div className='w-full h-32 sm:h-40 lg:h-48 flex items-center justify-center'>
+                  <div className='w-full h-full sm:h-full lg:h-full flex items-center justify-center'>
                     <img src={card.icon} alt={card.title} className='w-full h-full object-contain' />
                   </div>
                 </div>

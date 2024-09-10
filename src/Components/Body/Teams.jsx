@@ -1,4 +1,5 @@
 import React from 'react'
+import MrFemi from './Group 2.png'
 import densityMediumSvg from './density-medium.svg'
 import linkedServicesSvg from './linked-services.svg'
 import radioButtonUncheckedSvg from './radio-button-unchecked.svg'
@@ -11,7 +12,7 @@ const Teams = () => {
 
 
   const serviceCards = [
-    { title: "Project Completed", description: "Over 200 successful projects completed, showcasing our extensive experience and portfolio.", icon: densityMediumSvg },
+    { title: "Femi Oyebola", description: "Managing Partner", icon: MrFemi },
     { title: "Interior Design", description: "Transforming spaces with innovative and personalized interior design solutions.", icon: linkedServicesSvg },
     { title: "Space Survey", description: "Comprehensive space analysis to optimize functionality and aesthetics.", icon: radioButtonUncheckedSvg },
     { title: "3D Visualization", description: "Bringing ideas to life with stunning 3D renderings and walkthroughs.", icon: fullscreenSvg },
@@ -42,7 +43,7 @@ const Teams = () => {
                     <h3 className='text-2xl sm:text-3xl lg:text-[32px] tracking-[-0.03em] font-semibold text-[#561D0A]'>{card.title}</h3>
                     <p className='mt-2 text-sm sm:text-base'>{card.description}</p>
                   </div>
-                  <div className='w-full h-32 sm:h-40 lg:h-48 flex items-center justify-center'>
+                  <div className='w-full h-full sm:h-40 lg:h-full flex items-center justify-center'>
                     <img src={card.icon} alt={card.title} className='w-full h-full object-contain' />
                   </div>
                 </div>

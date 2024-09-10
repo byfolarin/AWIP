@@ -16,7 +16,7 @@ const About = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
-      className='overflow-hidden font-interTight bg-[#FFFEF2]  sm:px-6 lg:px-12'
+      className='overflow-hidden font-interTight bg-[#FFFEF2]  '
     >
 
       <Marquee>
