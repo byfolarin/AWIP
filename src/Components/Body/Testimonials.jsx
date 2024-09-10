@@ -123,11 +123,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className='flex justify-center w-full'>
-            <div className='font-medium text-base sm:text-lg md:text-xl lg:text-[24px] text-[#FFFEF2] w-full sm:w-[80%] md:w-[70%] lg:w-[60%] leading-tight pt-12 sm:pt-16 md:pt-20 lg:pt-24 text-center'>
-              To create unique, functional, and sustainable living spaces that enhance the quality of life for our clients. We aim to blend creativity with practicality, delivering designs that are both aesthetically pleasing and deeply personal.
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
