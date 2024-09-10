@@ -12,7 +12,7 @@ const ProjectsSpace = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
-      className='overflow-hidden font-interTight pt-24 bg-[#FFFEF2] px-4 sm:px-6 md:px-8 lg:px-12'
+      className='overflow-hidden font-interTight pt-24 bg-[#FFFEF2] '
     >
       <div className="overflow-hidden">
         <Marquee className="py-4 sm:py-6 md:px-8 lg:py-12" speed={50} gradientWidth={50}>
@@ -21,8 +21,12 @@ const ProjectsSpace = () => {
           </h1>
         </Marquee>
       </div>
+  
 
+      <div className='px-4 sm:px-6 md:px-8 lg:px-12'>
       <ImageScroll />
+      </div>
+   
       {/* <ProjectBody /> */}
 
       {/* <ImgScro/> */}
