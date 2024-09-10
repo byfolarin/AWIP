@@ -13,11 +13,11 @@ const Teams = () => {
 
   const serviceCards = [
     { title: "Femi Oyebola", description: "Principal Partner", icon: MrFemi },
-    { title: "Interior Design", description: "Transforming spaces with innovative and personalized interior design solutions.", icon: MrFemi },
-    { title: "Space Survey", description: "Comprehensive space analysis to optimize functionality and aesthetics.", icon: MrFemi },
-    { title: "3D Visualization", description: "Bringing ideas to life with stunning 3D renderings and walkthroughs.", icon: MrFemi },
-    { title: "Renovation", description: "Expertly updating and modernizing existing spaces for enhanced living and working.", icon: MrFemi },
-    { title: "Consultation", description: "Professional advice and guidance for all your design and architectural needs.", icon: MrFemi }
+    { title: "Interior Design", description: "Lead Architect", icon: MrFemi },
+    { title: "Space Survey", description: "Design Lead", icon: MrFemi },
+    { title: "3D Visualization", description: "Site Engineer", icon: MrFemi },
+    { title: "Renovation", description: "Working Engineer", icon: MrFemi },
+    { title: "Consultation", description: "Lead Architect", icon: MrFemi }
   ]
 
 

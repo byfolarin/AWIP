@@ -57,7 +57,7 @@ const TextRead = () => {
   ]
 
   return (
-    <div className='bg-[#F7F6E9] font-interTight'>
+    <div className='bg-[#F7F6E9] font-interTight flex items-center justify-center flex-col'>
       <div className='max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-12'>
         <div className='w-full flex flex-col items-center overflow-hidden'>
           <motion.h1 
@@ -99,6 +99,12 @@ const TextRead = () => {
           </div>
         </motion.div>
       </div>
+
+      <div className='py-12'>
+            <button className='px-16 py-4 bg-[#561D0A] rounded-xl font-interTight text-white'>
+              See All Services
+            </button>
+         </div>
     </div>
   )
 }
