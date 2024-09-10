@@ -23,7 +23,7 @@ const Teams = () => {
 
   return (
     <div className='px-6'>
-        <div className='w-full max-w-screen flex flex-col items-center lg:flex-end py-12'>
+        <div className='w-full max-w-screen flex flex-col font-interTight items-center lg:flex-end py-12'>
 
             <h1 className='text-[64px] lg:text-[164px]  text-[#561D0A] font-medium tracking-[-0.04em] font-interTight leading-[1.00]'>
             Teams

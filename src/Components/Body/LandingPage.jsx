@@ -8,6 +8,7 @@ import Services from './Services'
 import TextRead from './TextRead'
 import Projects from './Projects'
 import Testimonials from './Testimonials'
+import Teams from './Teams'
 import Footer from './Footer'
 
 const LandingPage = () => {
@@ -90,10 +91,31 @@ const LandingPage = () => {
         <Achievements/>
         <Services/>
         <TextRead/>
-        <Projects/>
+
+        <div className='flex flex-col items-center '>
+         <Projects/>
+         <div className='py-12'>
+            <button className='px-16 py-4 bg-[#561D0A] rounded-xl font-interTight text-white'>
+              See All Project
+            </button>
+         </div>
+        
+        </div>
+     
         <Testimonials />
         <div className='pt-12'>
-        <Services />
+           <Services />
+        </div>
+
+
+        <div className='flex flex-col items-center '>
+         <Teams/>
+         <div className='py-12'>
+            <button className='px-16 py-4 bg-[#561D0A] rounded-xl font-interTight text-white'>
+              See All Teams
+            </button>
+         </div>
+        
         </div>
       
         <Footer />
